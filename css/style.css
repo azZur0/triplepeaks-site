@@ -163,7 +163,6 @@ section {
 .nav .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: 100%;
 }
 
@@ -189,6 +188,8 @@ section {
   display: flex;
   align-items: center;
   gap: var(--space-xl);
+  margin-left: auto;
+  order: 2;
 }
 
 .nav-links a {
@@ -218,12 +219,6 @@ section {
   position: relative;
 }
 
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-}
-
 .nav-cta {
   display: inline-flex;
   align-items: center;
@@ -235,6 +230,8 @@ section {
   font-size: 0.875rem;
   transition: background var(--transition-fast);
   white-space: nowrap;
+  margin-left: var(--space-xl);
+  order: 3;
 }
 
 .nav-cta:hover {
@@ -261,6 +258,7 @@ section {
 @media (max-width: 768px) {
   .nav-toggle {
     display: flex;
+    margin-left: auto;
   }
 
   .nav-links {
@@ -359,13 +357,10 @@ section {
 
 /* --- Hero --- */
 .hero {
-  padding-top: calc(var(--nav-height) + var(--space-5xl));
-  padding-bottom: var(--space-5xl);
+  padding-top: calc(var(--nav-height) + var(--space-3xl));
+  padding-bottom: var(--space-3xl);
   background: var(--white);
   position: relative;
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
 }
 
 .hero-content {
@@ -381,7 +376,6 @@ section {
   color: var(--gray-500);
   font-size: 1.25rem;
   line-height: 1.7;
-  margin-bottom: var(--space-xl);
 }
 
 .hero-actions {

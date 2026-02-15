@@ -218,7 +218,15 @@ section {
   position: relative;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
 .nav-cta {
+  display: inline-flex;
+  align-items: center;
   background: var(--green) !important;
   color: var(--white) !important;
   padding: 0.5rem 1.25rem;
@@ -226,6 +234,7 @@ section {
   font-weight: 600;
   font-size: 0.875rem;
   transition: background var(--transition-fast);
+  white-space: nowrap;
 }
 
 .nav-cta:hover {

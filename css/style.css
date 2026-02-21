@@ -173,6 +173,7 @@ section {
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--gray-900);
+  flex-shrink: 0;
 }
 
 .nav-logo img {
@@ -258,6 +259,11 @@ section {
 @media (max-width: 768px) {
   .nav-toggle {
     display: flex;
+    order: 4;
+    margin-left: var(--space-sm);
+  }
+
+  .nav-cta {
     margin-left: auto;
   }
 
@@ -397,6 +403,16 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--space-2xl) var(--space-3xl);
+}
+
+.feature-list-item {
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  transition: background var(--transition-fast);
+}
+
+.feature-list-item:hover {
+  background: var(--gray-50);
 }
 
 .feature-list-item h3 {
@@ -595,8 +611,12 @@ section {
 /* --- Page Header --- */
 .page-header {
   padding-top: calc(var(--nav-height) + var(--space-3xl));
-  padding-bottom: var(--space-3xl);
+  padding-bottom: var(--space-xl);
   background: var(--white);
+}
+
+.page-header + section {
+  padding-top: var(--space-xl);
 }
 
 .page-header h1 {
@@ -644,17 +664,9 @@ section {
 }
 
 .feature-narrow ul li {
-  padding-left: var(--space-lg);
-  position: relative;
   margin-bottom: var(--space-sm);
-  color: var(--gray-600);
-}
-
-.feature-narrow ul li::before {
-  content: '\2013';
-  position: absolute;
-  left: 0;
-  color: var(--gray-400);
+  color: var(--gray-500);
+  font-size: 0.9375rem;
 }
 
 /* --- Pricing Page --- */

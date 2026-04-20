@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Triple Peaks — AI Coach for Endurance Sports</title>
-  <meta name="description" content="Personalized training plans for triathlon, running, cycling, and swimming. Powered by AI that adapts every week to how you actually train.">
+  <meta name="description" content="Personalized AI training plans for triathlon, running, cycling, and swimming. Adapts every week to how you actually train.">
   <link rel="icon" href="img/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,9 +22,9 @@
       </a>
       <a href="https://app.triplepeaks.coach" class="nav-cta">Open App</a>
       <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
         <a href="features.html">Features</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="changelog.html">Changelog</a>
+        <a href="support.html">Support</a>
       </div>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
@@ -35,99 +35,336 @@
   <!-- Hero -->
   <section class="hero">
     <div class="container">
-      <div class="hero-content">
-        <h1>Your AI coach for endurance sports.</h1>
-        <p>Personalized training plans for triathlon, running, cycling, and swimming. Powered by AI that adapts every week to how you actually train.</p>
-        <div class="hero-actions mt-xl">
-          <a href="https://app.triplepeaks.coach" class="btn btn-primary btn-lg">Start Free Trial</a>
-          <a href="features.html" class="btn btn-secondary btn-lg">See Features</a>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">AI coaching for endurance athletes</span>
+          <h1>Training that <em>adapts</em> to the athlete you actually are.</h1>
+          <p class="lede">A personal AI coach for triathlon, running, cycling, and swimming. It builds your week, reads every workout, and adjusts when life gets in the way — so you keep moving forward.</p>
+          <div class="hero-actions">
+            <a href="https://app.triplepeaks.coach" class="btn btn-primary btn-lg">Start free for 4 weeks</a>
+            <a href="features.html" class="btn btn-secondary btn-lg">See how it works</a>
+          </div>
+          <div class="hero-meta">
+            <span class="hero-meta-item">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+              No credit card
+            </span>
+            <span class="hero-meta-item">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+              Strava-connected
+            </span>
+            <span class="hero-meta-item">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+              Built for multi-sport
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Floating execution score -->
+          <div class="hero-float-score">
+            <div class="lab">Execution</div>
+            <div class="num">85<small>/100</small></div>
+            <div class="sub">Good · Sweet spot</div>
+          </div>
+
+          <!-- Real app screenshot -->
+          <img src="img/app/framed/phone-01.png" alt="Triple Peaks Home screen showing this week at a glance, next workout, training progress, and last week's review" class="hero-phone">
+
+          <!-- Floating AI chat bubble -->
+          <div class="hero-chat-float">Skip the run — Saturday's long matters more.</div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item">Triathlon <span class="dot"></span></span>
+      <span class="marquee-item">Ironman 70.3 <span class="dot"></span></span>
+      <span class="marquee-item">Marathon <span class="dot"></span></span>
+      <span class="marquee-item">Ultra <span class="dot"></span></span>
+      <span class="marquee-item">Gran Fondo <span class="dot"></span></span>
+      <span class="marquee-item">Open water <span class="dot"></span></span>
+      <span class="marquee-item">Duathlon <span class="dot"></span></span>
+      <span class="marquee-item">Comeback <span class="dot"></span></span>
+      <!-- repeat for seamless loop -->
+      <span class="marquee-item">Triathlon <span class="dot"></span></span>
+      <span class="marquee-item">Ironman 70.3 <span class="dot"></span></span>
+      <span class="marquee-item">Marathon <span class="dot"></span></span>
+      <span class="marquee-item">Ultra <span class="dot"></span></span>
+      <span class="marquee-item">Gran Fondo <span class="dot"></span></span>
+      <span class="marquee-item">Open water <span class="dot"></span></span>
+      <span class="marquee-item">Duathlon <span class="dot"></span></span>
+      <span class="marquee-item">Comeback <span class="dot"></span></span>
+    </div>
+  </div>
+
   <!-- Features -->
-  <section>
+  <section class="features">
     <div class="container">
-      <div class="section-header text-center">
-        <h2>Smart, adaptive coaching</h2>
+      <div class="section-header">
+        <span class="eyebrow">What you get</span>
+        <h2>Coaching that thinks with you, not at you.</h2>
+        <p>Every feature is built to translate training data into a real decision for your week.</p>
       </div>
-      <div class="feature-list">
-        <div class="feature-list-item">
-          <h3>AI weekly plans</h3>
-          <p>Fresh training plans every week, built around your fitness, fatigue, and schedule.</p>
+
+      <div class="feature-grid">
+
+        <!-- Spotlight: AI weekly plans with week demo -->
+        <div class="feature-card spotlight">
+          <div>
+            <span class="eyebrow">Weekly planning</span>
+            <h3>A fresh plan, every Monday.</h3>
+            <p>Your coach rebuilds the week around your current form, fatigue, and what's on your calendar. Swim, bike, and run blocks stay balanced — no overlapping hard days, no guesswork.</p>
+          </div>
+          <div class="week-demo" aria-hidden="true">
+            <div class="week-demo-head">
+              <span>Week · Build 2</span>
+              <span>9h 40m</span>
+            </div>
+            <div class="week-demo-grid">
+              <div class="week-demo-day swim">Mon</div>
+              <div class="week-demo-day bike">Tue</div>
+              <div class="week-demo-day run">Wed</div>
+              <div class="week-demo-day">Thu</div>
+              <div class="week-demo-day bike">Fri</div>
+              <div class="week-demo-day run">Sat</div>
+              <div class="week-demo-day swim">Sun</div>
+            </div>
+            <div class="week-demo-legend">
+              <span class="legend-chip swim">Swim</span>
+              <span class="legend-chip bike">Bike</span>
+              <span class="legend-chip run">Run</span>
+            </div>
+          </div>
         </div>
-        <div class="feature-list-item">
-          <h3>Adapts when life happens</h3>
-          <p>Missed a workout? Got sick? Your plan adjusts automatically — no reset needed.</p>
+
+        <!-- Workout analysis — half card with ring -->
+        <div class="feature-card feature-card--half">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-7 4 14 2-7h6"/></svg>
+          </div>
+          <h3>Workout analysis with real scoring</h3>
+          <p>Pacing, zone distribution, execution vs. plan — every session gets a review that tells you what actually happened.</p>
+          <div class="ring-visual" style="margin-top: var(--space-md);">
+            <svg viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#e7f2ec" stroke-width="10"/>
+              <circle cx="50" cy="50" r="42" fill="none" stroke="#145A32" stroke-width="10" stroke-linecap="round"
+                stroke-dasharray="263.89" stroke-dashoffset="42"/>
+            </svg>
+            <div class="ring-center">
+              <span class="num">92</span>
+              <span class="label">Execution</span>
+            </div>
+          </div>
         </div>
-        <div class="feature-list-item">
-          <h3>Workout analysis</h3>
-          <p>Every session gets reviewed: pacing, heart rate zones, and honest execution scoring.</p>
+
+        <!-- Smart adaptation — half card with chart -->
+        <div class="feature-card feature-card--half">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg>
+          </div>
+          <h3>Plans that bend when life does</h3>
+          <p>Miss a workout, get sick, travel — your plan reshuffles automatically. Load stays safe, goals stay on track.</p>
+          <div class="chart-area" style="margin-top: auto;">
+            <svg viewBox="0 0 300 140" class="chart-svg" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#145A32" stop-opacity="0.25"/>
+                  <stop offset="100%" stop-color="#145A32" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <!-- plan line (dashed) -->
+              <path d="M0,100 C40,95 60,80 100,75 C140,70 160,60 200,55 C240,50 270,48 300,45"
+                fill="none" stroke="#b9c4c0" stroke-width="2" stroke-dasharray="5 5"/>
+              <!-- actual line -->
+              <path d="M0,105 C40,100 60,88 100,95 C140,100 160,70 200,58 C240,48 270,50 300,40"
+                fill="none" stroke="#145A32" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M0,105 C40,100 60,88 100,95 C140,100 160,70 200,58 C240,48 270,50 300,40 L300,140 L0,140 Z"
+                fill="url(#chartFill)"/>
+              <!-- missed-workout dot -->
+              <circle cx="100" cy="95" r="4" fill="#FF6B00"/>
+              <circle cx="100" cy="95" r="8" fill="#FF6B00" opacity="0.25"/>
+              <!-- today dot -->
+              <circle cx="300" cy="40" r="4" fill="#145A32"/>
+            </svg>
+          </div>
+          <div class="chart-footnote">
+            <span>— Plan</span>
+            <span style="color: var(--green);">— Actual</span>
+            <span style="color: var(--orange);">● Missed</span>
+          </div>
         </div>
-        <div class="feature-list-item">
-          <h3>AI coach chat</h3>
-          <p>Ask your coach anything — race strategy, recovery advice, or whether to skip today.</p>
+
+        <!-- Chat demo — wide -->
+        <div class="feature-card feature-card--wide feature-card--ai-edge">
+          <div class="feature-icon icon-ai">
+            <img src="img/ai-sparkles.png" alt="" style="width: 22px; height: 22px; object-fit: contain;">
+          </div>
+          <h3>A coach you can actually talk to</h3>
+          <p>Ask about tomorrow's session, race strategy, or how you're tracking. The AI knows your plan, your last four weeks, and your check-ins — so the advice is yours, not generic.</p>
+          <div class="chat-demo">
+            <div class="chat-demo-row me"><div class="bubble">Should I swim or run today? I'm wrecked from yesterday's brick.</div></div>
+            <div class="chat-demo-row coach"><div class="bubble">Skip the run. Do 30 min easy swim or take it off — Saturday's long matters more.</div></div>
+            <div class="chat-demo-row me"><div class="bubble">How's my 70.3 prep tracking?</div></div>
+            <div class="chat-demo-row coach"><div class="bubble">Bike ahead of target, run on pace, swim threshold needs two more sessions before taper. 7 weeks out, we're solid.</div></div>
+          </div>
         </div>
-        <div class="feature-list-item">
+
+        <!-- Race planning — narrow -->
+        <div class="feature-card feature-card--third">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v18"/><path d="M5 5h12l-2 4 2 4H5"/></svg>
+          </div>
           <h3>Race-day periodization</h3>
-          <p>Set a goal race and get a fully periodized plan from base to taper to race day.</p>
+          <p>Sprint to full Ironman. 5K to ultra. Set the goal, get base → build → peak → taper, working back from race day.</p>
         </div>
-        <div class="feature-list-item">
-          <h3>Strava integration</h3>
-          <p>Connect once and your activities sync automatically. No manual logging.</p>
+
+        <!-- Strava -->
+        <div class="feature-card feature-card--third">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l4 7h-3l3 6h-3l-3 5-3-5H4l3-6H4z"/></svg>
+          </div>
+          <h3>Strava sync, zero fuss</h3>
+          <p>Connect once. Rides, runs, swims, and multi-sport activities flow in automatically — GPS, heart rate, pace, power.</p>
+        </div>
+
+        <!-- Multi-sport balance -->
+        <div class="feature-card feature-card--third">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M9 18l3-9 3 9"/><circle cx="13" cy="5" r="2"/></svg>
+          </div>
+          <h3>Multi-sport, balanced</h3>
+          <p>Swim, bike, and run load managed together. No more overcooking the legs before a key swim.</p>
+        </div>
+
+        <!-- Daily feedback -->
+        <div class="feature-card feature-card--third feature-card--ai">
+          <div class="feature-icon icon-ai">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11a3 3 0 106 0M12 2v3M4.2 6.2l2.1 2.1M2 14h3M19 14h3M17.7 8.3l2.1-2.1"/><path d="M6 19a6 6 0 0112 0v2H6v-2z"/></svg>
+          </div>
+          <h3>A quick check-in each morning</h3>
+          <p>Tap "Good," "Tired," or "Unwell" plus a sleep score. Your plan flexes before you even start the day.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="howitworks">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">How it works</span>
+        <h2>From setup to race day in three steps.</h2>
+        <p>No spreadsheets. No long questionnaires. Ten minutes to your first week.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Tell it your goal</h3>
+          <p>Pick a race, a distance, or "stay consistent." Set your weekly time budget and available days.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Connect Strava</h3>
+          <p>Your training history imports in seconds. The AI sets your zones and a starting fitness baseline.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Train, review, adapt</h3>
+          <p>Finish a workout, get analysis. Miss one, it adjusts. Every Monday, a fresh week built for you.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Sports -->
-  <section style="background: var(--gray-50);">
+  <section class="sports">
     <div class="container">
-      <div class="section-header text-center">
-        <h2>Built for endurance athletes</h2>
-        <p>From sprint triathlons to full Ironman. From 5K to ultra marathon.</p>
+      <div class="section-header">
+        <span class="eyebrow">Made for every endurance athlete</span>
+        <h2>One coach. Every discipline.</h2>
+        <p>From sprint triathlons to full Ironman, 5K to ultra — the plan understands your sport.</p>
       </div>
       <div class="sports-grid">
-        <div class="sport">
-          <div class="sport-multi tri">
-            <div class="mini-icon"><img src="img/icon-swim.png" alt=""></div>
-            <div class="mini-icon"><img src="img/icon-bike.png" alt=""></div>
-            <div class="mini-icon"><img src="img/icon-run.png" alt=""></div>
+        <div class="sport-card tri">
+          <div>
+            <span class="sport-distance">3 sports</span>
           </div>
-          <span>Triathlon</span>
-        </div>
-        <div class="sport">
-          <div class="sport-multi du">
-            <div class="mini-icon"><img src="img/icon-run.png" alt=""></div>
-            <div class="mini-icon"><img src="img/icon-bike.png" alt=""></div>
+          <div class="sport-visual">
+            <div class="multi-icon">
+              <img src="img/icon-swim.png" alt="">
+              <img src="img/icon-bike.png" alt="">
+              <img src="img/icon-run.png" alt="">
+            </div>
           </div>
-          <span>Duathlon</span>
+          <span class="sport-name">Triathlon</span>
         </div>
-        <div class="sport">
-          <div class="sport-icon"><img src="img/icon-run.png" alt="Running"></div>
-          <span>Running</span>
+        <div class="sport-card du">
+          <div>
+            <span class="sport-distance">2 sports</span>
+          </div>
+          <div class="sport-visual">
+            <div class="multi-icon">
+              <img src="img/icon-run.png" alt="">
+              <img src="img/icon-bike.png" alt="">
+            </div>
+          </div>
+          <span class="sport-name">Duathlon</span>
         </div>
-        <div class="sport">
-          <div class="sport-icon"><img src="img/icon-bike.png" alt="Cycling"></div>
-          <span>Cycling</span>
+        <div class="sport-card">
+          <div>
+            <span class="sport-distance">5K → Ultra</span>
+          </div>
+          <div class="sport-visual"><img src="img/icon-run.png" alt="Running"></div>
+          <span class="sport-name">Running</span>
         </div>
-        <div class="sport">
-          <div class="sport-icon"><img src="img/icon-swim.png" alt="Swimming"></div>
-          <span>Swimming</span>
+        <div class="sport-card">
+          <div>
+            <span class="sport-distance">Road & Fondo</span>
+          </div>
+          <div class="sport-visual"><img src="img/icon-bike.png" alt="Cycling"></div>
+          <span class="sport-name">Cycling</span>
+        </div>
+        <div class="sport-card">
+          <div>
+            <span class="sport-distance">Pool & OWS</span>
+          </div>
+          <div class="sport-visual"><img src="img/icon-swim.png" alt="Swimming"></div>
+          <span class="sport-name">Swimming</span>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section class="cta-section">
+  <section class="cta">
     <div class="container">
-      <h2>Ready to start training?</h2>
-      <p>Free for 4 weeks. No credit card required.</p>
-      <div class="hero-actions" style="justify-content: center;">
-        <a href="https://app.triplepeaks.coach" class="btn btn-primary btn-lg">Start Free Trial</a>
-        <a href="pricing.html" class="btn btn-secondary btn-lg">See Pricing</a>
+      <div class="cta-card">
+        <span class="eyebrow" style="color: var(--orange-400);">Start today</span>
+        <h2>Your next peak, one week at a time.</h2>
+        <p>Try Triple Peaks free for four weeks. Cancel anytime, keep your data, no cards on file.</p>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="https://app.triplepeaks.coach" class="btn btn-primary btn-lg">Open the app</a>
+          <a href="features.html" class="btn btn-secondary btn-lg">Explore features</a>
+        </div>
+        <div class="cta-meta">
+          <span class="cta-meta-item">
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            4 weeks free
+          </span>
+          <span class="cta-meta-item">
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            No credit card
+          </span>
+          <span class="cta-meta-item">
+            <svg width="14" height="14" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            Cancel anytime
+          </span>
+        </div>
       </div>
     </div>
   </section>
@@ -135,17 +372,25 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-simple">
-        <span class="footer-copyright">&copy; 2026 Triple Peaks</span>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="img/logo-icon.png" alt="Triple Peaks" onerror="this.style.display='none'">
+            Triple<span>Peaks</span>
+          </div>
+          <p class="footer-tagline mt-sm">Smart coaching to find your next peak.</p>
+        </div>
         <div class="footer-links">
           <a href="features.html">Features</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="changelog.html">Changelog</a>
-          <a href="imprint.html">Imprint</a>
           <a href="support.html">Support</a>
+          <a href="imprint.html">Imprint</a>
           <a href="terms.html">Terms</a>
           <a href="privacy.html">Privacy</a>
         </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copyright">&copy; 2026 Triple Peaks</span>
+        <span class="footer-copyright">Made for endurance athletes.</span>
       </div>
     </div>
   </footer>

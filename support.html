@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Support — Triple Peaks</title>
+  <meta name="description" content="Help and support for Triple Peaks — FAQs, Strava connection, account, and data.">
   <link rel="icon" href="img/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,9 +22,9 @@
       </a>
       <a href="https://app.triplepeaks.coach" class="nav-cta">Open App</a>
       <div class="nav-links">
+        <a href="index.html">Home</a>
         <a href="features.html">Features</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="changelog.html">Changelog</a>
+        <a href="support.html" class="active">Support</a>
       </div>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
@@ -34,41 +35,79 @@
   <!-- Page Header -->
   <header class="page-header">
     <div class="container">
-      <h1>Help & Support</h1>
-      <p>We're here to help you get the most out of Triple Peaks.</p>
+      <span class="eyebrow">Help &amp; support</span>
+      <h1>We're here to help you keep training.</h1>
+      <p>Answers to common questions, plus a direct line when you need one.</p>
     </div>
   </header>
 
-  <!-- Content -->
+  <!-- Contact card -->
+  <section style="padding-top: var(--space-xl);">
+    <div class="container">
+      <div class="contact-card">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2>Drop us a line — we read every email.</h2>
+          <p>Bug, billing question, or feature idea — we typically reply within 24 hours on business days.</p>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:triplepeaks@online.de" class="btn btn-primary btn-lg">triplepeaks@online.de</a>
+          <p class="contact-note">For account deletion, billing issues, or anything you'd rather not ask in the app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
   <section>
     <div class="container">
-      <div class="legal-content">
+      <div class="section-header">
+        <span class="eyebrow">Frequently asked</span>
+        <h2>Quick answers to common questions.</h2>
+      </div>
 
-        <h2>Contact Us</h2>
-        <p>If you have questions, feedback, or need help with your account, reach out to us at:</p>
-        <p><a href="mailto:triplepeaks@online.de">triplepeaks@online.de</a></p>
-        <p>We typically respond within 24 hours on business days.</p>
+      <div class="faq">
+        <details class="faq-item" open>
+          <summary>How do I connect Strava?</summary>
+          <div class="faq-body">
+            <p>Open the Triple Peaks app and go to <strong>Settings</strong>. Tap <strong>Connect Strava</strong> and authorize access. Your rides, runs, and swims will start syncing automatically, including GPS, heart rate, and power.</p>
+          </div>
+        </details>
 
-        <h2>Frequently Asked Questions</h2>
+        <details class="faq-item">
+          <summary>How do I disconnect Strava?</summary>
+          <div class="faq-body">
+            <p>To disconnect, revoke Triple Peaks' access in your <a href="https://www.strava.com/settings/apps" target="_blank" rel="noopener">Strava settings</a> under "My Apps". Your synced data in Triple Peaks stays until you delete your account.</p>
+          </div>
+        </details>
 
-        <h3>How do I connect Strava?</h3>
-        <p>Open the Triple Peaks app and go to Settings. Tap "Connect Strava" and authorize access. Once connected, your activities will sync automatically.</p>
+        <details class="faq-item">
+          <summary>How do I manage my subscription?</summary>
+          <div class="faq-body">
+            <p>Subscriptions are managed through the App Store (iOS) or Google Play (Android). Open your device's subscription settings to change or cancel your plan — your training history stays safe either way.</p>
+          </div>
+        </details>
 
-        <h3>How do I disconnect Strava?</h3>
-        <p>To disconnect Strava, revoke Triple Peaks' access in your <a href="https://www.strava.com/settings/apps" target="_blank" rel="noopener">Strava settings</a> under "My Apps". Your synced data in Triple Peaks will remain until you delete your account.</p>
+        <details class="faq-item">
+          <summary>How do I delete my account?</summary>
+          <div class="faq-body">
+            <p>Open Settings in the app and select <strong>Delete Account</strong>. Your data is permanently removed within 30 days. You can also email <a href="mailto:triplepeaks@online.de">triplepeaks@online.de</a> to request deletion directly.</p>
+          </div>
+        </details>
 
-        <h3>How do I manage my subscription?</h3>
-        <p>Subscriptions are managed through the App Store (iOS) or Google Play Store (Android). Open your device's subscription settings to change or cancel your plan.</p>
+        <details class="faq-item">
+          <summary>My activities aren't syncing</summary>
+          <div class="faq-body">
+            <p>Check that your Strava connection is active in Settings. Tap <strong>Sync Profile</strong> under the Strava section to trigger a manual sync. If it still fails, revoke access in <a href="https://www.strava.com/settings/apps" target="_blank" rel="noopener">Strava's app settings</a> and reconnect from the Triple Peaks app. If the issue persists, email us and we'll dig in.</p>
+          </div>
+        </details>
 
-        <h3>How do I delete my account?</h3>
-        <p>To delete your account and all associated data, go to Settings in the app and select "Delete Account". Your data will be permanently removed within 30 days. You can also contact us at <a href="mailto:triplepeaks@online.de">triplepeaks@online.de</a> to request deletion.</p>
-
-        <h3>My activities aren't syncing</h3>
-        <p>Make sure your Strava connection is active in Settings. Tap "Sync Profile" in the Strava section to trigger a manual sync. If syncing continues to fail, try revoking access in your <a href="https://www.strava.com/settings/apps" target="_blank" rel="noopener">Strava settings</a> and reconnecting in the app. If the issue persists, contact us and we'll help you troubleshoot.</p>
-
-        <h3>Is my data secure?</h3>
-        <p>Yes. All connections use TLS encryption, and sensitive data is encrypted at rest. We never sell your data. For full details, see our <a href="privacy.html">Privacy Policy</a>.</p>
-
+        <details class="faq-item">
+          <summary>Is my data secure?</summary>
+          <div class="faq-body">
+            <p>Yes. Everything moves over TLS and sensitive data is encrypted at rest. We never sell your data. Full details live in our <a href="privacy.html">Privacy Policy</a>.</p>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -76,17 +115,25 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-simple">
-        <span class="footer-copyright">&copy; 2026 Triple Peaks</span>
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="img/logo-icon.png" alt="Triple Peaks" onerror="this.style.display='none'">
+            Triple<span>Peaks</span>
+          </div>
+          <p class="footer-tagline mt-sm">Smart coaching to find your next peak.</p>
+        </div>
         <div class="footer-links">
           <a href="features.html">Features</a>
-          <a href="pricing.html">Pricing</a>
-          <a href="changelog.html">Changelog</a>
-          <a href="imprint.html">Imprint</a>
           <a href="support.html">Support</a>
+          <a href="imprint.html">Imprint</a>
           <a href="terms.html">Terms</a>
           <a href="privacy.html">Privacy</a>
         </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copyright">&copy; 2026 Triple Peaks</span>
+        <span class="footer-copyright">Made for endurance athletes.</span>
       </div>
     </div>
   </footer>

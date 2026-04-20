@@ -9,6 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .lang-toggle { text-align: right; margin-bottom: var(--space-md); font-size: 0.875rem; }
+    .lang-toggle a { color: var(--gray-600); text-decoration: none; }
+    .lang-toggle a.active { color: var(--green); font-weight: 600; }
+  </style>
 </head>
 <body>
 
@@ -35,7 +40,7 @@
   <header class="page-header">
     <div class="container">
       <h1>Imprint</h1>
-      <p>Legal disclosure.</p>
+      <p>Legal disclosure under Swiss and German law.</p>
     </div>
   </header>
 
@@ -43,17 +48,35 @@
   <section>
     <div class="container">
       <div class="legal-content">
-        <h2>Operator</h2>
+        <div class="lang-toggle">
+          <a href="imprint.html" class="active">English</a> &nbsp;·&nbsp; <a href="imprint-de.html">Deutsch</a>
+        </div>
+
+        <h2>Operator &amp; Responsible for Content</h2>
         <p>
           Lukas Carullo<br>
-          Email: <a href="mailto:triplepeaks@online.de">triplepeaks@online.de</a>
+          Basel<br>
+          Switzerland
         </p>
 
-        <h2>Liability</h2>
-        <p>We take care to ensure the accuracy of the information on this website but cannot guarantee it is complete or up to date. We are not liable for the content of external websites linked from this site.</p>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:triplepeaks@online.de">triplepeaks@online.de</a></p>
+
+        <h2>VAT</h2>
+        <p>Not subject to Swiss VAT (turnover below the CHF 100,000 registration threshold). This statement will be updated if the threshold is reached.</p>
+
+        <h2>Liability for Content</h2>
+        <p>We take care to ensure the accuracy of the information on this website but cannot guarantee it is complete or up to date. As a service provider we are responsible for our own content on these pages under the applicable general laws; we are, however, not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate unlawful activity.</p>
+
+        <h2>Liability for Links</h2>
+        <p>Our site contains links to external websites operated by third parties. We have no influence over their content and accept no liability for it. The respective providers are responsible for the content of linked pages.</p>
 
         <h2>Copyright</h2>
-        <p>All content on this website is protected by copyright. Reproduction or use without prior written consent is not permitted.</p>
+        <p>All content on this website is protected by copyright. Reproduction, adaptation, distribution, or public communication without prior written consent is not permitted.</p>
+
+        <h2>EU Online Dispute Resolution</h2>
+        <p>The European Commission provides a platform for online dispute resolution at <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr</a>. We are not obligated or willing to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+
       </div>
     </div>
   </section>

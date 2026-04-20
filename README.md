@@ -10,8 +10,11 @@ The app itself lives at [app.triplepeaks.coach](https://app.triplepeaks.coach).
 - **Features** (`features.html`) — Detailed feature breakdown
 - **Pricing** (`pricing.html`) — Free trial, Pro subscription, goal-based coaching
 - **Changelog** (`changelog.html`) — Public release notes
-- **Imprint** (`imprint.html`) — Legal imprint (EU requirement)
-- **Privacy** (`privacy.html`) — Privacy policy
+- **Imprint** (`imprint.html` / `imprint-de.html`) — Legal imprint (EU / CH requirement)
+- **Privacy** (`privacy.html` / `privacy-de.html`) — Privacy policy
+- **Terms** (`terms.html` / `terms-de.html`) — Terms of service
+
+Legal pages exist in English and German. The lang-toggle at the top of each page switches between languages. The DE footer uses German labels (Impressum, AGB, Datenschutz).
 
 ## Tech Stack
 

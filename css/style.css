@@ -195,6 +195,7 @@ section { padding: var(--space-4xl) 0; position: relative; }
 .nav-links a { color: var(--gray-700); font-size: 0.9375rem; font-weight: 500; transition: color var(--transition-fast); position: relative; }
 .nav-links a:hover, .nav-links a.active { color: var(--ink); }
 .nav-links a.active::after { content: ''; position: absolute; bottom: -6px; left: 50%; transform: translateX(-50%); width: 18px; height: 2px; background: var(--orange); border-radius: 2px; }
+.nav-links-cta { display: none; } /* shown only inside the mobile menu */
 
 .nav-cta {
   display: inline-flex; align-items: center; gap: 6px;
@@ -213,8 +214,8 @@ section { padding: var(--space-4xl) 0; position: relative; }
 .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--ink); border-radius: 1px; transition: var(--transition-fast); }
 
 @media (max-width: 860px) {
-  .nav-toggle { display: flex; order: 4; margin-left: var(--space-sm); }
-  .nav-cta { margin-left: auto; padding: 0.45rem 0.9rem; font-size: 0.8125rem; }
+  .nav-toggle { display: flex; order: 4; margin-left: auto; }
+  .nav-cta { display: none; } /* moved into the slide-out menu on mobile */
   .nav-links {
     position: fixed;
     top: var(--nav-height); left: 0; right: 0; bottom: 0;
@@ -229,6 +230,13 @@ section { padding: var(--space-4xl) 0; position: relative; }
   }
   .nav-links.open { transform: translateX(0); }
   .nav-links a { font-size: 1.25rem; color: var(--ink); font-weight: 600; }
+  .nav-links a.nav-links-cta {
+    display: inline-flex; align-items: center; gap: 6px;
+    margin-top: var(--space-sm);
+    background: var(--ink); color: var(--cream);
+    font-size: 1rem; font-weight: 600;
+    padding: 0.75rem 1.6rem; border-radius: var(--radius-full);
+  }
   .nav-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
   .nav-toggle.open span:nth-child(2) { opacity: 0; }
   .nav-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
@@ -237,8 +245,6 @@ section { padding: var(--space-4xl) 0; position: relative; }
 @media (max-width: 480px) {
   .nav-logo { font-size: 1.125rem; }
   .nav-logo img { height: 26px; }
-  .nav-cta { padding: 0.4rem 0.75rem; }
-  .nav-cta::after { display: none; }
 }
 
 /* --- Buttons --- */
@@ -376,8 +382,18 @@ section { padding: var(--space-4xl) 0; position: relative; }
   .hero-grid { grid-template-columns: 1fr; gap: var(--space-2xl); }
   .hero-visual { max-width: 420px; margin: 0 auto; justify-self: center; }
 }
+@media (max-width: 640px) {
+  /* kicker is too long for one line on phones — let it wrap, dash hangs to the left */
+  .hero-kicker {
+    display: block; white-space: normal;
+    position: relative; padding-left: 34px; line-height: 1.5;
+  }
+  .hero-kicker::before { position: absolute; left: 0; top: 0.6em; }
+}
 @media (max-width: 560px) {
-  .hero-kicker { white-space: normal; }
+  /* stack CTAs full-width and allow the long label to wrap on small screens */
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-actions .btn { width: 100%; white-space: normal; }
 }
 
 /* --- Problem framing block (light, prominent) --- */
@@ -533,32 +549,17 @@ section { padding: var(--space-4xl) 0; position: relative; }
   max-width: 36ch;
 }
 .how-row-media { display: flex; justify-content: center; }
-.phone-frame {
-  position: relative;
-  width: 280px; aspect-ratio: 9 / 19.5;
-  background: var(--ink); border-radius: 36px;
-  padding: 10px;
-  box-shadow: 0 30px 60px -20px rgba(11, 20, 16, 0.25),
-              0 12px 24px -10px rgba(11, 20, 16, 0.15);
-}
-.phone-frame::after {
-  content: ''; position: absolute;
-  top: 14px; left: 50%; transform: translateX(-50%);
-  width: 90px; height: 22px;
-  background: var(--ink); border-radius: 0 0 14px 14px;
-  z-index: 2;
-}
-.phone-frame img {
-  display: block; width: 100%; height: 100%;
-  border-radius: 26px; overflow: hidden;
-  object-fit: cover;
-  background: linear-gradient(180deg, var(--bone) 0%, var(--cream) 100%);
+/* Screenshots are already framed device mockups (transparent PNGs), so show them
+   bare with a drop shadow — same treatment as the hero phone — not inside a frame. */
+.how-phone {
+  width: 100%; max-width: 300px;
+  filter: drop-shadow(0 30px 60px rgba(11, 20, 16, 0.22)) drop-shadow(0 10px 20px rgba(11, 20, 16, 0.12));
 }
 @media (max-width: 900px) {
   .how-row, .how-row--alt { grid-template-columns: 1fr; gap: var(--space-xl); }
   .how-row--alt .how-row-text { order: 2; }
   .how-row--alt .how-row-media { order: 1; }
-  .phone-frame { width: 240px; }
+  .how-phone { max-width: 260px; }
 }
 
 /* --- Archetype cards (audience segmentation) --- */

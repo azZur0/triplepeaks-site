@@ -214,8 +214,12 @@ section { padding: var(--space-4xl) 0; position: relative; }
 .nav-toggle span { display: block; width: 22px; height: 2px; background: var(--ink); border-radius: 1px; transition: var(--transition-fast); }
 
 @media (max-width: 860px) {
+  /* backdrop-filter makes .nav a containing block for fixed children, which
+     would trap the slide-out menu inside the 72px bar — drop it on mobile */
+  .nav { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(255, 255, 255, 0.97); }
   .nav-toggle { display: flex; order: 4; margin-left: auto; }
   .nav-cta { display: none; } /* moved into the slide-out menu on mobile */
+  .nav-links { z-index: 1001; }
   .nav-links {
     position: fixed;
     top: var(--nav-height); left: 0; right: 0; bottom: 0;

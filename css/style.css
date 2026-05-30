@@ -599,7 +599,15 @@ section { padding: var(--space-4xl) 0; position: relative; }
   font-size: 0.75rem; letter-spacing: 0.12em; font-weight: 600;
   color: var(--gray-400);
 }
-.arch-card .eyebrow { color: var(--green); }
+/* Archetype eyebrows can be long ("Coming back from plantar fasciitis"); the
+   global eyebrow `white-space: nowrap` would clip them in narrow cards, so let
+   them wrap with the dash hanging to the left and the text block indented. */
+.arch-card .eyebrow {
+  color: var(--green);
+  display: block; white-space: normal;
+  position: relative; padding-left: 34px;
+}
+.arch-card .eyebrow::before { position: absolute; left: 0; top: 0.55em; }
 .arch-card h3 {
   font-family: var(--font-display); font-weight: 500;
   font-size: 1.5rem; letter-spacing: -0.02em; line-height: 1.15;

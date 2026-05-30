@@ -548,6 +548,7 @@ section { padding: var(--space-4xl) 0; position: relative; }
   border-top: 1px dashed rgba(11, 20, 16, 0.12);
   max-width: 36ch;
 }
+.how-more { text-align: center; margin-top: var(--space-3xl); }
 .how-row-media { display: flex; justify-content: center; }
 /* Screenshots are already framed device mockups (transparent PNGs), so show them
    bare with a drop shadow — same treatment as the hero phone — not inside a frame. */

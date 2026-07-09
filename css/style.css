@@ -567,75 +567,53 @@ section { padding: var(--space-4xl) 0; position: relative; }
   .how-phone { max-width: 260px; }
 }
 
-/* --- Archetype cards (audience segmentation) --- */
-.archetypes {
+/* --- Founder proof (real testimonial) --- */
+.founder {
   padding: var(--space-4xl) 0;
   background: var(--surface-alt);
   position: relative;
 }
-.archetypes h2 em { font-style: normal; font-weight: 700; color: var(--green); }
-.arch-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-lg);
-  max-width: 1200px; margin-inline: auto;
-}
-.arch-card {
-  position: relative;
+.founder h2 em { font-style: normal; font-weight: 700; color: var(--green); }
+.founder-quote {
+  max-width: 760px;
+  margin: var(--space-xl) auto 0;
   background: var(--white);
   border: 1px solid rgba(11, 20, 16, 0.08);
-  border-radius: var(--radius-lg);
-  padding: var(--space-xl);
-  display: flex; flex-direction: column; gap: var(--space-md);
-  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
-}
-.arch-card:hover {
-  transform: translateY(-4px);
+  border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
-  border-color: var(--green);
+  padding: var(--space-2xl);
+  position: relative;
 }
-.arch-card-num {
-  position: absolute; top: var(--space-lg); right: var(--space-lg);
-  font-family: var(--font-mono);
-  font-size: 0.75rem; letter-spacing: 0.12em; font-weight: 600;
-  color: var(--gray-400);
+.founder-quote::before {
+  content: '\201C';
+  position: absolute; top: 0.02em; left: 0.28em;
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 5rem; line-height: 1; color: var(--green);
+  opacity: 0.14; pointer-events: none;
 }
-/* Archetype eyebrows can be long ("Coming back from plantar fasciitis"); the
-   global eyebrow `white-space: nowrap` would clip them in narrow cards, so let
-   them wrap with the dash hanging to the left and the text block indented. */
-.arch-card .eyebrow {
-  color: var(--green);
-  display: block; white-space: normal;
-  position: relative; padding-left: 34px;
-}
-.arch-card .eyebrow::before { position: absolute; left: 0; top: 0.55em; }
-.arch-card h3 {
+.founder-quote blockquote {
   font-family: var(--font-display); font-weight: 500;
-  font-size: 1.5rem; letter-spacing: -0.02em; line-height: 1.15;
-  color: var(--ink);
+  font-size: clamp(1.125rem, 1.9vw, 1.375rem);
+  line-height: 1.5; letter-spacing: -0.01em;
+  color: var(--ink); margin: 0;
+  position: relative; z-index: 1; text-wrap: pretty;
 }
-.arch-quote {
-  font-family: var(--font-display); font-style: italic; font-weight: 500;
-  font-size: 1rem; line-height: 1.5;
-  color: var(--ink);
-  background: var(--green-tint);
-  border-left: 2px solid var(--green);
-  padding: var(--space-sm) var(--space-md);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  margin: 0;
+.founder-by {
+  display: flex; flex-direction: column; gap: 3px;
+  margin-top: var(--space-lg);
+  padding-top: var(--space-lg);
+  border-top: 1px dashed rgba(11, 20, 16, 0.12);
 }
-.arch-bullets {
-  list-style: none; padding: 0; margin: 0;
-  display: grid; gap: 10px;
+.founder-name {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: 1.0625rem; color: var(--ink); letter-spacing: -0.01em;
 }
-.arch-bullets li {
-  display: flex; gap: 10px; align-items: flex-start;
-  color: var(--gray-700); font-size: 0.9375rem; line-height: 1.5;
+.founder-role {
+  font-family: var(--font-mono);
+  font-size: 0.75rem; font-weight: 600; letter-spacing: 0.04em;
+  color: var(--green); text-transform: uppercase;
 }
-.arch-bullets li svg {
-  flex: 0 0 18px; width: 18px; height: 18px;
-  color: var(--green); margin-top: 2px;
-}
-@media (max-width: 1000px) { .arch-grid { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .founder-quote { padding: var(--space-xl); } }
 
 /* --- The plan effect (with-a-plan vs without comparison) --- */
 .versus {
@@ -792,6 +770,26 @@ section { padding: var(--space-4xl) 0; position: relative; }
 .footer-brand img { height: 32px; width: auto; }
 .footer-brand span { color: var(--green-400); }
 .footer-tagline { font-size: 0.875rem; color: rgba(250, 247, 241, 0.6); max-width: 320px; margin-top: var(--space-sm); }
+
+/* Swiss-made origin badge (custom — not the paid "swiss made software" certification logo) */
+.swiss-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: var(--space-md);
+  font-family: var(--font-display); font-weight: 600;
+  font-size: 0.8125rem; letter-spacing: 0.01em;
+  color: rgba(250, 247, 241, 0.85);
+}
+.swiss-cross {
+  position: relative; width: 16px; height: 16px;
+  background: #d52b1e; border-radius: 3px; flex-shrink: 0;
+}
+.swiss-cross::before, .swiss-cross::after {
+  content: ''; position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff; border-radius: 1px;
+}
+.swiss-cross::before { width: 3px; height: 9px; }
+.swiss-cross::after { width: 9px; height: 3px; }
 .footer-bottom {
   display: flex; flex-wrap: wrap; gap: var(--space-md);
   justify-content: space-between; align-items: center;

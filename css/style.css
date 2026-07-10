@@ -276,6 +276,32 @@ section { padding: var(--space-4xl) 0; position: relative; }
 .btn-lg { padding: 1.0625rem 2rem; font-size: 1rem; }
 .btn-sm { padding: 0.5rem 1.1rem; font-size: 0.8125rem; min-height: 36px; }
 
+.btn-apple-logo { width: 17px; height: 17px; flex-shrink: 0; margin-top: -2px; }
+
+.hero-alt-links {
+  display: flex; flex-wrap: wrap; align-items: baseline;
+  column-gap: var(--space-md); row-gap: 2px;
+  margin-top: var(--space-sm);
+}
+.hero-alt-links--center { justify-content: center; }
+.hero-alt-note {
+  flex-basis: 100%;
+  font-size: 0.875rem; font-weight: 600;
+  color: var(--gray-600);
+}
+.hero-alt-link {
+  display: inline-block;
+  font-size: 0.875rem; font-weight: 500;
+  color: var(--gray-500);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(11, 20, 16, 0.2);
+  transition: color var(--transition-fast);
+}
+.hero-alt-link:hover { color: var(--ink); }
+.hero-alt-link--light { color: rgba(250, 247, 241, 0.75); text-decoration-color: rgba(250, 247, 241, 0.35); }
+.hero-alt-link--light:hover { color: var(--cream); }
+
 /* --- Hero --- */
 .hero {
   position: relative;

@@ -4,6 +4,7 @@ Thumbs.db
 .idea/
 .vscode/
 .claude/
+.claude.local.md
 *.swp
 *.swo
 *~

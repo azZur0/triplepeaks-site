@@ -365,48 +365,13 @@ section { padding: var(--space-4xl) 0; position: relative; }
 
 .hero-visual {
   position: relative; width: 100%; max-width: 420px;
-  margin-left: auto; justify-self: end; padding: 0 20px;
+  margin-left: auto; justify-self: end;
 }
 .hero-phone {
   width: 100%; max-width: 340px; margin: 0 auto; display: block;
   filter: drop-shadow(0 40px 60px rgba(11, 20, 16, 0.25)) drop-shadow(0 12px 24px rgba(11, 20, 16, 0.15));
   transform: rotate(-2deg);
 }
-
-.hero-chat-float {
-  position: absolute; right: 0%; bottom: 14%;
-  background: var(--ai); color: var(--white);
-  padding: 12px 16px 12px 22px;
-  border-radius: 18px 18px 4px 18px;
-  font-size: 0.8125rem; font-weight: 500;
-  max-width: 230px;
-  box-shadow: 0 14px 30px -10px rgba(124, 58, 237, 0.5);
-  z-index: 3; line-height: 1.45; transform: rotate(3deg);
-}
-.hero-chat-float::before {
-  content: ''; position: absolute; top: -14px; left: -14px;
-  width: 36px; height: 36px; border-radius: 50%;
-  background: var(--ink) url('../img/ai-sparkles.png') center/60% no-repeat;
-  box-shadow: 0 0 0 3px var(--white);
-}
-
-.hero-float-score {
-  position: absolute; top: 4%; left: -14px;
-  background: var(--white); padding: 14px 18px;
-  border-radius: 18px; box-shadow: var(--shadow-xl);
-  z-index: 3; transform: rotate(-6deg); min-width: 150px;
-  border: 1px solid rgba(11, 20, 16, 0.06);
-}
-.hero-float-score .lab {
-  font-size: 0.625rem; font-weight: 700; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--green); margin-bottom: 4px;
-}
-.hero-float-score .num {
-  font-family: var(--font-display); font-size: 2.125rem; font-weight: 500;
-  color: var(--ink); line-height: 1; letter-spacing: -0.03em;
-}
-.hero-float-score .num small { color: var(--gray-400); font-size: 0.875rem; font-weight: 400; }
-.hero-float-score .sub { font-size: 0.6875rem; color: var(--gray-500); margin-top: 6px; }
 
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; gap: var(--space-2xl); }
@@ -466,21 +431,24 @@ section { padding: var(--space-4xl) 0; position: relative; }
   transition: transform var(--transition-base), box-shadow var(--transition-base);
 }
 .problem-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+/* The pill names what the card stands for — it is the card's heading */
 .problem-card .pill {
-  display: inline-flex; gap: 6px; align-items: center;
-  font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--gray-500);
-  margin-bottom: var(--space-sm);
+  display: inline-flex; gap: 8px; align-items: center;
+  font-family: var(--font-display);
+  font-size: 1.1875rem; font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: var(--space-xs);
 }
 .problem-card .pill::before {
-  content: ''; width: 6px; height: 6px; border-radius: 50%;
-  background: var(--gray-400);
+  content: ''; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--gray-400); flex-shrink: 0;
+  align-self: flex-start; margin-top: 0.55em;
 }
 .problem-card h4 {
-  font-family: var(--font-display); font-weight: 500;
-  font-size: 1.1875rem; color: var(--ink);
-  letter-spacing: -0.01em;
+  font-size: 0.9375rem; font-weight: 600;
+  color: var(--gray-500);
+  letter-spacing: 0;
   margin-bottom: 6px;
 }
 .problem-card p { color: var(--gray-600); font-size: 0.9375rem; line-height: 1.55; max-width: none; flex-grow: 1; }
@@ -512,9 +480,9 @@ section { padding: var(--space-4xl) 0; position: relative; }
   border-radius: 999px;
 }
 .problem-card--us:hover { transform: translateY(-10px); }
-.problem-card--us .pill { color: var(--orange-400); }
+.problem-card--us .pill { color: var(--cream); }
 .problem-card--us .pill::before { background: var(--orange); box-shadow: 0 0 0 4px rgba(255, 107, 0, 0.25); }
-.problem-card--us h4 { color: var(--cream); font-size: 1.25rem; }
+.problem-card--us h4 { color: var(--orange-400); }
 .problem-card--us p { color: rgba(250, 247, 241, 0.88); }
 .problem-price--us {
   color: var(--orange-400);
@@ -540,7 +508,7 @@ section { padding: var(--space-4xl) 0; position: relative; }
 }
 .how-rows {
   display: flex; flex-direction: column;
-  gap: var(--space-4xl);
+  gap: var(--space-3xl);
   margin-top: var(--space-3xl);
 }
 .how-row {
@@ -583,7 +551,8 @@ section { padding: var(--space-4xl) 0; position: relative; }
 /* Screenshots are already framed device mockups (transparent PNGs), so show them
    bare with a drop shadow — same treatment as the hero phone — not inside a frame. */
 .how-phone {
-  width: 100%; max-width: 300px;
+  width: 100%; max-width: 280px;
+  max-height: min(72vh, 600px); object-fit: contain;
   filter: drop-shadow(0 30px 60px rgba(11, 20, 16, 0.22)) drop-shadow(0 10px 20px rgba(11, 20, 16, 0.12));
 }
 @media (max-width: 900px) {
@@ -872,7 +841,7 @@ section { padding: var(--space-4xl) 0; position: relative; }
   max-width: 1100px;
   margin-inline: auto;
 }
-.feature-detail:nth-of-type(even) .feature-row { grid-template-columns: 1.1fr 0.9fr; }
+.feature-detail:nth-of-type(even) .feature-row:not(.feature-row--split) { grid-template-columns: 1.1fr 0.9fr; }
 .feature-detail:nth-of-type(even) .feature-row > .feature-copy { order: 2; }
 .feature-detail:nth-of-type(even) .feature-row > .feature-media { order: 1; }
 
@@ -909,30 +878,18 @@ section { padding: var(--space-4xl) 0; position: relative; }
   position: relative;
   display: flex; align-items: center; justify-content: center;
   padding: var(--space-xl) 0;
-  min-height: 480px;
-}
-.feature-media.phone-wrap::before {
-  content: '';
-  position: absolute;
-  inset: 8% 8%;
-  background:
-    radial-gradient(ellipse at top, rgba(20, 90, 50, 0.08), transparent 60%),
-    radial-gradient(ellipse at bottom right, rgba(255, 107, 0, 0.08), transparent 60%);
-  border-radius: var(--radius-xl);
-  z-index: 0;
 }
 .feature-media.phone-wrap img {
-  position: relative;
-  z-index: 1;
-  max-width: 320px;
+  max-width: 300px;
   width: 100%; height: auto;
+  max-height: min(78vh, 620px); object-fit: contain;
   filter: drop-shadow(0 30px 50px rgba(11, 20, 16, 0.22)) drop-shadow(0 8px 16px rgba(11, 20, 16, 0.1));
-  transform: rotate(-1.5deg);
-  transition: transform var(--transition-slow);
 }
-.feature-detail:nth-of-type(even) .feature-media.phone-wrap img { transform: rotate(1.5deg); }
-.feature-media.phone-wrap img:hover { transform: rotate(0); }
-.feature-media.feature-media--compact { min-height: auto; padding: 0; }
+.feature-media.feature-media--compact { padding: 0; }
+
+/* Split row: two side-by-side info chips (Strava sync + daily check-in).
+   Stacks with all feature rows at the 860px breakpoint below. */
+.feature-row--split { grid-template-columns: 1fr 1fr; gap: var(--space-xl); }
 
 .feature-chip {
   width: 100%;
@@ -965,7 +922,6 @@ section { padding: var(--space-4xl) 0; position: relative; }
   }
   .feature-detail:nth-of-type(even) .feature-row > .feature-copy { order: 1; }
   .feature-detail:nth-of-type(even) .feature-row > .feature-media { order: 2; }
-  .feature-media { min-height: auto; }
 }
 
 /* --- Contact card (Support) --- */

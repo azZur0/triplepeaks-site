@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description}}">
+  <meta name="apple-itunes-app" content="app-id=6758676538">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+{{> nav}}
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-kicker">{{hero.kicker}}</span>
+          <h1>{{hero.h1}}</h1>
+          <p class="lede">{{hero.lede}}</p>
+          <div class="hero-actions">
+            <a href="https://apps.apple.com/app/triple-peaks-coach/id6758676538" class="btn btn-primary btn-lg">
+              <svg class="btn-apple-logo" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.7-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+              {{common.get_app}}</a>
+            <a href="#pillars" class="btn btn-secondary btn-lg">{{hero.cta_how}}</a>
+          </div>
+          <div class="hero-alt-links">
+            <span class="hero-alt-note">{{hero.alt_note}}</span>
+            <a href="https://app.triplepeaks.coach" class="hero-alt-link">{{common.web_link}}</a>
+            <a href="mailto:triplepeaks@online.de?subject=Android%20beta%20invite" class="hero-alt-link">{{common.android_link}}</a>
+          </div>
+          <div class="hero-meta">
+            <span class="hero-meta-item">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+              {{hero.meta_1}}
+            </span>
+            <span class="hero-meta-item">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+              {{hero.meta_2}}
+            </span>
+            <span class="hero-meta-item">
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+              {{hero.meta_3}}
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <img src="img/app/framed/phone-01.webp" alt="{{hero.phone_alt}}" class="hero-phone" width="680" height="1442" fetchpriority="high">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem -->
+  <section class="problem" id="problem">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">{{problem.eyebrow}}</span>
+        <h2>{{problem.h2}}</h2>
+        <p class="section-lede">{{problem.lede}}</p>
+      </div>
+      <div class="problem-cards">
+        <div class="problem-card">
+          <span class="pill">{{problem.c1.pill}}</span>
+          <h4>{{problem.c1.h4}}</h4>
+          <p>{{problem.c1.p}}</p>
+          <span class="problem-price">{{problem.c1.price}}</span>
+        </div>
+        <div class="problem-card">
+          <span class="pill">{{problem.c2.pill}}</span>
+          <h4>{{problem.c2.h4}}</h4>
+          <p>{{problem.c2.p}}</p>
+          <span class="problem-price">{{problem.c2.price}}</span>
+        </div>
+        <div class="problem-card">
+          <span class="pill">{{problem.c3.pill}}</span>
+          <h4>{{problem.c3.h4}}</h4>
+          <p>{{problem.c3.p}}</p>
+          <span class="problem-price">{{problem.c3.price}}</span>
+        </div>
+        <div class="problem-card problem-card--us">
+          <span class="pill pill--us">{{problem.c4.pill}}</span>
+          <h4>{{problem.c4.h4}}</h4>
+          <p>{{problem.c4.p}}</p>
+          <span class="problem-price problem-price--us">{{problem.c4.price}}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillars / How it works -->
+  <section class="pillars" id="pillars">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">{{pillars.eyebrow}}</span>
+        <h2>{{pillars.h2}}</h2>
+      </div>
+      <div class="how-rows">
+
+        <!-- Step 1 -->
+        <div class="how-row">
+          <div class="how-row-text">
+            <div class="how-step-num">01</div>
+            <span class="eyebrow">{{how.s1.eyebrow}}</span>
+            <h3>{{how.s1.h3}}</h3>
+            <p>{{how.s1.p}}</p>
+            <div class="how-caption">{{how.s1.caption}}</div>
+          </div>
+          <div class="how-row-media">
+            <img class="how-phone" src="img/app/framed/phone-02.webp" alt="{{how.s1.alt}}" width="680" height="1442" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="how-row how-row--alt">
+          <div class="how-row-text">
+            <div class="how-step-num">02</div>
+            <span class="eyebrow">{{how.s2.eyebrow}}</span>
+            <h3>{{how.s2.h3}}</h3>
+            <p>{{how.s2.p}}</p>
+            <div class="how-caption">{{how.s2.caption}}</div>
+          </div>
+          <div class="how-row-media">
+            <img class="how-phone" src="img/app/framed/phone-04.webp" alt="{{how.s2.alt}}" width="680" height="1442" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="how-row">
+          <div class="how-row-text">
+            <div class="how-step-num">03</div>
+            <span class="eyebrow">{{how.s3.eyebrow}}</span>
+            <h3>{{how.s3.h3}}</h3>
+            <p>{{how.s3.p}}</p>
+            <div class="how-caption">{{how.s3.caption}}</div>
+          </div>
+          <div class="how-row-media">
+            <img class="how-phone" src="img/app/framed/phone-05.webp" alt="{{how.s3.alt}}" width="680" height="1442" loading="lazy">
+          </div>
+        </div>
+
+      </div>
+      <div class="how-more">
+        <a href="{{url_features}}" class="btn btn-secondary">{{how.more}}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founder proof -->
+  <section class="founder" id="proof">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">{{founder.eyebrow}}</span>
+        <h2>{{founder.h2}}</h2>
+        <p class="section-lede">{{founder.lede}}</p>
+      </div>
+      <figure class="founder-quote">
+        <blockquote>{{founder.quote}}</blockquote>
+        <figcaption class="founder-by">
+          <span class="founder-name">{{founder.name}}</span>
+          <span class="founder-role">{{founder.role}}</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- The plan effect -->
+  <section class="versus" id="versus">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">{{versus.eyebrow}}</span>
+        <h2>{{versus.h2}}</h2>
+        <p class="section-lede">{{versus.lede}}</p>
+      </div>
+      <div class="versus-table">
+        <div class="versus-head">
+          <div class="col-q">{{versus.head.moment}}</div>
+          <div class="col-tp"><span class="vs-brand vs-brand--tp">{{versus.head.tp}}</span></div>
+          <div class="col-them"><span class="vs-brand vs-brand--them">{{versus.head.them}}</span></div>
+        </div>
+
+        <div class="versus-row">
+          <div class="topic">
+            <div class="topic-tag">{{versus.r1.tag}}</div>
+            <div class="topic-q">{{versus.r1.q}}</div>
+          </div>
+          <div class="tp">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            <span>{{versus.r1.tp}}</span>
+          </div>
+          <div class="them"><span class="x">–</span><span>{{versus.r1.them}}</span></div>
+        </div>
+
+        <div class="versus-row">
+          <div class="topic">
+            <div class="topic-tag">{{versus.r2.tag}}</div>
+            <div class="topic-q">{{versus.r2.q}}</div>
+          </div>
+          <div class="tp">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            <span>{{versus.r2.tp}}</span>
+          </div>
+          <div class="them"><span class="x">–</span><span>{{versus.r2.them}}</span></div>
+        </div>
+
+        <div class="versus-row">
+          <div class="topic">
+            <div class="topic-tag">{{versus.r3.tag}}</div>
+            <div class="topic-q">{{versus.r3.q}}</div>
+          </div>
+          <div class="tp">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            <span>{{versus.r3.tp}}</span>
+          </div>
+          <div class="them"><span class="x">–</span><span>{{versus.r3.them}}</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-card">
+        <span class="eyebrow">{{cta.eyebrow}}</span>
+        <h2>{{cta.h2}}</h2>
+        <p>{{cta.p}}</p>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="https://apps.apple.com/app/triple-peaks-coach/id6758676538" class="btn btn-primary btn-lg">
+            <svg class="btn-apple-logo" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.7-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            {{common.get_app}}</a>
+        </div>
+        <div class="hero-alt-links hero-alt-links--center">
+          <a href="https://app.triplepeaks.coach" class="hero-alt-link hero-alt-link--light">{{common.web_link}}</a>
+          <a href="mailto:triplepeaks@online.de?subject=Android%20beta%20invite" class="hero-alt-link hero-alt-link--light">{{common.android_link}}</a>
+        </div>
+        <div class="cta-meta">
+          <span class="cta-meta-item">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            {{cta.meta_1}}
+          </span>
+          <span class="cta-meta-item">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            {{cta.meta_2}}
+          </span>
+          <span class="cta-meta-item">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            {{cta.meta_3}}
+          </span>
+          <span class="cta-meta-item">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10.5l3 3 7-7"/></svg>
+            {{cta.meta_4}}
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{> footer}}
+
+  <script src="js/main.js"></script>
+</body>
+</html>

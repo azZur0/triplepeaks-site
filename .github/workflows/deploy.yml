@@ -27,6 +27,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build translated pages (templates + i18n -> static HTML)
+        run: node build.mjs
+
       - name: Stage site files (keep dev/config files off the public site)
         run: |
           mkdir -p public
@@ -36,6 +44,9 @@ jobs:
             --exclude='.gitignore' \
             --exclude='README.md' \
             --exclude='public' \
+            --exclude='templates' \
+            --exclude='i18n' \
+            --exclude='build.mjs' \
             ./ public/
 
       - name: Upload artifact

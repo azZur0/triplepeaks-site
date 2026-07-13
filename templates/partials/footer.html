@@ -1,0 +1,31 @@
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="img/logo-icon.png" alt="Triple Peaks" onerror="this.style.display='none'">
+            Triple<span>Peaks</span>
+          </div>
+          <p class="footer-tagline">{{footer.tagline}}</p>
+          <span class="swiss-badge" title="{{footer.swiss_title}}">
+            <span class="swiss-cross" aria-hidden="true"></span>
+            {{footer.swiss}}
+          </span>
+        </div>
+        <div class="footer-links">
+          <a href="{{url_support}}">{{footer.support}}</a>
+          <a href="{{url_imprint}}">{{footer.imprint}}</a>
+          <a href="{{url_terms}}">{{footer.terms}}</a>
+          <a href="{{url_privacy}}">{{footer.privacy}}</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copyright">{{footer.copyright}}</span>
+        <span class="footer-copyright">{{footer.built}}</span>
+        <span class="footer-lang">
+          <a href="{{url_self_en}}"{{active_en}}>English</a> &nbsp;·&nbsp; <a href="{{url_self_de}}"{{active_de}}>Deutsch</a>
+        </span>
+      </div>
+    </div>
+  </footer>

@@ -173,5 +173,15 @@
   "support.q7.summary": "Do you use AI, and what happens to my data?",
   "support.q7.body": "Yes. AI coaching is the core of the app. To build your plans, analyses, and chat replies, we send your training and performance data to an AI provider. Before we send it, we remove direct identifiers like your name and email, so the provider sees your training data rather than who you are. You agree to this when you sign up, and you can turn AI features off or delete your account at any time. See our <a href=\"privacy.html\">Privacy Policy</a> for the details.",
   "support.q8.summary": "Is my data secure?",
-  "support.q8.body": "We take reasonable care: connections are encrypted, access is limited to what's needed to run the app, and we never sell your data. No app can promise perfect security, but we keep the moving parts few and use established providers. Full details live in our <a href=\"privacy.html\">Privacy Policy</a>."
+  "support.q8.body": "We take reasonable care: connections are encrypted, access is limited to what's needed to run the app, and we never sell your data. No app can promise perfect security, but we keep the moving parts few and use established providers. Full details live in our <a href=\"privacy.html\">Privacy Policy</a>.",
+
+  "imprint.meta.title": "Imprint — Triple Peaks",
+  "imprint.h1": "Imprint",
+  "imprint.subtitle": "Legal disclosure under Swiss and German law.",
+  "terms.meta.title": "Terms of Service — Triple Peaks",
+  "terms.h1": "Terms of Service",
+  "terms.subtitle": "Last updated: 27 June 2026",
+  "privacy.meta.title": "Privacy Policy — Triple Peaks",
+  "privacy.h1": "Privacy Policy",
+  "privacy.subtitle": "Last updated: 27 June 2026"
 }

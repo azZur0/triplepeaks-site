@@ -173,5 +173,15 @@
   "support.q7.summary": "Nutzt ihr KI, und was passiert mit meinen Daten?",
   "support.q7.body": "Ja. KI-Coaching ist der Kern der App. Um deine Pläne, Analysen und Chat-Antworten zu erstellen, senden wir deine Trainings- und Leistungsdaten an einen KI-Anbieter. Bevor wir sie senden, entfernen wir direkte Identifikatoren wie deinen Namen und deine E-Mail, sodass der Anbieter deine Trainingsdaten sieht statt deiner Person. Du stimmst dem bei der Anmeldung zu und kannst KI-Funktionen jederzeit ausschalten oder dein Konto löschen. Details findest du in unserer <a href=\"privacy-de.html\">Datenschutzerklärung</a>.",
   "support.q8.summary": "Sind meine Daten sicher?",
-  "support.q8.body": "Wir gehen sorgfältig damit um: Verbindungen sind verschlüsselt, der Zugriff ist auf das beschränkt, was zum Betrieb der App nötig ist, und wir verkaufen deine Daten nie. Keine App kann perfekte Sicherheit versprechen, aber wir halten die beweglichen Teile gering und nutzen etablierte Anbieter. Alle Details stehen in unserer <a href=\"privacy-de.html\">Datenschutzerklärung</a>."
+  "support.q8.body": "Wir gehen sorgfältig damit um: Verbindungen sind verschlüsselt, der Zugriff ist auf das beschränkt, was zum Betrieb der App nötig ist, und wir verkaufen deine Daten nie. Keine App kann perfekte Sicherheit versprechen, aber wir halten die beweglichen Teile gering und nutzen etablierte Anbieter. Alle Details stehen in unserer <a href=\"privacy-de.html\">Datenschutzerklärung</a>.",
+
+  "imprint.meta.title": "Impressum — Triple Peaks",
+  "imprint.h1": "Impressum",
+  "imprint.subtitle": "Offenlegung nach Schweizer und deutschem Recht.",
+  "terms.meta.title": "Allgemeine Geschäftsbedingungen — Triple Peaks",
+  "terms.h1": "Allgemeine Geschäftsbedingungen",
+  "terms.subtitle": "Zuletzt aktualisiert: 27. Juni 2026",
+  "privacy.meta.title": "Datenschutzerklärung — Triple Peaks",
+  "privacy.h1": "Datenschutzerklärung",
+  "privacy.subtitle": "Zuletzt aktualisiert: 27. Juni 2026"
 }

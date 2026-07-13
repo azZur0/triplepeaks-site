@@ -6,19 +6,16 @@ The app itself lives at [app.triplepeaks.coach](https://app.triplepeaks.coach).
 
 ## Pages
 
-The **marketing pages are generated** in English and German from single templates (see [Internationalization](#internationalization-i18n)):
+**All pages are generated** in English and German from single templates (see [Internationalization](#internationalization-i18n)), so the two languages share one nav/footer and can't drift:
 
 - **Home** (`index.html` / `index-de.html`) — from `templates/index.html`
 - **Features** (`features.html` / `features-de.html`) — from `templates/features.html`
 - **Support** (`support.html` / `support-de.html`) — from `templates/support.html`
+- **Imprint** (`imprint.html` / `imprint-de.html`) — from `templates/imprint.html` + `partials/legal_imprint_body.{en,de}.html`
+- **Terms** (`terms.html` / `terms-de.html`) — from `templates/terms.html`
+- **Privacy** (`privacy.html` / `privacy-de.html`) — from `templates/privacy.html`
 
-The **legal pages are hand-maintained duplicate files** (EN + DE) with their own lang-toggle:
-
-- **Imprint** (`imprint.html` / `imprint-de.html`) — Legal imprint (EU / CH requirement)
-- **Privacy** (`privacy.html` / `privacy-de.html`) — Privacy policy
-- **Terms** (`terms.html` / `terms-de.html`) — Terms of service
-
-The marketing pages are generated from a single template each, so the two languages can't drift. The legal pages stay as duplicate files — their text rarely changes and is legally sensitive.
+Marketing copy lives in `i18n/*.json`. Legal bodies are long, rarely-changing prose, so they live as **verbatim per-language HTML partials** (`partials/legal_*_body.{en,de}.html`) rather than JSON strings — edit the relevant `.en.html` / `.de.html` file directly.
 
 ## Tech Stack
 
@@ -31,9 +28,14 @@ The marketing pages are generated from a single template each, so the two langua
 
 The marketing pages are built in English and German from one source each, so structure lives once and copy can't drift between languages.
 
-- **`templates/*.html`** — page structure, with `{{token}}` placeholders where translatable text/attributes go. Shared chrome lives in **`templates/partials/`** (`nav.html`, `footer.html`), pulled in with `{{> nav}}` / `{{> footer}}`.
-- **`i18n/en.json` / `i18n/de.json`** — flat `"key": "value"` string maps (values may contain inline HTML like `<em>`). **These plus the templates are the only files you hand-edit.**
+- **`templates/*.html`** — page structure, with `{{token}}` placeholders where translatable text/attributes go.
+- **`templates/partials/`** — shared and per-language includes:
+  - `nav.html`, `footer.html` — shared chrome, pulled in with `{{> nav}}` / `{{> footer}}` (one source for every page).
+  - `legal_*_body.{en,de}.html` — per-language content blocks, pulled in with `{{>@ legal_imprint_body}}` (resolves to the `.<lang>.html` file for the language being built).
+- **`i18n/en.json` / `i18n/de.json`** — flat `"key": "value"` string maps (values may contain inline HTML like `<em>`). Must have identical keys.
 - **`build.mjs`** — renders each template in each language: English → `<name>.html`, German → `<name>-de.html`.
+
+The templates, `partials/`, and `i18n/*.json` are the only files you hand-edit.
 
 The generated `index.html` / `index-de.html` are **git-ignored** and produced by the build (locally and in CI). Never edit them directly — edit the template or the JSON and rebuild.
 

@@ -68,9 +68,15 @@ function buildTokens(name, lang) {
   };
 }
 
-// Inline {{> name}} partial includes (one level, no recursion) before token
-// substitution, so shared chrome (nav, footer) lives in one file.
-function inlinePartials(html, partials) {
+// Inline partial includes (one level, no recursion) before token substitution:
+//   {{> name}}   -> partials/name.html          (shared chrome: nav, footer)
+//   {{>@ name}}  -> partials/name.<lang>.html    (per-language content, e.g. legal bodies)
+function inlinePartials(html, partials, lang) {
+  html = html.replace(/\{\{>@\s*([\w.-]+)\s*\}\}/g, (_, name) => {
+    const key = `${name}.${lang}`;
+    if (!(key in partials)) throw new Error(`unknown language partial: ${key}`);
+    return partials[key];
+  });
   return html.replace(/\{\{>\s*([\w-]+)\s*\}\}/g, (_, name) => {
     if (!(name in partials)) throw new Error(`unknown partial: ${name}`);
     return partials[name];
@@ -127,8 +133,9 @@ function main() {
   let written = 0;
   for (const file of templates) {
     const name = file.replace(/\.html$/, '');
-    const template = inlinePartials(readFileSync(join(TEMPLATES, file), 'utf8'), partials);
+    const raw = readFileSync(join(TEMPLATES, file), 'utf8');
     for (const lang of LANGS) {
+      const template = inlinePartials(raw, partials, lang);
       const tokens = { ...strings[lang], ...buildTokens(name, lang) };
       const html = render(template, tokens);
       const outFile = join(ROOT, urlFor(name, lang));

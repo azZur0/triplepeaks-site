@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{support.meta.title}}</title>
+  <meta name="description" content="{{support.meta.description}}">
+  <meta name="apple-itunes-app" content="app-id=6758676538">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+{{> nav}}
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">{{support.ph.eyebrow}}</span>
+      <h1>{{support.ph.h1}}</h1>
+      <p>{{support.ph.p}}</p>
+    </div>
+  </header>
+
+  <!-- Contact card -->
+  <section style="padding-top: var(--space-xl);">
+    <div class="container">
+      <div class="contact-card">
+        <div>
+          <span class="eyebrow">{{support.contact.eyebrow}}</span>
+          <h2>{{support.contact.h2}}</h2>
+          <p>{{support.contact.p}}</p>
+        </div>
+        <div class="contact-actions">
+          <a href="mailto:triplepeaks@online.de" class="btn btn-primary btn-lg">triplepeaks@online.de</a>
+          <p class="contact-note">{{support.contact.note}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">{{support.faq.eyebrow}}</span>
+        <h2>{{support.faq.h2}}</h2>
+      </div>
+
+      <div class="faq">
+        <details class="faq-item" open>
+          <summary>{{support.q1.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q1.body}}</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>{{support.q2.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q2.body}}</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>{{support.q3.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q3.body}}</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>{{support.q4.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q4.body}}</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>{{support.q5.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q5.body}}</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>{{support.q6.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q6.body}}</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>{{support.q7.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q7.body}}</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>{{support.q8.summary}}</summary>
+          <div class="faq-body">
+            <p>{{support.q8.body}}</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+{{> footer}}
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{features.meta.title}}</title>
+  <meta name="description" content="{{features.meta.description}}">
+  <meta name="apple-itunes-app" content="app-id=6758676538">
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+{{> nav}}
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">{{features.ph.eyebrow}}</span>
+      <h1>{{features.ph.h1}}</h1>
+      <p>{{features.ph.p}}</p>
+    </div>
+  </header>
+
+  <!-- Feature 1: Weekly planning -->
+  <section class="feature-detail">
+    <div class="container">
+      <div class="feature-row">
+        <div class="feature-copy">
+          <span class="eyebrow">{{features.f1.eyebrow}}</span>
+          <h2>{{features.f1.h2}}</h2>
+          <p>{{features.f1.p}}</p>
+          <ul>
+            <li>{{features.f1.li1}}</li>
+            <li>{{features.f1.li2}}</li>
+          </ul>
+        </div>
+        <div class="feature-media phone-wrap">
+          <img src="img/app/framed/phone-02.webp" alt="{{features.f1.alt}}" width="680" height="1442">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 2: Workout + week review -->
+  <section class="feature-detail">
+    <div class="container">
+      <div class="feature-row">
+        <div class="feature-copy">
+          <span class="eyebrow">{{features.f2.eyebrow}}</span>
+          <h2>{{features.f2.h2}}</h2>
+          <p>{{features.f2.p}}</p>
+          <ul>
+            <li>{{features.f2.li1}}</li>
+            <li>{{features.f2.li2}}</li>
+          </ul>
+        </div>
+        <div class="feature-media phone-wrap">
+          <img src="img/app/framed/phone-03.webp" alt="{{features.f2.alt}}" width="680" height="1442" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 3: Structured intervals -->
+  <section class="feature-detail">
+    <div class="container">
+      <div class="feature-row">
+        <div class="feature-copy">
+          <span class="eyebrow">{{features.f3.eyebrow}}</span>
+          <h2>{{features.f3.h2}}</h2>
+          <p>{{features.f3.p}}</p>
+          <ul>
+            <li>{{features.f3.li1}}</li>
+            <li>{{features.f3.li2}}</li>
+          </ul>
+        </div>
+        <div class="feature-media phone-wrap">
+          <img src="img/app/framed/phone-04.webp" alt="{{features.f3.alt}}" width="680" height="1442" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 4: Coach chat -->
+  <section class="feature-detail">
+    <div class="container">
+      <div class="feature-row">
+        <div class="feature-copy">
+          <span class="eyebrow ai">{{features.f4.eyebrow}}</span>
+          <h2>{{features.f4.h2}}</h2>
+          <p>{{features.f4.p}}</p>
+          <ul>
+            <li>{{features.f4.li1}}</li>
+            <li>{{features.f4.li2}}</li>
+          </ul>
+        </div>
+        <div class="feature-media phone-wrap">
+          <img src="img/app/framed/phone-05.webp" alt="{{features.f4.alt}}" width="680" height="1442" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 5: Race planning -->
+  <section class="feature-detail">
+    <div class="container">
+      <div class="feature-row">
+        <div class="feature-copy">
+          <span class="eyebrow">{{features.f5.eyebrow}}</span>
+          <h2>{{features.f5.h2}}</h2>
+          <p>{{features.f5.p}}</p>
+          <ul>
+            <li>{{features.f5.li1}}</li>
+            <li>{{features.f5.li2}}</li>
+          </ul>
+        </div>
+        <div class="feature-media phone-wrap">
+          <img src="img/app/framed/phone-06.webp" alt="{{features.f5.alt}}" width="680" height="1442" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 6: Strava + daily check-in (split row) -->
+  <section class="feature-detail">
+    <div class="container">
+      <div class="feature-row feature-row--split">
+        <div class="feature-media feature-media--compact">
+          <div class="feature-chip">
+            <div class="feature-chip-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3l4 7h-3l3 6h-3l-3 5-3-5H4l3-6H4z"/></svg>
+            </div>
+            <h3>{{features.f6.c1.h3}}</h3>
+            <p>{{features.f6.c1.p}}</p>
+          </div>
+        </div>
+        <div class="feature-media feature-media--compact">
+          <div class="feature-chip feature-chip--ai">
+            <div class="feature-chip-icon">
+              <img src="img/ai-sparkles.png" alt="" style="width: 28px; height: 28px;">
+            </div>
+            <h3>{{features.f6.c2.h3}}</h3>
+            <p>{{features.f6.c2.p}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-card">
+        <span class="eyebrow" style="color: var(--orange-400);">{{features.cta.eyebrow}}</span>
+        <h2>{{features.cta.h2}}</h2>
+        <p>{{features.cta.p}}</p>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="https://apps.apple.com/app/triple-peaks-coach/id6758676538" class="btn btn-primary btn-lg">
+            <svg class="btn-apple-logo" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.7-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            {{common.get_app}}</a>
+        </div>
+        <div class="hero-alt-links hero-alt-links--center">
+          <a href="https://app.triplepeaks.coach" class="hero-alt-link hero-alt-link--light">{{common.web_link}}</a>
+          <a href="mailto:triplepeaks@online.de?subject=Android%20beta%20invite" class="hero-alt-link hero-alt-link--light">{{common.android_link}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{> footer}}
+
+  <script src="js/main.js"></script>
+</body>
+</html>

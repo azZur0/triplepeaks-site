@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{imprint.meta.title}}</title>
+  <link rel="canonical" href="{{canonical}}">
+  {{hreflang}}
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+{{> nav}}
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1>{{imprint.h1}}</h1>
+      <p>{{imprint.subtitle}}</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <section>
+    <div class="container">
+      <div class="legal-content">
+{{>@ legal_imprint_body}}
+      </div>
+    </div>
+  </section>
+
+{{> footer}}
+
+  <script src="js/main.js"></script>
+</body>
+</html>

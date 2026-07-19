@@ -14,6 +14,12 @@ const PARTIALS = join(TEMPLATES, 'partials');
 const I18N = join(ROOT, 'i18n');
 const ORIGIN = 'https://triplepeaks.coach';
 const LANGS = ['en', 'de'];
+const SITE_NAME = 'Triple Peaks';
+// Social share preview image (Open Graph / Twitter). Absolute URL is required by
+// crawlers like LinkedIn/Facebook — without an explicit og:image they scrape a
+// random on-page image (e.g. an app screenshot). 1200×630 is the standard card.
+const OG_IMAGE = `${ORIGIN}/img/og-image.png`;
+const OG_IMAGE_ALT = 'Triple Peaks — smart coaching to find your next peak';
 
 // Which pages exist in which languages. `de: false` means the German build of a
 // page still links to the English file (e.g. features has no German version yet),
@@ -45,12 +51,30 @@ function hreflangBlock(name) {
   ].join('\n  ');
 }
 
+// Resolve a page's social-share title/description from its own meta strings,
+// falling back to the site-wide description for pages that only define a title
+// (e.g. the legal pages). Keeps og:*/twitter:* in lockstep with <title> and the
+// meta description, per language, with no duplicated copy.
+function socialCopy(name, strings) {
+  const titleKey = name === 'index' ? 'meta.title' : `${name}.meta.title`;
+  const descKey = name === 'index' ? 'meta.description' : `${name}.meta.description`;
+  return {
+    og_title: strings[titleKey] ?? strings['meta.title'],
+    og_description: descKey in strings ? strings[descKey] : strings['meta.description'],
+  };
+}
+
 // Build-supplied (non-translation) tokens: language-aware URLs, lang attr, etc.
-function buildTokens(name, lang) {
+function buildTokens(name, lang, strings) {
   return {
     lang,
     canonical: `${ORIGIN}/${urlFor(name, lang)}`,
     hreflang: hreflangBlock(name),
+    site_name: SITE_NAME,
+    og_image: OG_IMAGE,
+    og_image_alt: OG_IMAGE_ALT,
+    og_locale: lang === 'de' ? 'de_DE' : 'en_US',
+    ...socialCopy(name, strings),
     url_home: urlFor('index', lang),
     url_features: urlFor('features', lang),
     url_support: urlFor('support', lang),
@@ -136,7 +160,7 @@ function main() {
     const raw = readFileSync(join(TEMPLATES, file), 'utf8');
     for (const lang of LANGS) {
       const template = inlinePartials(raw, partials, lang);
-      const tokens = { ...strings[lang], ...buildTokens(name, lang) };
+      const tokens = { ...strings[lang], ...buildTokens(name, lang, strings[lang]) };
       const html = render(template, tokens);
       const outFile = join(ROOT, urlFor(name, lang));
       writeFileSync(outFile, html);

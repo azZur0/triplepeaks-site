@@ -18,8 +18,8 @@ const SITE_NAME = 'Triple Peaks';
 // Social share preview image (Open Graph / Twitter). Absolute URL is required by
 // crawlers like LinkedIn/Facebook — without an explicit og:image they scrape a
 // random on-page image (e.g. an app screenshot). 1200×630 is the standard card.
-const OG_IMAGE = `${ORIGIN}/img/og-image.png`;
-const OG_IMAGE_ALT = 'Triple Peaks — smart coaching to find your next peak';
+const OG_IMAGE = `${ORIGIN}/img/og-image-v2.png`;
+const OG_IMAGE_ALT = 'Triple Peaks Coach — Your adaptive coach for endurance sports.';
 
 // Which pages exist in which languages. `de: false` means the German build of a
 // page still links to the English file (e.g. features has no German version yet),

@@ -1,0 +1,49 @@
+# Nightly: pull the app's user-facing release notes from its public changelog API
+# into data/ and redeploy when they changed. Needs no secrets: the endpoint is
+# public, and GITHUB_TOKEN is allowed to commit to this repository and to start
+# its own deploy workflow.
+#
+# GitHub switches off scheduled workflows in a public repository after 60 days
+# without any repository activity and emails the owner; if that ever happens,
+# re-enable it from the Actions tab.
+name: Fetch release notes
+
+on:
+  schedule:
+    - cron: '30 3 * * *'   # nightly, 03:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit data/release-notes.*.json
+  actions: write    # start the deploy workflow afterwards
+
+concurrency:
+  group: fetch-release-notes
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Fetch from the app's public changelog API
+        run: python3 scripts/fetch-release-notes.py
+
+      - name: Commit and redeploy when something changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data; then
+            echo "Release notes unchanged, nothing to do."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Fetch release notes from the app"
+          git push origin master
+          # A push made with GITHUB_TOKEN does not start other workflows by itself.
+          gh workflow run deploy.yml --ref master

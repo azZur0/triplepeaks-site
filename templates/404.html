@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+{{> head}}
+</head>
+<body>
+
+{{> nav}}
+
+  <!-- 404 (GitHub Pages serves 404.html for any unknown path, so all asset paths are root-absolute) -->
+  <header class="page-header notfound">
+    <div class="container">
+      <span class="eyebrow">{{notfound.eyebrow}}</span>
+      <h1>{{notfound.h1}}</h1>
+      <p>{{notfound.p}}</p>
+      <div class="hero-actions notfound-actions">
+        <a href="{{url_home}}" class="btn btn-primary btn-lg">{{notfound.cta_home}}</a>
+        <a href="https://app.triplepeaks.coach" class="btn btn-secondary btn-lg">{{nav.open_app}}</a>
+      </div>
+    </div>
+  </header>
+
+{{> footer}}
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{lang}}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{meta.title}}</title>
-  <meta name="description" content="{{meta.description}}">
-  <meta name="apple-itunes-app" content="app-id=6758676538">
-  {{> social_meta}}
-  <link rel="canonical" href="{{canonical}}">
-  {{hreflang}}
-  <link rel="icon" href="img/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+{{> head}}
 </head>
 <body>
 
@@ -54,8 +42,8 @@
           </div>
         </div>
 
-        <div class="hero-visual" aria-hidden="true">
-          <img src="img/app/framed/phone-01.webp" alt="{{hero.phone_alt}}" class="hero-phone" width="680" height="1442" fetchpriority="high">
+        <div class="hero-visual">
+          <img src="/img/app/framed/phone-01.webp" alt="{{hero.phone_alt}}" class="hero-phone" width="680" height="1442" fetchpriority="high">
         </div>
       </div>
     </div>
@@ -117,7 +105,7 @@
             <div class="how-caption">{{how.s1.caption}}</div>
           </div>
           <div class="how-row-media">
-            <img class="how-phone" src="img/app/framed/phone-02.webp" alt="{{how.s1.alt}}" width="680" height="1442" loading="lazy">
+            <img class="how-phone" src="/img/app/framed/phone-02.webp" alt="{{how.s1.alt}}" width="680" height="1442" loading="lazy">
           </div>
         </div>
 
@@ -131,7 +119,7 @@
             <div class="how-caption">{{how.s2.caption}}</div>
           </div>
           <div class="how-row-media">
-            <img class="how-phone" src="img/app/framed/phone-04.webp" alt="{{how.s2.alt}}" width="680" height="1442" loading="lazy">
+            <img class="how-phone" src="/img/app/framed/phone-04.webp" alt="{{how.s2.alt}}" width="680" height="1442" loading="lazy">
           </div>
         </div>
 
@@ -145,7 +133,7 @@
             <div class="how-caption">{{how.s3.caption}}</div>
           </div>
           <div class="how-row-media">
-            <img class="how-phone" src="img/app/framed/phone-05.webp" alt="{{how.s3.alt}}" width="680" height="1442" loading="lazy">
+            <img class="how-phone" src="/img/app/framed/phone-05.webp" alt="{{how.s3.alt}}" width="680" height="1442" loading="lazy">
           </div>
         </div>
 
@@ -171,6 +159,7 @@
           <span class="founder-role">{{founder.role}}</span>
         </figcaption>
       </figure>
+{{whats_new_teaser}}
     </div>
   </section>
 
@@ -269,6 +258,6 @@
 
 {{> footer}}
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

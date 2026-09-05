@@ -47,6 +47,8 @@ jobs:
             --exclude='templates' \
             --exclude='i18n' \
             --exclude='build.mjs' \
+            --exclude='data' \
+            --exclude='scripts' \
             ./ public/
 
       - name: Upload artifact

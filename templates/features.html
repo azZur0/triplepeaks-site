@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{lang}}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{features.meta.title}}</title>
-  <meta name="description" content="{{features.meta.description}}">
-  <meta name="apple-itunes-app" content="app-id=6758676538">
-  {{> social_meta}}
-  <link rel="canonical" href="{{canonical}}">
-  {{hreflang}}
-  <link rel="icon" href="img/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+{{> head}}
 </head>
 <body>
 
@@ -28,127 +16,161 @@
     </div>
   </header>
 
-  <!-- Feature 1: Weekly planning -->
+  <!-- Six rows: one screen each, one sentence, four short lines. Copy lives in i18n/*.json. -->
+
   <section class="feature-detail">
     <div class="container">
       <div class="feature-row">
         <div class="feature-copy">
-          <span class="eyebrow">{{features.f1.eyebrow}}</span>
-          <h2>{{features.f1.h2}}</h2>
-          <p>{{features.f1.p}}</p>
+          <span class="eyebrow">{{features.r1.eyebrow}}</span>
+          <h2>{{features.r1.h2}}</h2>
+          <p>{{features.r1.p}}</p>
           <ul>
-            <li>{{features.f1.li1}}</li>
-            <li>{{features.f1.li2}}</li>
+            <li>{{features.r1.li1}}</li>
+            <li>{{features.r1.li2}}</li>
+            <li>{{features.r1.li3}}</li>
+            <li>{{features.r1.li4}}</li>
           </ul>
         </div>
         <div class="feature-media phone-wrap">
-          <img src="img/app/framed/phone-02.webp" alt="{{features.f1.alt}}" width="680" height="1442">
+          <img src="/img/app/framed/phone-09.webp" alt="{{features.r1.alt}}" width="680" height="1442">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Feature 2: Workout + week review -->
   <section class="feature-detail">
     <div class="container">
       <div class="feature-row">
         <div class="feature-copy">
-          <span class="eyebrow">{{features.f2.eyebrow}}</span>
-          <h2>{{features.f2.h2}}</h2>
-          <p>{{features.f2.p}}</p>
+          <span class="eyebrow">{{features.r2.eyebrow}}</span>
+          <h2>{{features.r2.h2}}</h2>
+          <p>{{features.r2.p}}</p>
           <ul>
-            <li>{{features.f2.li1}}</li>
-            <li>{{features.f2.li2}}</li>
+            <li>{{features.r2.li1}}</li>
+            <li>{{features.r2.li2}}</li>
+            <li>{{features.r2.li3}}</li>
+            <li>{{features.r2.li4}}</li>
           </ul>
         </div>
         <div class="feature-media phone-wrap">
-          <img src="img/app/framed/phone-03.webp" alt="{{features.f2.alt}}" width="680" height="1442" loading="lazy">
+          <img src="/img/app/framed/phone-10.webp" alt="{{features.r2.alt}}" width="680" height="1442" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Feature 3: Structured intervals -->
   <section class="feature-detail">
     <div class="container">
       <div class="feature-row">
         <div class="feature-copy">
-          <span class="eyebrow">{{features.f3.eyebrow}}</span>
-          <h2>{{features.f3.h2}}</h2>
-          <p>{{features.f3.p}}</p>
+          <span class="eyebrow">{{features.r3.eyebrow}}</span>
+          <h2>{{features.r3.h2}}</h2>
+          <p>{{features.r3.p}}</p>
           <ul>
-            <li>{{features.f3.li1}}</li>
-            <li>{{features.f3.li2}}</li>
+            <li>{{features.r3.li1}}</li>
+            <li>{{features.r3.li2}}</li>
+            <li>{{features.r3.li3}}</li>
+            <li>{{features.r3.li4}}</li>
           </ul>
         </div>
         <div class="feature-media phone-wrap">
-          <img src="img/app/framed/phone-04.webp" alt="{{features.f3.alt}}" width="680" height="1442" loading="lazy">
+          <img src="/img/app/framed/phone-11.webp" alt="{{features.r3.alt}}" width="680" height="1442" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Feature 4: Coach chat -->
   <section class="feature-detail">
     <div class="container">
       <div class="feature-row">
         <div class="feature-copy">
-          <span class="eyebrow ai">{{features.f4.eyebrow}}</span>
-          <h2>{{features.f4.h2}}</h2>
-          <p>{{features.f4.p}}</p>
+          <span class="eyebrow">{{features.r4.eyebrow}}</span>
+          <h2>{{features.r4.h2}}</h2>
+          <p>{{features.r4.p}}</p>
           <ul>
-            <li>{{features.f4.li1}}</li>
-            <li>{{features.f4.li2}}</li>
+            <li>{{features.r4.li1}}</li>
+            <li>{{features.r4.li2}}</li>
+            <li>{{features.r4.li3}}</li>
+            <li>{{features.r4.li4}}</li>
           </ul>
         </div>
         <div class="feature-media phone-wrap">
-          <img src="img/app/framed/phone-05.webp" alt="{{features.f4.alt}}" width="680" height="1442" loading="lazy">
+          <img src="/img/app/framed/phone-03.webp" alt="{{features.r4.alt}}" width="680" height="1442" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Feature 5: Race planning -->
   <section class="feature-detail">
     <div class="container">
       <div class="feature-row">
         <div class="feature-copy">
-          <span class="eyebrow">{{features.f5.eyebrow}}</span>
-          <h2>{{features.f5.h2}}</h2>
-          <p>{{features.f5.p}}</p>
+          <span class="eyebrow ai">{{features.r5.eyebrow}}</span>
+          <h2>{{features.r5.h2}}</h2>
+          <p>{{features.r5.p}}</p>
           <ul>
-            <li>{{features.f5.li1}}</li>
-            <li>{{features.f5.li2}}</li>
+            <li>{{features.r5.li1}}</li>
+            <li>{{features.r5.li2}}</li>
+            <li>{{features.r5.li3}}</li>
+            <li>{{features.r5.li4}}</li>
           </ul>
         </div>
         <div class="feature-media phone-wrap">
-          <img src="img/app/framed/phone-06.webp" alt="{{features.f5.alt}}" width="680" height="1442" loading="lazy">
+          <img src="/img/app/framed/phone-05.webp" alt="{{features.r5.alt}}" width="680" height="1442" loading="lazy">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Feature 6: Strava + daily check-in (split row) -->
   <section class="feature-detail">
     <div class="container">
-      <div class="feature-row feature-row--split">
-        <div class="feature-media feature-media--compact">
-          <div class="feature-chip">
-            <div class="feature-chip-icon">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3l4 7h-3l3 6h-3l-3 5-3-5H4l3-6H4z"/></svg>
-            </div>
-            <h3>{{features.f6.c1.h3}}</h3>
-            <p>{{features.f6.c1.p}}</p>
-          </div>
+      <div class="feature-row">
+        <div class="feature-copy">
+          <span class="eyebrow">{{features.r6.eyebrow}}</span>
+          <h2>{{features.r6.h2}}</h2>
+          <p>{{features.r6.p}}</p>
+          <ul>
+            <li>{{features.r6.li1}}</li>
+            <li>{{features.r6.li2}}</li>
+            <li>{{features.r6.li3}}</li>
+            <li>{{features.r6.li4}}</li>
+          </ul>
         </div>
-        <div class="feature-media feature-media--compact">
-          <div class="feature-chip feature-chip--ai">
-            <div class="feature-chip-icon">
-              <img src="img/ai-sparkles.png" alt="" style="width: 28px; height: 28px;">
-            </div>
-            <h3>{{features.f6.c2.h3}}</h3>
-            <p>{{features.f6.c2.p}}</p>
-          </div>
+        <div class="feature-media phone-wrap">
+          <img src="/img/app/framed/phone-08.webp" alt="{{features.r6.alt}}" width="680" height="1442" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Also in the box -->
+  <section class="feature-detail">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">{{features.more.eyebrow}}</span>
+        <h2>{{features.more.h2}}</h2>
+      </div>
+      <div class="feature-chips">
+        <div class="feature-chip">
+          <div class="feature-chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 0 1-15.5 6.3L3 16"/><path d="M3 12a9 9 0 0 1 15.5-6.3L21 8"/><path d="M3 21v-5h5"/><path d="M21 3v5h-5"/></svg></div>
+          <h3>{{features.more.c1.h3}}</h3>
+          <p>{{features.more.c1.p}}</p>
+        </div>
+        <div class="feature-chip">
+          <div class="feature-chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
+          <h3>{{features.more.c2.h3}}</h3>
+          <p>{{features.more.c2.p}}</p>
+        </div>
+        <div class="feature-chip">
+          <div class="feature-chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg></div>
+          <h3>{{features.more.c3.h3}}</h3>
+          <p>{{features.more.c3.p}}</p>
+        </div>
+        <div class="feature-chip feature-chip--ai">
+          <div class="feature-chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+          <h3>{{features.more.c4.h3}}</h3>
+          <p>{{features.more.c4.p}}</p>
         </div>
       </div>
     </div>
@@ -176,6 +198,6 @@
 
 {{> footer}}
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

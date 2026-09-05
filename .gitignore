@@ -23,3 +23,10 @@ Thumbs.db
 /terms-de.html
 /privacy.html
 /privacy-de.html
+/whats-new.html
+/whats-new-de.html
+/404.html
+/sitemap.xml
+
+# Python bytecode from running scripts/
+__pycache__/

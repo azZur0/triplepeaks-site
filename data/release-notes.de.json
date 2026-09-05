@@ -1,0 +1,1310 @@
+[
+ {
+  "version": "0.263.2",
+  "date": "2026-09-03",
+  "highlights": [
+   {
+    "title": "Schnelle Intervalle werden nicht mehr an einem erfundenen Z5-Tempo gemessen",
+    "description": "Dein Z5-Tempo wurde bisher aus den Sekunden geschätzt, in denen dein Puls in Zone 5 lag - bei kurzen Intervallen ist das das Ende langer harter Abschnitte, nicht die Intervalle selbst. Manche Athleten bekamen so ein Z5-Ziel, das langsamer war als ihr Schwellentempo, und hörten danach, sie seien zu schnell gelaufen. Das Z5-Tempo kommt jetzt nur noch aus deinen echten kurzen Intervallen, der Plan sagt es, wenn davon nicht genug da sind, und die Analyse nach dem Training nimmt die Zone und deinen Puls als Maßstab, nicht die Zahl.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Ein Morgenbriefing, das weiß, wie du geschlafen hast",
+    "description": "Dein Briefing kommt jetzt um 7 Uhr morgens statt um 3, und wenn deine Uhr später synchronisiert oder du dich meldest, aktualisiert es sich einmal mit deiner nächtlichen Erholung im Blick. Es ist auch kürzer: der Fokus des Tages als Überschrift, ein Satz zum Warum und an den Tagen, an denen es zählt, ein kurzer Hinweis zur Erholung.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.260.0",
+  "date": "2026-08-30",
+  "highlights": [
+   {
+    "title": "Ein klügerer Neustart nach einer Trainingspause",
+    "description": "Zurück nach ein paar ruhigen Wochen? Wenn du auf Planen tippst, prüft dein Coach jetzt, ob deine Trainingsphasen noch passen - und wenn du deutlich weniger trainiert hast als sonst, zeigt er dir die Zahlen, fragt, ob Ziel und Zielzeit noch stimmen, und empfiehlt, die Phasen vor der Wochenplanung aufzufrischen. Du kannst das jederzeit überspringen und trotzdem planen. Und wenn du die Zielzeit deines Hauptziels änderst, bietet die App jetzt an, deine Phasen daran auszurichten.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.258.0",
+  "date": "2026-08-25",
+  "highlights": [
+   {
+    "title": "Einen gesperrten Tag wieder freigeben",
+    "description": "Wenn du gesagt hast, dass du an einem Tag nicht kannst, galt das die ganze Woche - der Tag sah aus wie ein normaler Ruhetag und es ließ sich nichts darauf planen. Gesperrte Tage werden jetzt in deinem Plan auch als gesperrt angezeigt, und ein Tippen auf 'Doch verfügbar' gibt den Tag wieder frei. Danach kannst du ihn als Ruhetag lassen, etwas dafür planen oder deinem Coach einfach im Chat sagen 'Freitag geht jetzt doch'. Genauso kannst du einen leeren Tag sperren, wenn sich deine Woche wieder ändert, und ein Tag, an dem du am Ende doch trainiert hast, gibt sich selbst wieder frei.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.252.0",
+  "date": "2026-08-23",
+  "highlights": [
+   {
+    "title": "Jedes Workout direkt im Chat analysieren",
+    "description": "Du musst eine Aktivität nicht mehr öffnen, bevor dein Coach sie analysieren kann. Frag einfach im Chat 'Analysiere mein heutiges Radtraining' und der Coach holt sich die gespeicherte Analyse und die Herzfrequenzdaten selbst - Ausführungswert, Zeit in jeder Zone und die erkannten Intervalle mit ihren Mittelwerten. Nenne Sportart oder Tag und er wählt die richtige Einheit, und er sagt dir, welche Aktivität er gerade betrachtet. Fehlen Detaildaten wirklich, sagt der Coach jetzt genau das, statt über Ursachen zu spekulieren.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.251.0",
+  "date": "2026-08-20",
+  "highlights": [
+   {
+    "title": "Volumen-Vorschläge, die sagen, was sie meinen",
+    "description": "Wenn deine geplante Woche von deinem Volumenziel abweicht, bekommt die Frage deines Coaches jetzt eine eigene Karte im Heute-Tab - 'Wochenziel auf 8 h anheben?' oder 'Wochenziel auf 5 h senken?' - statt sich einen Platz mit Workout-Anpassungen zu teilen, wo der neueste Vorschlag den letzten stillschweigend ersetzt hat. Beide können jetzt nebeneinander auf deine Antwort warten, Anpassungskarten sagen vorab, ob sie deine Woche verlängern, entlasten oder nur umplanen, und eine Frage zum Wochenvolumen bleibt bis zum Wochenende in deinem Feed statt nach einem Tag zu verschwinden.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Dein Coach sieht deine Herzfrequenzzonen",
+    "description": "Frag deinen Coach, ob deine Intervalle wirklich in Zone 3 lagen, und du bekommst jetzt eine Antwort mit den Zahlen dahinter. Wenn du eine Einheit öffnest und darüber sprichst, sieht der Coach, wie lange du in jeder Herzfrequenzzone warst, deinen Durchschnitts- und Maximalpuls, wie lange du über der Schwelle gehalten hast, und die einzelnen erkannten Intervalle mit ihrem jeweiligen Mittelwert. Hatte eine Einheit keine klaren Intervalle, sagt er das und beurteilt die Belastung anhand deiner Zonenzeiten, statt dich im Unklaren zu lassen.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Die Zeit in jeder Zone stimmt jetzt",
+    "description": "Deine Zonenzeiten wurden pro Herzfrequenz-Messwert statt pro Sekunde gezählt und waren dadurch bei den meisten Aktivitäten etwa viermal zu kurz. Sie zeigen jetzt die tatsächlich verstrichene Zeit - eine Stunde in Zone 2 steht endlich auch als Stunde da. Die Prozentwerte waren immer korrekt und ändern sich nicht, und eine Pause mitten in der Einheit zählt nicht mehr zu der Zone, in der du gestoppt hast.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.249.0",
+  "date": "2026-08-19",
+  "highlights": [
+   {
+    "title": "Ultra- und Trailrennen als echte Zieltypen",
+    "description": "Beim Anlegen eines Wettkampfziels in der App stehen jetzt Ultramarathon und Sonstiger Laufwettkampf neben den klassischen Distanzen zur Auswahl - kein Ausweichen mehr auf Benutzerdefiniert für Trailrennen. Das zählt über die Auswahl hinaus: Wenn dein Coach weiß, dass ein Wettkampf ein Lauf ist, kann er den Wettkampftag korrekt anrechnen und dein Ergebnis auch dann auswerten, wenn der Wochenplan erst nach dem Wettkampftag erstellt wurde.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.246.0",
+  "date": "2026-08-12",
+  "highlights": [
+   {
+    "title": "Dein Wochenziel erholt sich mit dir",
+    "description": "Wenn eine Verletzung oder Krankheit dein Wochenziel gesenkt hat, bringt das Abhaken jetzt einen Coach-Vorschlag, dein vorheriges Ziel wiederherzustellen - ein Tipp und deine Woche wird wieder an deinem echten Vorhaben gemessen. Auch Fortschrittswerte und Diagramme vertrauen veralteten Zielen nicht mehr: Sie messen jetzt immer mindestens an dem, was du tatsächlich geplant hast. Eine auskurierte Woche zeigt also keine irreführenden Zahlen mehr, als wärst du weit vor einem längst überholten Plan.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.244.0",
+  "date": "2026-08-04",
+  "highlights": [
+   {
+    "title": "Ein Wochenziel, das du siehst und steuerst",
+    "description": "Deine Woche hat jetzt genau ein Volumenziel, immer sichtbar oben in deinem Plan. Workouts bearbeiten, eine längere Ausfahrt einplanen oder Einheiten verschieben ändert deinen Zeitplan - nie dein Ziel. Mehr zu tun als vereinbart zählt also nicht mehr gegen dich. Das Ziel ändert sich nur, wenn du es änderst: Tippe darauf, um neue Stunden zu setzen, sag es deinem Coach, oder nimm einen Coach-Vorschlag an, der die Änderung vor der Bestätigung anzeigt. Und wenn dein Zeitplan deutlich über das Ziel hinauswächst, fragt der Coach, ob die Latte höher soll oder das Extra als Bonus zählt. Wochenrückblick, Bereitschaftssignal und Coach bewerten die Woche an dieser einen Zahl.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.242.0",
+  "date": "2026-07-31",
+  "highlights": [
+   {
+    "title": "Sag deinem Coach, wenn etwas nicht funktioniert hat",
+    "description": "Wenn dein Coach ein technisches Problem bemerkt, kann er dir jetzt anbieten, eine Meldung an den Entwickler weiterzuleiten. Ohne deine Zustimmung wird nichts gesendet, du kannst eine optionale Notiz hinzufügen und die Meldung enthält den Gesprächskontext, der für die Untersuchung nötig ist.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Plananpassungen sagen dir jetzt, wenn etwas nicht übernommen werden konnte",
+    "description": "Das Bestätigen einer Plananpassung konnte stillschweigend weniger tun als versprochen: Wenn ein vorgeschlagenes Training eine Sportart nutzte, die du in deinem Trainingsprofil deaktiviert hast, wurde es kommentarlos verworfen - im schlimmsten Fall blieben Tage leer, während alles Erfolg meldete. Jetzt wird nichts von dir entfernt, solange der Ersatz nicht wirklich übernommen wird, jede nicht anwendbare Änderung wird mit Begründung benannt, und dein Coach bietet an, die Sportart zu aktivieren, oder schlägt eine Alternative vor, statt Vollzug zu melden.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Deine Zielbereitschaft, an einem ehrlichen Ort",
+    "description": "Triple Peaks zeigte bisher drei verschiedene Trendpfeile, die sich widersprechen konnten - und eine Woche mit harten Intervallen konnte als Rückschritt erscheinen, nur weil die Einheiten kürzer waren als geplant. Deine Bereitschaft lebt jetzt an einem Ort ganz oben in Heute: wo du gegenüber deinem Plan stehst, in welche Richtung es sich im Vergleich zur letzten Woche bewegt, und bis zu zwei Chips, die den Grund benennen - Volumen, Intensität oder Ausführung. Härter zu trainieren als geplant wird beim Namen genannt, nicht als Rückschritt gewertet. Tippe auf die Karte für die vollständige Aufschlüsselung; dein Wochenrückblick trägt jetzt dasselbe Signal samt prognostizierter Zielzeit.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.238.0",
+  "date": "2026-07-28",
+  "highlights": [
+   {
+    "title": "Ein Wettkampf, der nicht nach Plan lief, lässt sich endlich erfassen",
+    "description": "Bisher konnte ein Wettkampf nur auf eine Art enden: im Ziel. Wer unterwegs aufgab oder gar nicht erst startete, konnte das nirgends festhalten — das Ziel blieb offen und blockierte den nächsten Trainingsblock. Triple Peaks fragt jetzt nach, wie ein Wettkampf gelaufen ist, sobald sein Tag vorbei ist. Du antwortest mit einem Tipp oder sagst es deinem Coach einfach in einer Nachricht, und dein Training geht von dort weiter. Ein Wettkampf, den du nicht beendet hast, zählt weiterhin als die Leistung, die er war, und bekommt sein Debrief; ein Wettkampf, den du nie gestartet hast, erzeugt keine Erholungswoche.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Ein unter der Woche erstellter Plan löscht nicht mehr das Training, das du bereits gemacht hast",
+    "description": "Wenn unter der Woche ein neuer Wochenplan erstellt wurde, konnten bereits absolvierte Trainingstage mit einem leeren Ruhetag überschrieben werden, und eine kurz zuvor aufgezeichnete Aktivität blieb manchmal unzugeordnet. Beides ist behoben: bereits vergangene Tage zeigen jetzt das Training, das du wirklich absolviert hast, und Aktivitäten vom selben Tag werden zugeordnet, sobald der neue Plan gespeichert ist.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.229.2",
+  "date": "2026-07-24",
+  "highlights": [
+   {
+    "title": "Lange Rennen werden jetzt vollständig synchronisiert",
+    "description": "Ultra-Distanz-Aktivitäten mit mehr als 10.000 Höhenmetern werden jetzt zuverlässig importiert, statt bei der Synchronisierung zu verschwinden.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.226.0",
+  "date": "2026-07-22",
+  "highlights": [
+   {
+    "title": "Eine Prognose, der du vertrauen kannst — und Bereitschaft, die du verstehst",
+    "description": "Deine Zielzeit-Prognose misst jetzt, was du wirklich im Rennen abrufen kannst: Sie liest das Tempo deiner Qualitätsintervalle statt verwässerter Durchschnittswerte ganzer Läufe, aktualisiert sich unter der Woche, sobald neue Aktivitäten eintreffen, und deine Wochenzusammenfassung nennt dieselben Zahlen wie die Prognose — keine widersprüchlichen Schätzungen mehr. Tippe auf das Bereitschafts-Banner im Heute-Bildschirm und sieh genau, was hinter deinem Status steckt: dein Wochenvolumen im Vergleich zum Plan, akzeptierte Anpassungen, deine letzten Wochen und warum sich die Prognose bewegt hat — mit direktem Weg zu deinem Coach oder deinem Plan.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.225.0",
+  "date": "2026-07-20",
+  "highlights": [
+   {
+    "title": "Race-Day-Briefings, die deine Strecke kennen",
+    "description": "Hänge eine GPX-Datei an dein Rennziel an und dein Coach kann jetzt die Strecke selbst lesen: echte Anstiege, Abfahrten, Höhenmeter und die entscheidenden Kilometerpunkte. Das Höhenprofil siehst du im Web, auf iOS und Android, während dein Race-Day-Briefing das tatsächliche Gelände in konkrete Pacing- und Verpflegungstaktiken übersetzt, statt sich nur auf eine allgemeine Einstufung als hügelig oder flach zu verlassen. Fehlende Angaben werden automatisch ergänzt, und du entscheidest, welche erkannten Werte manuell eingegebene Distanz-, Höhen-, Gelände- oder Ortsangaben ersetzen sollen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.222.0",
+  "date": "2026-07-18",
+  "highlights": [
+   {
+    "title": "Dein Plan lernt deine echten Wochenstunden",
+    "description": "Wenn dein Training über mehrere echte Wochen hinweg konstant über oder unter deinen eingestellten Wochenstunden lag, schlägt dir dein Coach jetzt eine neu kalibrierte Wochenbasis vor, die zu deinem tatsächlichen Training passt. Stimmst du zu, richtet sich dein Plan auf den neuen Wert aus und leitet deine Phasenziele neu ab; behältst du deinen aktuellen Plan, ändert sich nichts. Deload-, Taper- und Urlaubswochen werden ausgenommen, sodass eine einzelne lockere Woche nie auslöst – nur eine echte, anhaltende Veränderung.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.219.0",
+  "date": "2026-07-17",
+  "highlights": [
+   {
+    "title": "Sieh, wohin sich deine Zielzeit entwickelt",
+    "description": "Dein Ziel zeigt jetzt eine wöchentliche Zielzeit-Prognose: eine realistische Zeitspanne auf Basis deines aktuellen Trainings, jede Woche aktualisiert und gegen dein Ziel aufgetragen, damit du den Trend bis zum Renntag verfolgen kannst. Dein Coach berücksichtigt, was die Zahlen allein nicht sehen – Verletzungen, Höhenmeter der Strecke, einen heißen Startzeitpunkt – und erklärt dir in einem Satz, warum sich die Prognose bewegt hat. Der Heute-Bildschirm zeigt deine aktuelle Spanne auf einen Blick, samt Veränderung zur Vorwoche.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.214.0",
+  "date": "2026-07-13",
+  "highlights": [
+   {
+    "title": "Cleverere Pläne für Trail- und Bergläufe",
+    "description": "Wenn du Trail- oder Bergläufer bist – oder für ein hügeliges oder bergiges Rennen trainierst – gibt dir dein Coach jetzt die nötigen Höhenmeter vor: Höhenmeter-Ziele bei Schlüsselläufen und -wanderungen, Bergintervalle und progressives Downhill-Training, wobei jede Woche aus den Schlüsseleinheiten deiner Trainingsphase aufgebaut wird. Sag deinem Coach, dass du Trailläufer bist, und er passt deinen Plan an das Gelände an. Peak-Wochen behalten ihre rennspezifische Intensität, und Plananpassungen bei Ermüdung bleiben verhältnismäßig, statt deine harten Einheiten zu streichen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.212.0",
+  "date": "2026-07-12",
+  "highlights": [
+   {
+    "title": "Deine wöchentlichen Termine, garantiert",
+    "description": "Erzähl deinem Coach von deinem Dienstags-Clublauf oder dass du zweimal pro Woche schwimmst, und daraus wird eine echte Verpflichtung – nicht nur eine Notiz. Jeder Wochenplan wird jetzt vor der Auslieferung gegen deine Termine geprüft, damit deine festen Einheiten wirklich dort erscheinen, wo sie hingehören. Verwalte sie jederzeit im neuen Bereich „Meine Termine“ und sieh im neuen Bereich „Meine Gesundheit“ ein, was dein Coach über deine Gesundheit weiß – Verletzungen, Krankheit, Schweregrad und Status.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.207.0",
+  "date": "2026-07-10",
+  "highlights": [
+   {
+    "title": "Füge ein zweites Training hinzu, ohne das erste zu verlieren",
+    "description": "Dein Coach kann jetzt für heute oder einen zukünftigen Tag eine zusätzliche geplante Einheit hinzufügen und alles bereits Eingeplante beibehalten. Bitte um ein zweites Training, eine abendliche Mobility-Einheit oder eine weitere lockere Ausfahrt – die neue Einheit wird neben der bestehenden hinzugefügt, statt sie zu ersetzen. Die Änderung erscheint als übersichtliche Bestätigung im Coach-Chat.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Renn-Debrief kommt auf Android",
+    "description": "Alles, was dein Rennen verdient, gibt es jetzt auch auf Android: Das Renn-Debrief führt dich nach einem absolvierten Rennen durch deinen Trainingsblock — was funktioniert hat, was dich Zeit gekostet hat und welche Erkenntnisse sich dein Coach merken soll — gefolgt von einem kurzen Aufräum-Schritt für deine Erinnerungen, Ziele und deinen nächsten Block. Triathleten bekommen die Gesamtrennen-Ansicht mit offizieller und GPS-Gesamtzeit, Wechselzeiten und jeder Disziplin nur einen Tipp entfernt. Deine Ziele-Seite wurde passend dazu neu gestaltet, mit deinem Saisonziel im Mittelpunkt.",
+    "category": "new",
+    "platform": "Android"
+   }
+  ]
+ },
+ {
+  "version": "0.205.0",
+  "date": "2026-07-09",
+  "highlights": [
+   {
+    "title": "Dein Morgen-Check-in, jetzt in Farbe",
+    "description": "Deine Kacheln für HRV, Ruhepuls und Schlaf auf 'Heute' sind jetzt farbcodiert, damit du deinen Morgen auf einen Blick liest: grün, wenn sich ein Wert in die gesunde Richtung bewegt — HRV hoch, Schlaf hoch, Ruhepuls runter — und rot, wenn er in die ermüdende Richtung driftet. Kleine nächtliche Schwankungen bleiben neutral, sodass nur die Veränderungen auffallen, die wirklich zählen.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Ein klügerer Anstoß nach deinem Rennen",
+    "description": "Die \"Was kommt als Nächstes?\"-Karte nach einem Rennen folgt jetzt deinem Ablauf: Sie führt dich zuerst zu deinem Renn-Debrief, dann zum Folgeschritt, falls du dein nächstes Ziel noch nicht befördert hast — und tritt beiseite, sobald dein nächstes A-Ziel steht, statt hängen zu bleiben.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.204.0",
+  "date": "2026-07-08",
+  "highlights": [
+   {
+    "title": "Renn-Debrief räumt nach deinem Rennen auf",
+    "description": "Nachdem du dein Renn-Debrief durchgesehen hast, führt dich dein Coach durch einen kurzen Aufräum-Schritt: Er schlägt vor, inzwischen veraltete Erinnerungen zu entfernen, dein nächstes Ziel zum Hauptfokus zu machen, dein Trainingsprofil dort zu aktualisieren, wo dich der Block weitergebracht hat, und deinen nächsten Block mit dem eben Gelernten neu zu planen. Jeden Vorschlag bestätigst du einzeln — nichts ändert sich, bevor du zustimmst. Das Debrief öffnet sich außerdem jetzt im Vollbild, sodass das Speichern deiner Erkenntnisse mehr Platz hat.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.197.0",
+  "date": "2026-07-06",
+  "highlights": [
+   {
+    "title": "Deine Ziel-Readiness trägt jetzt über Wochen hinweg",
+    "description": "Dein Readiness-Stand setzt sich nicht mehr jeden Montag zurück — er trägt jetzt den Schwung deiner letzten Wochen in die neue hinein und pendelt sich ein, während die Woche voller wird. Er gewichtet außerdem die Sportarten, die für dein Ziel zählen: Training in deinen Zielsportarten zählt voll, Einheiten nebenbei zählen weniger, sodass eine Ausgleichs-Ausfahrt vor einem Marathon keine lockere Laufwoche mehr überdeckt. Und wenn es für die aktuelle Woche keinen Plan gibt, wird dein Stand trotzdem angezeigt, nun basierend auf deinen letzten Wochen.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Dein Triathlon als ein Rennen",
+    "description": "Triathlon gefinisht? Die neue Gesamtrennen-Ansicht bringt Schwimmen, Rad und Laufen zusammen: offizielle und GPS-Gesamtzeit, Wechselzeiten und die Analyse jeder Disziplin nur einen Tipp entfernt. Trage deine offizielle Zielzeit ein und bewerte das Rennen einmal — genau dort, wo der ganze Tag zusammenkommt — während jede Disziplin ihre eigene Splitzeit behält, jetzt mit GPS vorausgefüllt.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.192.0",
+  "date": "2026-07-03",
+  "highlights": [
+   {
+    "title": "Klügere Zuordnung an Tagen mit mehreren Einheiten",
+    "description": "Zwei Ausfahrten aufgezeichnet, aber nur eine war die geplante Einheit? Dein Coach betrachtet jetzt den ganzen Tag, bevor er entscheidet, welche Aktivität welches geplante Workout erfüllt hat — und korrigiert sich, wenn später eine besser passende Einheit synchronisiert wird. Zusätzliche Einheiten verstecken deinen Plan nicht mehr: Hast du einen Teil des Tages absolviert, zeigt die Tageskarte weiterhin deine verbleibenden geplanten Workouts, mit der Extra-Aktivität als Bonus. Auch Renntage sind sicherer — ein Warm-up vor dem Rennen kann nie mehr den Platz des Rennens einnehmen.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Wisse jederzeit, wo du bei deinem Ziel stehst",
+    "description": "Deine Ziel-Readiness steht jetzt für alle im Mittelpunkt. Die Today-Ansicht trägt eine Status-Karte, die dir auf einen Blick zeigt, ob du diese Woche aufbaust, auf Kurs bist oder aus dem Rhythmus — basierend darauf, wie dein tatsächliches Training im Vergleich zu deinem Wochenziel liegt, mit deinem Ziel und den verbleibenden Wochen direkt daneben. Dasselbe Signal erscheint als kleine Readiness-Anzeige in deinem Wochenrückblick, und dein Coach zitiert im Chat exakt dieselben Zahlen — was du siehst und was du hörst, widerspricht sich nie.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Ziel-Readiness und Morgen-Check-in auf einer Karte",
+    "description": "Der obere Bereich deiner Today-Ansicht ist jetzt eine einzige Karte. Deine Ziel-Readiness sitzt auf einem farbigen Status-Streifen — grün, wenn du auf Kurs bist, bernsteinfarben, wenn du aus dem Rhythmus geraten bist — und deine nächtlichen Signale (HRV, Ruhepuls, Schlaf) sowie der Morgen-Check-in liegen direkt darunter. Nach dem Check-in treten die Stimmungs-Buttons zur Seite und deine Werte bleiben. Und wenn es hakt, ist die Frage an deinen Coach, woran es liegt, nur einen Tipp entfernt.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Renn-Debrief: Was dir dein ganzer Trainingsblock beibringt",
+    "description": "Nach einem großen Rennen kann dein Coach jetzt auf den gesamten Trainingsblock zurückblicken — jede Phase, Woche und Einheit, geplant versus tatsächlich absolviert. Das Renn-Debrief zeigt, wo du am stärksten warst, wo Zeit verloren ging und wie sich all das am Renntag gezeigt hat. Du wählst aus, welche Erkenntnisse für dich stimmen, und dein Coach merkt sie sich: Sie fließen direkt in die Planung deines nächsten Ziels ein. Du findest es bei deinem abgeschlossenen Wettkampfziel — oder folgst der Karte am Morgen danach.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.186.0",
+  "date": "2026-07-02",
+  "highlights": [
+   {
+    "title": "Deine Morgen-Readiness — von der Uhr zu deinem Coach",
+    "description": "Triple Peaks liest jetzt deine nächtlichen Erholungssignale aus Apple Health — HRV, Ruhepuls und Schlaf — und zeigt sie dir jeden Morgen in einer neuen Morgen-Readiness-Karte direkt unter deinem Ziel-Status, verglichen mit deiner eigenen 7-Tage-Baseline. Dein Check-in wohnt jetzt auch dort, und dein Coach gewichtet die objektiven Signale neben deinem eigenen Empfinden: ein schwacher HRV-Morgen trotz \"fühle mich gut\" ist ein Signal, über das es sich zu reden lohnt. Nächtliche Metriken setzen derzeit die Apple-Health-Integration voraus; weitere Quellen sind geplant — Android über Health Connect und Garmin, sobald Garmin sein Entwicklerprogramm wieder öffnet. Auf Android kommt die neu gestaltete Check-in-Karte schon jetzt.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Dein Coach ändert Einstellungen, Zonen und Wettkampfziele direkt im Chat",
+    "description": "Sag es einfach deinem Coach. \"Ich habe jetzt nur noch 5 Stunden pro Woche\", \"mein FTP ist 240\", \"meine Schwelle liegt bei 155\", \"zeig Distanzen in Meilen\" oder \"verschieb meinen Oktober-Marathon in den November\" — und er nimmt die Änderung wirklich vor, direkt im Gespräch, statt nur darüber zu reden. Trainingsprofil, Trainingszonen, App-Einstellungen und Wettkampfziele sind jetzt per Chat bearbeitbar, und der Coach bestätigt genau, was er gesetzt hat. Wenn etwas noch nicht geändert werden kann, sagt er es dir ehrlich, statt so zu tun als ob.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.180.0",
+  "date": "2026-06-30",
+  "highlights": [
+   {
+    "title": "Sieh die Auswirkung, bevor du deinen Plan änderst",
+    "description": "Wenn du deinen Coach bittest, eine Einheit zu erleichtern, zu kürzen oder hinzuzufügen, zeigt er dir jetzt genau, wie sich das auf deine Zielbereitschaft auswirkt — eine einfache Vorher-nachher-Anzeige direkt auf der Plan-Update-Karte. Eine wichtige Einheit zu erleichtern zeigt den ehrlichen Preis; Belastung wieder aufzubauen zeigt dir den Weg zurück zum Plan. Keine Diagramme, kein Fachjargon, kein Gegenwind — nur ein klares Bild, damit die Entscheidung bei dir bleibt.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.179.0",
+  "date": "2026-06-28",
+  "highlights": [
+   {
+    "title": "Mach den Coach zu deinem",
+    "description": "Gib deinem KI-Coach in den Einstellungen einen Namen — er erscheint im Chat-Kopf, und der Coach hört darauf. Auch im Chat ist der Coach hilfreicher: Öffne eine Einheit und tippe auf „Über dieses Workout chatten“, um genau diese Einheit zu besprechen, frage, wie eine abgeschlossene Aktivität lief, und der Coach ruft sofort ihre Analyse auf, und wenn er deine Woche verschiebt, tauscht oder umbaut, siehst du jede Änderung als klare Tageskarte statt im Text versteckt.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Setze ein Ziel über jede Renndistanz",
+    "description": "Du startest bei etwas, das kein klassischer 5K, 10K, Halbmarathon oder Marathon ist? Wähle „Benutzerdefiniert“, wenn du ein Wettkampfziel hinzufügst, und gib die genaue Distanz ein — Ultras und ungewöhnliche Events sind jetzt vollwertig, und dein Plan richtet den Wettkampf nach der von dir angegebenen Distanz aus.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.175.0",
+  "date": "2026-06-22",
+  "highlights": [
+   {
+    "title": "Push-Benachrichtigungen jetzt auf Android",
+    "description": "Android kann jetzt Push-Benachrichtigungen empfangen — werde benachrichtigt, wenn dein Plan bereit ist, dein Morgen- oder Renntag-Briefing eintrifft, eine Aktivität analysiert wurde oder dein Coach etwas für dich hat. Aktiviere sie in den Einstellungen; durch Tippen auf eine Benachrichtigung gelangst du direkt zum passenden Bildschirm.",
+    "category": "new",
+    "platform": "Android"
+   }
+  ]
+ },
+ {
+  "version": "0.174.0",
+  "date": "2026-06-21",
+  "highlights": [
+   {
+    "title": "Das Wetter direkt in deinem Plan",
+    "description": "Deine Wochenplan-Karten zeigen jetzt das Wetter auf einen Blick — ein Symbol für die Bedingungen und die Höchst-/Tiefsttemperatur des Tages, direkt im Kartenkopf. Öffne eine Einheit für mehr: auch Regenwahrscheinlichkeit und Wind. Es nutzt deinen Trainingsort (oder dein Trainingslager, wenn du unterwegs bist), damit du erkennst, ob die morgige Einheit eher Jacke oder Sonnencreme verlangt. Tage, die für eine Vorhersage noch zu weit entfernt sind, zeigen einfach noch keines an.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.173.0",
+  "date": "2026-06-19",
+  "highlights": [
+   {
+    "title": "Meilen, Fahrenheit und mehr — wähle deine Einheiten",
+    "description": "Lieber imperiale Einheiten? In den Einstellungen kannst du jetzt die ganze App auf Meilen, Fuß, Meilen pro Stunde, Fahrenheit und das 12-Stunden-Format umstellen — das Tempo erscheint in Minuten pro Meile und Schwimmen pro 100 Yards. Metrisch bleibt Standard, und dein Coach spricht automatisch in deinen Einheiten. Verbinde Strava, und wir übernehmen deine Strava-Einheiteneinstellung.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.172.0",
+  "date": "2026-06-18",
+  "highlights": [
+   {
+    "title": "Willkommen zurück — lass uns dort weitermachen, wo du aufgehört hast",
+    "description": "Eine Weile weg gewesen? Wenn du die App nach einer Pause öffnest, begrüßt dich Triple Peaks jetzt mit einem schnellen Weg zurück ins Training. Kurze Lücke mitten im Plan? Ein Tippen holt deinen Plan auf den heutigen Stand. Länger weg gewesen? Ein 30-Sekunden-Check bestätigt, dass dein Ziel, deine Wochenstunden und Zonen noch passen, bevor dein Plan neu aufgebaut wird. Gerade dein Zielrennen beendet? Wir helfen dir, dein nächstes Ziel zu wählen. Du kannst deinem Coach jederzeit sagen, was los war — Verletzung, Alltag oder einfach eine Pause — damit dein Plan dich behutsam wieder heranführt.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Präzisere Renntags-Briefings für Auswärtsrennen",
+    "description": "Füge einem Wettkampfziel den Startort und die Startzeit hinzu, und dein Renntags-Briefing nutzt jetzt das Wetter am tatsächlichen Austragungsort — passend zum Startschuss — statt von deinem üblichen Trainingsort auszugehen. Wähle Ort und Zeit beim Erstellen oder Bearbeiten eines Wettkampfziels.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.170.3",
+  "date": "2026-06-17",
+  "highlights": [
+   {
+    "title": "Renn-Feedback jederzeit bearbeiten",
+    "description": "Du hast deine Renn-Notizen, Bewertung, Bedingungen oder die offizielle Zielzeit abgeschickt und möchtest etwas ändern? Du kannst dein Renn-Feedback jetzt jederzeit erneut öffnen und aktualisieren — du bist nicht mehr an deine erste Eingabe gebunden. Wenn du die offizielle Zeit anpasst, wird die Rennanalyse weiterhin verfeinert, aber nur, wenn sich die Zeit tatsächlich ändert.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.170.1",
+  "date": "2026-06-16",
+  "highlights": [
+   {
+    "title": "Ein neu gestalteter Trainingsbildschirm",
+    "description": "Wenn du ein Training in deinem Plan antippst, öffnet sich jetzt eine Vollbildansicht im Stil der restlichen App: ein kräftiger, sportfarbener Kopfbereich, deine Einheit als übersichtliche Timeline, die Begründung und Notizen des Coachs an einem Ort und eine zentrale Aktion, die sich dem Tag anpasst — Mit Coach anpassen für anstehende Einheiten, Analyse ansehen nach dem Abschluss oder Mit Coach verschieben, wenn du sie verpasst hast. An Tagen, an denen du etwas anderes als geplant trainiert hast, steht jetzt das im Vordergrund, was du tatsächlich gemacht hast.",
+    "category": "improved",
+    "platform": "iOS"
+   },
+   {
+    "title": "Keine doppelten Aktivitäten mehr aus Apple Health",
+    "description": "Wenn mehrere Apps auf deinem Telefon dasselbe Workout in Apple Health schreiben, erscheint dein Lauf nicht mehr doppelt. Triple Peaks erkennt jetzt zwei Aufzeichnungen derselben Einheit — auch wenn sie ein paar Minuten versetzt starten und leicht unterschiedliche Distanzen melden — und behält nur eine Aktivität, damit dein Plan und deine Trainingssummen korrekt bleiben.",
+    "category": "fixed",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.168.0",
+  "date": "2026-06-15",
+  "highlights": [
+   {
+    "title": "Apple Health – richtig gemacht für die Apple Watch",
+    "description": "Wenn du nur mit einer Apple Watch trainierst, bekommst du in Triple Peaks jetzt dieselben Einblicke wie Strava-Nutzer. Beim Verbinden wird deine jüngste Trainingshistorie sofort importiert, neue Workouts synchronisieren sich zuverlässig im Hintergrund, und deine Läufe und Radfahrten erhalten dieselben Herzfrequenzzonen und die gleiche Intervallerkennung. Beim Trennen wird nichts mehr gelöscht — deine importierten Aktivitäten bleiben erhalten — und der Bildschirm ist jetzt ehrlich, was er sehen kann und was nicht.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.161.0",
+  "date": "2026-06-12",
+  "highlights": [
+   {
+    "title": "Feedback zum Workout, das einfach funktioniert",
+    "description": "Mitzuteilen, wie sich ein Workout angefühlt hat, ist kein Kampf mehr. Das Feedback-Feld öffnet sich jetzt in einem eigenen Bereich direkt über der Tastatur — die Tab-Leiste verdeckt deine Eingabe nicht mehr. Nach dem Absenden zeigt der Bildschirm den Fortschritt der erneuten Analyse und aktualisiert sich von selbst, sobald deine neue Analyse fertig ist. Dein Feedback bleibt auf der Aktivität sichtbar, damit du immer weißt, dass es berücksichtigt wurde.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Ein frisches Zuhause für deinen Coach",
+    "description": "Der Coach öffnet sich jetzt im Vollbild aus seinem neuen Platz in der neu gestalteten Glas-Tab-Bar — zum Schließen einfach nach unten wischen. Während er arbeitet, siehst du eine elegante Statuszeile statt drehender Zahnräder, und wenn er Plan-Änderungen vorschlägt, bekommst du eine richtige Prüfansicht: Vergleiche jede Änderung im Detail, wähle aus, was du übernehmen willst, und sieh, wie dein Plan an den geänderten Stellen aufleuchtet.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.158.0",
+  "date": "2026-06-11",
+  "highlights": [
+   {
+    "title": "Dein Coach hält seine Notizen über dich aktuell",
+    "description": "Die Erinnerungen deines Coaches veralten nicht mehr. Einmal pro Woche prüft er seine Notizen: klar Überholtes (ein gelaufenes Rennen, eine vergangene Reise) wird automatisch aufgeräumt — mit Ein-Tipp-Rückgängig — und bei Unsicherheit bekommst du eine kurze „Stimmt das noch?“-Karte oder eine beiläufige Nachfrage im Chat. Erinnerungen kannst du jetzt auch selbst in den Einstellungen anlegen und bearbeiten, und die Vorschläge im Wochenrückblick öffnen ein Coach-Gespräch statt der Einstellungen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.157.0",
+  "date": "2026-06-10",
+  "highlights": [
+   {
+    "title": "Ein Wochenrückblick, der deine Konstanz feiert",
+    "description": "Dein Wochenrückblick hat ein großes Upgrade bekommen. Er startet jetzt mit einer ehrlichen Wochen-Bewertung statt einem roten Abwärtspfeil — eine voll absolvierte Woche zählt als der Erfolg, der sie ist, auch wenn sich eine Einheit härter anfühlte als letzte Woche. Neue „Erfolge“ zeigen, was gut lief, ein klarer Fokus sagt dir, worum es nächste Woche geht, und der Rückblick erinnert sich an den Fokus der Vorwoche und an deine Gespräche mit dem Coach — deine Trainingsgeschichte hängt endlich Woche für Woche zusammen.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Präzisere Coach-Unterhaltungen",
+    "description": "Dein Coach sendet jetzt nur noch, was sich seit deiner letzten Nachricht geändert hat, statt alles Bekannte zu wiederholen — lange Unterhaltungen bleiben dadurch deutlich länger schnell und fokussiert. Nie bestätigte Planvorschläge laufen jetzt nach einem Tag ab, statt wieder aufzutauchen. Gebaut zusammen mit Claude Fable 5.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.154.4",
+  "date": "2026-06-06",
+  "highlights": [
+   {
+    "title": "An die Apple Watch gesendete Intervalle behalten die richtigen Dauern",
+    "description": "Manche strukturierten Intervalleinheiten wurden mit auf Sekunden geschrumpften Zeiten an deine Uhr übertragen — aus 15 Minuten Aufwärmen wurden 15 Sekunden. Die Dauern werden jetzt korrekt übernommen, sodass das Training auf deiner Uhr zum Plan in der App passt.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.154.1",
+  "date": "2026-06-03",
+  "highlights": [
+   {
+    "title": "Training per Drag-and-drop verschieben funktioniert wieder",
+    "description": "Eine Einheit im Wochenplan per Drag-and-drop auf einen anderen Tag zu ziehen funktioniert wieder — auch wenn an diesem Tag bereits ein Training liegt. Die Einheit landet dort jetzt als zweite Einheit, statt zurückzuspringen.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.153.2",
+  "date": "2026-05-31",
+  "highlights": [
+   {
+    "title": "Nächste Woche planen zeigt jetzt klaren Fortschritt",
+    "description": "Wenn du deine nächste Woche planst, zeigt die Karte jetzt einen klaren Ladezustand, während wir sie im Hintergrund erstellen — kein Rätselraten mehr, ob dein Tippen angekommen ist. Deine neue Woche erscheint automatisch, sobald sie bereit ist.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.153.0",
+  "date": "2026-05-30",
+  "highlights": [
+   {
+    "title": "Dein Coach merkt sich, was ihr besprochen habt",
+    "description": "Erwähnst du etwas gegenüber deinem Coach — dass du es wegen eines gereizten Knies ruhiger angehst, eine wiederkehrende Einschränkung — bleibt das jetzt über Sitzungen hinweg erhalten. Deine nächste Trainingsanalyse und Plananpassungen berücksichtigen dieses Gespräch, statt jedes Mal von vorn zu beginnen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.151.0",
+  "date": "2026-05-25",
+  "highlights": [
+   {
+    "title": "Coach-Planänderungen sind zuverlässiger",
+    "description": "Wenn du deinen Coach bittest, deine Woche anzupassen, ändert er jetzt genau die Einheiten, die du meinst — ohne versehentlich das andere Training an einem Tag mit zwei Einheiten zu löschen. Und das Entfernen einer einzelnen Einheit lässt den Rest deiner Woche zuverlässig unangetastet.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Coach-Planänderungen sind schlauer — und sofort sichtbar",
+    "description": "Drei Verbesserungen für Planänderungen im Chat. Wenn du deinen Coach bittest, eine Einheit zu verschieben, wird sie jetzt wirklich verschoben — dasselbe Training, neuer Tag — statt heimlich durch ein anderes ersetzt zu werden. Dein Coach kann außerdem eine einzelne Einheit ganz entfernen und diesen Slot zu einem Ruhetag machen, ohne den Rest der Woche anzutasten. Und sobald dein Coach den Plan ändert, aktualisieren sich deine Plan- und Heute-Ansicht sofort — du musst nichts mehr schließen und erneut öffnen, um die Änderung zu sehen.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.149.1",
+  "date": "2026-05-24",
+  "highlights": [
+   {
+    "title": "Eine Woche im Trainingslager neu planen",
+    "description": "Eine einzelne Woche eines mehrwöchigen Trainingslagers zu löschen und dann neu zu planen, blieb bisher hängen — die Woche blieb leer. Jetzt wird sie sauber neu erstellt: deine bereits absolvierten Einheiten bleiben erhalten, die gelöschte Woche kommt als Teil des Trainingslagers zurück, und der Rest des Lagers bleibt unverändert.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.143.0",
+  "date": "2026-05-20",
+  "highlights": [
+   {
+    "title": "Plan umsortieren — und in Ruhe überprüfen",
+    "description": "Workouts der aktuellen Woche im Plan-Tab umzusortieren hat dich bisher in eine lange Wartezeit gezwungen, während dein Coach jeden Drop analysiert hat — und meistens hast du das Ergebnis verpasst, weil du längst weitergeblättert hattest. Jetzt kannst du frei verschieben — sobald sich deine Änderungen gesetzt haben, erscheint ein subtiler 'N Änderungen — überprüfen?'-Button. Tippe drauf, wann du bereit bist; wir benachrichtigen dich, sobald der Coach-Vorschlag auf Heute landet — dann öffnen, übernehmen oder beibehalten, fertig.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.142.0",
+  "date": "2026-05-19",
+  "highlights": [
+   {
+    "title": "Strava-Löschungen und manuelle Synchronisation funktionieren jetzt zuverlässig",
+    "description": "Zwei Bugfixes und eine Verhaltensänderung für die Aktivitäts-Synchronisation. In Strava gelöschte Aktivitäten werden jetzt wirklich aus Triple Peaks entfernt (ein Hibernate-Fehler hat zuvor alle Löschungen unterdrückt). Und beim Tippen auf Sync gleichen wir jetzt die letzten 30 Tage mit Strava ab — eine Aktivität, die du versehentlich nur in Triple Peaks gelöscht hast, kommt mit der nächsten Synchronisation zurück, statt verloren zu bleiben, weil Triple Peaks bisher nur nach Aktivitäten gesucht hat, die neuer als die zuletzt bekannte waren.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Sieh genau, was sich in einer Plananpassung ändert",
+    "description": "Wenn dein Coach eine Plananpassung vorschlägt, siehst du jetzt für jedes Training klar Vorher und Nachher — Dauer 70 min → 40 min, Intensität Threshold → Easy, Pace 4:45 → 5:40. Sportartwechsel bekommen ein eigenes Highlight (Laufen → Rad), neue Trainings ein Neu-Badge, und ein durch Ruhe ersetztes Training zeigt, was wegfällt. Kein Raten mehr — du siehst auf einen Blick, was sich ändert.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.132.0",
+  "date": "2026-05-10",
+  "highlights": [
+   {
+    "title": "Renntag-Briefing jetzt um 18 Uhr — und eine Würdigung nach dem Finish",
+    "description": "Dein Renntag-Briefing kommt jetzt am Vorabend um 18 Uhr — genau dann, wenn du dich aufs Rennen vorbereitest. Am Renntagmorgen tritt das normale Morgen-Briefing zurück, damit das Renntag-Briefing den Bildschirm gehört. Und sobald deine Renn-Aktivität synchronisiert und analysiert ist, wird aus der Briefing-Karte eine Würdigung: Zielzeit, Performance-Bewertung und die Stärken, die dein Coach gesehen hat — als Hero-Karte für den Rest des Renntags.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.131.0",
+  "date": "2026-05-09",
+  "highlights": [
+   {
+    "title": "Renntag-Briefing am Vorabend",
+    "description": "Am Abend vor jedem Renn-Ziel schickt dir dein Coach jetzt ein eigenes Renntag-Briefing. Es prüft dein angepeiltes Ziel ehrlich gegen deine letzten Long Runs, schlägt ein realistisches Finish-Fenster vor und liefert Pacing, Streckentaktik und Verpflegung. Mit einem Tipp öffnest du den Coach-Chat mit dem Rennen bereits im Kontext — frag zu Pacing, dem Anstieg, dem Downhill, der Verpflegung, allem.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.128.0",
+  "date": "2026-05-07",
+  "highlights": [
+   {
+    "title": "Sag deinem Coach, an welchen Tagen du nicht trainieren kannst",
+    "description": "Die Planerstellung hat jetzt eine Vollbild-Ansicht mit einer 7-Tage-Chipauswahl. Tippe die Tage an, an denen du nicht kannst — Meetings, Reisen, Erholung — und der Coach plant für diese Tage Ruhe statt zu raten. Das Freitextfeld und der Stundenregler sind weiterhin für alles andere da.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.127.0",
+  "date": "2026-05-05",
+  "highlights": [
+   {
+    "title": "Wochenpläne laufen jetzt im Hintergrund",
+    "description": "Die Wochenplan-Generierung blockiert die App nicht mehr für drei Minuten. Tippe auf Generieren, nutze Triple Peaks weiter, und wir schicken dir eine Push-Benachrichtigung, sobald deine Woche fertig ist. Ältere App-Versionen funktionieren weiter — ein erneuter Versuch erzeugt aber keinen doppelten Plan mehr.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.124.1",
+  "date": "2026-05-03",
+  "highlights": [
+   {
+    "title": "Wischen zum Verwerfen ist auf Today zurück",
+    "description": "Die Karten Aktivitäts-Insight, Wochenfortschritt und Wetter auf Today lassen sich wieder verwerfen — nach links wischen für die ersten beiden, neue „Verwerfen“-Pille im Wetter-Ausklapp antippen. Die Morgen-Erzählung bleibt stehen und verschwindet automatisch, sobald du dem Coach antwortest.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Android zieht nach: tippe für das Warum, klappe das Wetter auf",
+    "description": "Der Hero auf Android entspricht jetzt der iOS-Version — „Warum?“ tippen für eine tiefere Begründung, die das heutige Training mit Ziel, Phase und kürzlichen Qualitätseinheiten verknüpft, und auf den Chevron in der Wetter-Zeile tippen für Temperatur, Regenwahrscheinlichkeit und Wind plus „Alternativen besprechen“-Pille, die den Coach mit der richtigen Frage öffnet.",
+    "category": "new",
+    "platform": "Android"
+   }
+  ]
+ },
+ {
+  "version": "0.124.0",
+  "date": "2026-05-02",
+  "highlights": [
+   {
+    "title": "Today wird smarter — tippe für das Warum, das Wetter und was du tun solltest",
+    "description": "Der Today-Hero versteckt die volle Coach-Begründung jetzt hinter einem Tipp. Öffne sie für eine 3- bis 4-sätzige Erzählung, die das heutige Training mit deinem Ziel, deiner Phase und einer kürzlichen Qualitätseinheit verbindet — plus eine Erlaubnis zum Zurückschalten, falls die Beine müde sind. Auch der in den Hero integrierte Wetter-Hinweis ist jetzt tippbar: ausklappen für Temperatur, Regenwahrscheinlichkeit, Wind und Eignung für die Sportart des Tages, dann \"Alternativen besprechen\" antippen — der Coach öffnet mit der richtigen Frage im Chat (\"Verschieben, tauschen oder ausfallen lassen?\") statt eines leeren Eingabefelds. Wetter-Hinweise fürs Rad lösen außerdem nicht mehr unnötig aus, sondern reagieren jetzt auf die echte Regenwahrscheinlichkeit, nicht auf einen aggregierten Score.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Today-Tab — ein neuer Look, der sich an deinen Tag anpasst",
+    "description": "Today liest sich morgens, nach dem Training und an Ruhetagen jetzt jeweils anders. Pro-Athleten öffnen mit einer neuen Morgen-Briefing-Karte — eine zweisätzige Coach-Stimme, die das gestrige Training mit der heutigen Einheit verknüpft. Nach dem Sync springt die gerade absolvierte Aktivität als Hero mit Score-Ring nach oben; Ruhetage bekommen ihren eigenen salbeigrünen Look; und der Wochenfortschritt zeigt das Volumen jetzt nach Sportart aufgeschlüsselt.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.115.0",
+  "date": "2026-04-30",
+  "highlights": [
+   {
+    "title": "Karten auf Today wegwischen",
+    "description": "Mit einer Karte auf Today fertig? Nach links wischen und sie ist weg. So bleibt dein Morgen-Blick auf das Wesentliche gerichtet.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "1.40.0",
+  "date": "2026-04-26",
+  "highlights": [
+   {
+    "title": "Plan-Tab neu gestaltet — Karten als Hauptansicht",
+    "description": "Der Plan-Tab öffnet jetzt mit einem ruhigeren, fokussierten Layout: minimaler Kopfbereich mit Woche und Phase, ein ausklappbarer Kalender (Griff antippen, um zwischen Tagesleiste und Zwei-Wochen-Raster zu wechseln) sowie größere, sport-typisierte Tageskarten. Tage mit mehreren Workouts zeigen einen Multi-Sport-Gradienten im Header (Rad + Lauf, Lauf + Kraft), damit die Sportarten des Tages sofort erkennbar sind. Jede Karte erklärt jetzt außerdem die tatsächliche Begründung des Coaches für das Workout — etwa \"Heute Schwelle, um die VO2-Adaption von Dienstag zu festigen\" statt einer Beschreibung der Einheit — und der Warum-Block aktualisiert sich bei Plananpassungen. Vergangene Tage zeigen ein grünes Abschluss-Banner mit Treffergrad und Durchschnitts-HF; die Workout-Detailansicht für abgeschlossene Einheiten enthält ein sechs-feldriges Ergebnisraster (Dauer, Distanz, Ø HF, Ø Leistung, Anstrengung, Treffergrad %). Karten verpasster Tage haben einen Verschieben-Button, der den Coach mit geladenem Workout-Kontext öffnet, damit er die Einheit direkt verlegen kann. Drag-and-Drop im Kalender lässt 4,5 Sekunden lang ein Rückgängig-Ankerelement stehen, damit versehentliche Verschiebungen leicht zurückzunehmen sind.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.113.0",
+  "date": "2026-04-25",
+  "highlights": [
+   {
+    "title": "Neuer Onboarding-Flow",
+    "description": "Wir haben das Onboarding um das gebaut, was wirklich zählt — Sportart wählen, Ziel setzen, Wochenstunden angeben, fertig. Alle weiteren Details (Zonen, Bestzeiten, Trainingslager, Notizen) liegen hinter einem optionalen Tune-Schritt, den du in deinem Tempo bearbeitest.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.110.1",
+  "date": "2026-04-23",
+  "highlights": [
+   {
+    "title": "HF-Zonen-Setup nimmt sowohl Schwellen-HF als auch Max HF an",
+    "description": "Im manuellen HF-Zonen-Setup kannst du jetzt deine Schwellen-HF und deine tatsächliche Max HF gemeinsam eingeben — so entspricht die Z5-Obergrenze deinem echten Maximum statt einer Formel-Schätzung, die mehrere bpm daneben liegen kann. Nur Schwellen-HF oder nur Max HF funktionieren weiterhin wie bisher.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.109.1",
+  "date": "2026-04-20",
+  "highlights": [
+   {
+    "title": "Vom Coach vorgeschlagene Planänderungen lassen sich klarer und zuverlässiger übernehmen",
+    "description": "Wenn der Coach Änderungen an deinem Plan vorschlägt, fragt er jetzt immer erst \"Möchtest du diese Änderungen übernehmen?\" — und wenn du später zurückkommst, erinnert sich der Coach an den offenen Vorschlag, statt neu anzufangen. Das Übernehmen klappt jetzt zuverlässig.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Coach-Erkenntnisse auf Today verschwinden, sobald du sie besprochen hast",
+    "description": "Tippe auf eine Coach-Erkenntnis und schreibe dem Coach dazu — die Karte verschwindet jetzt aus dem aktiven Today-Bereich, statt dort unbegrenzt stehen zu bleiben.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Neue Datenschutz-Einstellungen für deinen KI-Coach",
+    "description": "Eine einmalige Übersicht erklärt, was dein KI-Coach sieht. In den Einstellungen kannst du jetzt deinen Coach-Verlauf zurücksetzen oder alles löschen, was sich der Coach über dich gemerkt hat.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Abgeschlossene Trainings zeigen die tatsächlich gelaufene Distanz",
+    "description": "Tageskarten für abgeschlossene Trainings zeigen jetzt die Distanz aus der verknüpften Aktivität statt der geplanten Distanz — ein Ziel von 10 km, das als 9,4 km aufgezeichnet wurde, wird also auch als 9,4 km angezeigt. Bei der Dauer war das bereits so; jetzt verhält sich die Distanz genauso.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.108.2",
+  "date": "2026-04-19",
+  "highlights": [
+   {
+    "title": "Coach-Erkenntnisse öffnen den Coach mit vollem Kontext",
+    "description": "Ein Tipp auf eine Coach-Erkenntnis auf Today öffnet jetzt den Coach-Chat mit Titel und Text der Erkenntnis direkt sichtbar — so siehst du sofort, worüber der Coach sprechen möchte. Tippe auf \"Mehr erfahren\" oder schreibe eine Rückfrage — der Coach weiß bereits, um welche Erkenntnis es geht.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.108.1",
+  "date": "2026-04-18",
+  "highlights": [
+   {
+    "title": "Was-ist-neu-Fenster passt wieder auf den Bildschirm",
+    "description": "Wenn zwei Versionen dasselbe Datum hatten, wurden die vier Neuerungen zusammengelegt und die Karte wuchs über den Bildschirmrand hinaus — der Schließen-Button war dann nicht mehr erreichbar. Jetzt scrollen die Neuerungen innerhalb der Karte und Kopfzeile und Buttons bleiben sichtbar.",
+    "category": "fixed",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.108.0",
+  "date": "2026-04-17",
+  "highlights": [
+   {
+    "title": "Today-Ansicht zeigt die wichtigste Karte zuerst",
+    "description": "Wenn dein Coach eine Plananpassung vorschlägt, steht sie jetzt ganz oben auf Today — mit einer klaren Anzahl der vorgeschlagenen Änderungen. Zum Überprüfen tippen und zustimmen oder ablehnen. Die Karten aktualisieren sich automatisch, wenn du deinen Plan änderst, ein Training abschließt oder auf einen Vorschlag reagierst.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Plananpassung direkt aus Today überprüfen",
+    "description": "Ein Tipp auf die Plananpassung-Karte öffnet jetzt direkt eine Überprüfungs-Ansicht mit den genauen Änderungen, die dein Coach vorschlägt. Kein Suchen mehr in den Aktivitätsdetails, um zuzustimmen oder abzulehnen.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Rennwochenenden mit mehreren Rennen werden richtig geplant",
+    "description": "Wenn du zwei Rennen in derselben Woche hast (z. B. Samstag und Sonntag), enthält dein Wochenplan jetzt für jeden Renntag ein echtes Rennworkout — nicht nur eine Aktivierung oder einen Ruhetag für das zweite Rennen.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Renn-Ziele werden zuverlässig abgeschlossen",
+    "description": "Nachdem du gerannt bist und deine offizielle Zielzeit eingereicht hast, wird das Ziel jetzt sofort als abgeschlossen markiert. Ein nächtliches Sicherheitsnetz schließt zusätzlich alle vergangenen Rennen, die durchgerutscht sind.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.107.0",
+  "date": "2026-04-15",
+  "highlights": [
+   {
+    "title": "Tägliches Briefing im Web",
+    "description": "Dein tägliches Briefing gibt es jetzt auch auf dem Web-Dashboard — sieh das heutige Training, Wetter, Coach-Erkenntnisse und deinen Stimmungs-Check direkt neben deinem Wochenplan.",
+    "category": "new",
+    "platform": "Web"
+   }
+  ]
+ },
+ {
+  "version": "0.106.0",
+  "date": "2026-04-14",
+  "highlights": [
+   {
+    "title": "Smarterer Morgen-Check-In",
+    "description": "Der tägliche Stimmungs-Check hat jetzt 3 klare Optionen — Gut, Müde oder Unwohl. Nicht fit? Ergänze Schlafqualität und Notizen. Dein Coach nutzt das, um die Empfehlungen für heute anzupassen.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Automatische Trainingsanpassungen",
+    "description": "Melde dich müde oder unwohl und dein Coach schlägt ein angepasstes Training vor — zum Beispiel einen Tempolauf durch einen leichten Erholungslauf ersetzen. Du entscheidest, ob du den Vorschlag annimmst.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.105.0",
+  "date": "2026-04-12",
+  "highlights": [
+   {
+    "title": "Dein tägliches Briefing",
+    "description": "Der neue Heute-Tab ist deine persönliche Kommandozentrale. Jeden Morgen erhältst du ein kuratiertes Briefing mit Trainingsvorschau, Wetter-Hinweisen und KI-gestützten Coach-Erkenntnissen — alles an einem Ort.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Morgen-Check-In",
+    "description": "Sag deinem Coach jeden Morgen, wie du dich fühlst. Dein Feedback hilft, die Trainingsintensität für den Tag anzupassen.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Proaktive Coach-Erkenntnisse",
+    "description": "Dein KI-Coach analysiert jetzt deine Trainingsmuster und zeigt Erkenntnisse, die du vielleicht übersiehst — wie ausgelassene Krafteinheiten oder Verbesserungstrends beim Tempo. Verfügbar für Pro-Abonnenten.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.104.0",
+  "date": "2026-04-11",
+  "highlights": [
+   {
+    "title": "Einstellungen funktionieren offline",
+    "description": "Alle Einstellungsbildschirme funktionieren jetzt ohne Internetverbindung. Dein zwischengespeichertes Profil, FTP, HR-Zonen, Benachrichtigungen und Einstellungen bleiben sichtbar — und ein deutliches Banner zeigt dir, wenn du zwischengespeicherte Daten siehst.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Keine Abstürze mehr im Offline-Modus",
+    "description": "Behoben: Absturz in iOS beim Öffnen der Standort- oder Neuigkeiten-Einstellungen ohne Internetverbindung.",
+    "category": "fixed",
+    "platform": "iOS"
+   },
+   {
+    "title": "Klarere Rückmeldung im Offline-Modus",
+    "description": "Wenn du offline bist und eine Änderung speichern willst, sind Buttons mit einem klaren Hinweis deaktiviert, anstatt still fehlzuschlagen. Die Standortsuche und die Promo-Code-Einlösung zeigen ebenfalls eine hilfreiche Meldung.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.103.0",
+  "date": "2026-04-03",
+  "highlights": [
+   {
+    "title": "Apple Health Anbindung",
+    "description": "Synchronisiere Trainings, Herzfrequenz, Leistung und Routendaten von Apple Health. Verbinde Strava und Apple Health gleichzeitig für das vollständigste Trainingsbild.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Intelligente Duplikaterkennung",
+    "description": "Bei gleichzeitiger Nutzung von Strava und Apple Health werden identische Trainings automatisch erkannt und deine bevorzugte Datenquelle hat Vorrang.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Primäre Datenquelle wählen",
+    "description": "Lege in den Einstellungen fest, welche Datenquelle Vorrang hat. Strava ist der Standard für Strava-Anmeldungen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.102.1",
+  "date": "2026-04-02",
+  "highlights": [
+   {
+    "title": "Pause-Camp-Typ",
+    "description": "Neue 'Pause'-Option beim Erstellen eines Camps — markiere Erholungswochen, Reisezeiten oder arbeitsreiche Phasen. Deine Wochenpläne reduzieren automatisch das Volumen.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Camp-Plan löschen",
+    "description": "Entferne einen generierten Camp-Plan, ohne das Camp selbst zu löschen. Du kannst ihn jederzeit neu generieren.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Verbesserte Camp-Datumsauswahl",
+    "description": "Start- und Enddatum eines Camps werden jetzt über ein visuelles Kalenderraster ausgewählt, anstatt separate Datumsauswahl-Dialoge zu öffnen.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.101.1",
+  "date": "2026-04-01",
+  "highlights": [
+   {
+    "title": "Verbesserte Kalenderansicht",
+    "description": "Der Kalender öffnet sich jetzt als Vollbild-Ansicht mit mehr Platz für beide Wochen. Trainings-Chips sind größer und zeigen mehr Details.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.101.0",
+  "date": "2026-03-31",
+  "highlights": [
+   {
+    "title": "Wetterstandort-Einstellungen",
+    "description": "Lege deinen bevorzugten Trainingsstandort für genauere wetterbasierte Planung fest. Suche nach einer Stadt und wähle sie als Standard-Wetterstandort.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Camp-Standort & Wetter",
+    "description": "Trainingscamps unterstützen jetzt einen optionalen Standort. Wenn gesetzt, nutzt die Camp-Planung lokale Wettervorhersagen für diesen Ort.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.99.0",
+  "date": "2026-03-30",
+  "highlights": [
+   {
+    "title": "Wetterbasierte Trainingspläne",
+    "description": "Dein Trainingsplan berücksichtigt jetzt die Wettervorhersage basierend auf deinem letzten Aktivitätsstandort oder deiner Strava-Profilstadt. Wichtige Outdoor-Einheiten werden auf die besten Wetter-Tage gelegt. Weitere Standort-Einstellungen folgen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.97.0",
+  "date": "2026-03-29",
+  "highlights": [
+   {
+    "title": "Trainingscamp-Anweisungen",
+    "description": "Teile der KI mit, worauf sie sich beim Erstellen oder Neuerstellen deines Trainingscamp-Plans konzentrieren soll.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Intelligentere Camp-Planung",
+    "description": "Die Camp-Planung berücksichtigt jetzt deinen Wochenrückblick und schlägt vor, zuerst Insights zu generieren.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.96.0",
+  "date": "2026-03-28",
+  "highlights": [
+   {
+    "title": "Intelligentere Coach-Gespräche",
+    "description": "Dein Coach behält jetzt den gesamten Gesprächsverlauf, auch wenn er von Aktivitäts-Insights oder Workout-Details aus geöffnet wird.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Direkte Plan-Änderungen",
+    "description": "Bitte deinen Coach von jedem Bildschirm aus, deinen Plan anzupassen. Kein Wechsel zwischen Chat- und Plan-Modus mehr nötig.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Links in der App öffnen",
+    "description": "E-Mail-Links (Wochenrückblick, Aktivitätsanalyse) öffnen sich jetzt direkt in der App.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.95.2",
+  "date": "2026-03-25",
+  "highlights": [
+   {
+    "title": "Neuigkeiten-Popup",
+    "description": "Nach einem App-Update siehst du jetzt ein Popup mit den neuesten Funktionen und Verbesserungen. Tippe auf 'Alle Updates anzeigen', um das vollständige Änderungsprotokoll zu sehen.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Verbessertes Trainingsprofil",
+    "description": "Sportlevel verwenden jetzt klare Nummern (1-5) mit Beschreibungen. Ein Fehler wurde behoben, bei dem Onboarding-Einstellungen nicht im Profil angezeigt wurden.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.95.0",
+  "date": "2026-03-23",
+  "highlights": [
+   {
+    "title": "Aktivitätsverwaltung",
+    "description": "Lösche Aktivitäten oder aktualisiere deren Analyse direkt in der Insights-Ansicht über den neuen Menübutton.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Coach-Aktivitätswerkzeuge",
+    "description": "Dein Coach kann jetzt Analysen aktualisieren, Aktivitäten von Strava synchronisieren oder Aktivitäten für dich löschen. Frag einfach oder nutze die Schnellaktionen bei einer Aktivität.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.94.0",
+  "date": "2026-03-22",
+  "highlights": [
+   {
+    "title": "Neu gestaltete Wochenanalyse",
+    "description": "Deine Wochenanalyse ist jetzt übersichtlich und fokussiert mit einem einheitlichen Coach-Review, Trainingsausblick mit Erholung und Fortschritt sowie umsetzbaren Vorschlägen.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Frühzeitige Wochenanalyse am Wochenende",
+    "description": "Starte deine Wochenanalyse am Samstag oder Sonntag, auch wenn noch Workouts ausstehen. Die Karte zeigt, wie viele Workouts noch geplant sind.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Phasenänderungen vor dem Anwenden prüfen",
+    "description": "Phasen anpassen zeigt jetzt eine detaillierte Vorschau der vorgeschlagenen Änderungen, bevor sie übernommen werden. Sieh was sich ändert, warum, und entscheide sicher.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Korrekte Intervall-Workout-Dauer",
+    "description": "Strukturierte Intervall-Workouts zeigen jetzt immer die korrekte Gesamtdauer, die der Summe aller Intervalle entspricht.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.92.0",
+  "date": "2026-03-20",
+  "highlights": [
+   {
+    "title": "Coach-Erinnerungen",
+    "description": "Dein Coach merkt sich jetzt Verletzungen, Vorlieben, Ausrüstung und Lebensstil-Details. Erwähne etwas einmal, und es wird für alle zukünftigen Pläne und Gespräche gespeichert.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Trainingsfortschritt nach Sportart",
+    "description": "Verfolge dein wöchentliches Trainingsvolumen aufgeschlüsselt nach Sportart mit 12-Wochen-Trendanalyse.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Intelligentere Wochenanalysen",
+    "description": "Wochenzusammenfassungen enthalten jetzt Fortschrittsbewertungen, Profil-Aktualitätsprüfungen und Vorschläge, um deinen Coaching-Kontext aktuell zu halten.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.90.0",
+  "date": "2026-03-17",
+  "highlights": [
+   {
+    "title": "Intelligenter Plan-Modus Vorschlag",
+    "description": "Wenn du den Coach im Chat-Modus bittest, deinen Trainingsplan zu ändern, schlägt er jetzt den Wechsel in den Plan-Modus mit einem Knopfdruck vor.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "App-Banner",
+    "description": "Wenn du Triple Peaks auf deinem iPhone besuchst, siehst du jetzt einen Hinweis, die native App für ein besseres Erlebnis herunterzuladen.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.89.0",
+  "date": "2026-03-16",
+  "highlights": [
+   {
+    "title": "Intelligentere Pläne für Fitnessziele",
+    "description": "Fitnessziele erhalten jetzt einfachere Trainingsphasen (kein unnötige Peaking oder Tapering) und bevorzugen eine Trainingseinheit pro Tag. Krafteinheiten sind nicht mehr auf einmal pro Woche begrenzt.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Aktivitäts-Einblicke & Plan-Korrekturen",
+    "description": "Aktivitäts-Einblicke zeigen das zugeordnete Workout jetzt direkt im Header. Die Planerstellung auf Mobilgeräten verwendet jetzt korrekt das Phasen-Wochenziel statt eines Standardwerts.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Zeitzone einstellen",
+    "description": "Du kannst jetzt deine Zeitzone in den Einstellungen einsehen und manuell setzen. Trainingspläne, Workout-Status und Coach-Antworten verwenden deine gewählte Zeitzone.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.87.0",
+  "date": "2026-03-15",
+  "highlights": [
+   {
+    "title": "Zeitzonenbasiertes Training",
+    "description": "Deine Trainingspläne, Workout-Status und Wochenfortschritt nutzen jetzt deine lokale Zeitzone statt der des Servers. Keine falschen Tagesgrenzen mehr, wenn du außerhalb Mitteleuropas bist.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.85.3",
+  "date": "2026-03-14",
+  "highlights": [
+   {
+    "title": "Phasen anpassen auf Android",
+    "description": "Du kannst jetzt deine Trainingsphasen auch auf Android anpassen, genau wie auf iOS. Die KI passt deine aktuellen und zukünftigen Phasen basierend auf deinem aktuellen Training an.",
+    "category": "new",
+    "platform": "Android"
+   },
+   {
+    "title": "Bessere B/C-Ziel-Navigation",
+    "description": "B- und C-Prioritäts-Zielseiten verlinken jetzt direkt zu deinem A-Ziel für die Verwaltung der Trainingsphasen, damit du dich leichter zurechtfindest.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.85.1",
+  "date": "2026-03-13",
+  "highlights": [
+   {
+    "title": "Klarere Trainingsphasen-Anleitung",
+    "description": "Die Ziel- und Phasengenerierungs-Bildschirme erklären jetzt deutlich, dass Trainingsphasen den Zeitraum von heute bis zum A-Ziel abdecken und wie B/C-Ziele mit der Phasenplanung zusammenhängen.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Android Dashboard-Verbesserungen",
+    "description": "Neugestaltete Android Dashboard-Karten für ein saubereres, kompakteres Design passend zum iOS-Erlebnis. Inklusive Trainingsfortschritts-Balkendiagramm, Sport-Distanz-Chips und Deep-Linking zu deinem Plan.",
+    "category": "improved",
+    "platform": "Android"
+   },
+   {
+    "title": "Intelligenterer Coach-Modus-Wahlschalter",
+    "description": "Die Coach-Chat- und Plan-Modus-Auswahl zeigt jetzt Beschreibungen, um dir bei der richtigen Wahl zu helfen.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.82.0",
+  "date": "2026-03-12",
+  "highlights": [
+   {
+    "title": "Coach Chat- & Plan-Modus",
+    "description": "Wähle zwischen Beratungs-Chat mit deinem Coach oder Plan-Modus zum Ändern von Trainingseinheiten. Der Coach wählt automatisch den richtigen Modus, wenn du ihn aus deinem Plan öffnest.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.79.0",
+  "date": "2026-03-10",
+  "highlights": [
+   {
+    "title": "Trainingslager-Planung",
+    "description": "Plane Trainingslager mit integrierter Coach-Unterstützung und Phasenplanung.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Intelligentere Intervallerkennung",
+    "description": "Verbesserte Intervallerkennung, die Fehlerkennungen wie Einlauf-Steigerungen und Auslauf-Tempowechsel herausfiltert.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Genauigkeit der Tempozonen",
+    "description": "Fehlerhafte oder invertierte Tempozonen-Daten wurden korrigiert.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.74.0",
+  "date": "2026-03-08",
+  "highlights": [
+   {
+    "title": "Echtzeit-Coach-Antworten",
+    "description": "Coach-Nachrichten werden jetzt in Echtzeit gestreamt, anstatt auf die vollständige Antwort zu warten.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Vergangene Ziele",
+    "description": "Vergangene Ziele werden jetzt in einem eigenen einklappbaren Bereich mit Status-Badges angezeigt.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Sportartspezifische Herzfrequenzzonen",
+    "description": "Laufen und Radfahren haben jetzt unabhängige Herzfrequenzzonen-Einstellungen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ }
+]

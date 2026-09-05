@@ -1,0 +1,1310 @@
+[
+ {
+  "version": "0.263.2",
+  "date": "2026-09-03",
+  "highlights": [
+   {
+    "title": "Fast reps are no longer judged against a made-up Z5 pace",
+    "description": "Your Z5 pace used to be estimated from the seconds your heart rate spent in zone 5, which for short reps is the tail end of long hard efforts rather than the reps themselves. Some athletes got a Z5 target slower than their threshold pace and were then told they ran their intervals too fast. Z5 pace now comes only from your actual short reps, the plan says so when there is not enough of them, and the post-workout analysis treats the zone and your heart rate as the contract, not the number.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "A morning briefing that knows how you slept",
+    "description": "Your briefing now arrives at 7 in the morning instead of 3, and when your watch syncs or you check in later, it updates itself once with your overnight recovery in mind. It is shorter too: the day's focus as a headline, one sentence on why, and a short recovery note on the days it matters.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.260.0",
+  "date": "2026-08-30",
+  "highlights": [
+   {
+    "title": "A smarter restart after a training break",
+    "description": "Coming back after a few quiet weeks? When you tap Generate, your coach now checks whether your training phases still fit - and if you trained much less than usual, it shows you the numbers, asks whether your goal and goal time still stand, and recommends refreshing your phases before planning the week. You can always skip it and generate anyway. And whenever you change the goal time of your main goal, the app now offers to realign your phases with it.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.258.0",
+  "date": "2026-08-25",
+  "highlights": [
+   {
+    "title": "Change your mind about a day you blocked out",
+    "description": "When you told us you could not train on a day, that was final for the whole week - the day looked like an ordinary rest day and nothing could put a session there. Blocked days now show as blocked on your plan, and one tap on 'I'm available after all' opens the day back up. From there you can leave it as rest, plan something for it, or just tell your coach 'Friday works now' in the chat. You can block an empty day the same way if your week changes again, and a day you ended up training on anyway un-blocks itself.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.252.0",
+  "date": "2026-08-23",
+  "highlights": [
+   {
+    "title": "Deep-dive any workout straight from the chat",
+    "description": "You no longer have to open an activity before your coach can dig into it. Ask 'deep dive into today's bike' right in the chat and the coach fetches the saved analysis and heart-rate evidence itself - execution score, time in each zone, and the detected intervals with their averages. Name the sport or day and it picks the right session, and it tells you which activity it is looking at. When detailed data genuinely is not there, the coach now says exactly that instead of guessing at causes.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.251.0",
+  "date": "2026-08-20",
+  "highlights": [
+   {
+    "title": "Volume suggestions that say what they mean",
+    "description": "When your planned week drifts from your volume target, the coach's question now gets its own card on Today - 'Raise your weekly target to 8 h?' or 'Lower your weekly target to 5 h?' - instead of sharing one slot with workout adaptations, where the newest suggestion silently replaced the last. Both can now wait for your answer side by side, adaptation cards state up front whether they extend, ease or just rearrange your week, and a weekly volume question stays on your feed until the week ends instead of vanishing after a day.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Your coach can see your heart-rate zones",
+    "description": "Ask your coach whether your intervals really hit Zone 3 and you now get an answer with the numbers behind it. When you open a session and talk about it, the coach reads how long you spent in each heart-rate zone, your average and maximum heart rate, how long you held above threshold, and the splits of each detected interval with its own average. If a session had no clear intervals, it says so and judges the effort from your time in zone instead of leaving you guessing.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Time in each zone is now correct",
+    "description": "Your time-in-zone figures were counted per heart-rate reading rather than per second, which made them roughly four times too short on most activities. They now reflect real elapsed time, so an hour of Zone 2 finally reads as an hour. Percentages were always right and have not changed, and a pause mid-session no longer counts toward whichever zone you stopped in.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.249.0",
+  "date": "2026-08-19",
+  "highlights": [
+   {
+    "title": "Ultra and trail races as real goal types",
+    "description": "Creating a race goal in the app now offers Ultra Marathon and Other Running Race alongside the classic distances - no more falling back to Custom for trail races. That matters beyond the picker: when your coach knows a race is a running race, it can credit the race day correctly and analyze your result even when the plan for that week was generated after race day.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.246.0",
+  "date": "2026-08-12",
+  "highlights": [
+   {
+    "title": "Your weekly target recovers with you",
+    "description": "When an injury or illness forced your weekly volume target down, clearing it now brings a coach proposal to restore the target you had before - one tap and your week is measured against your real commitment again. Progress scores and charts also stopped trusting outdated targets: they now always measure against at least what you actually have scheduled, so a healed week no longer shows misleading numbers like being far ahead of a plan you outgrew.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.244.0",
+  "date": "2026-08-04",
+  "highlights": [
+   {
+    "title": "One weekly target you can see and control",
+    "description": "Your week now has exactly one volume target, always visible at the top of your plan. Editing workouts, adding a longer ride or moving sessions changes your schedule - never your target, so doing more than you committed to no longer counts against you. The target only changes when you change it: tap it to set new hours, tell your coach, or accept a coach proposal that shows the change before you confirm. And when your schedule drifts well past the target, the coach asks whether to raise the bar or keep the extra as bonus. Your weekly review, readiness signal and coach all judge the week against this one number.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.242.0",
+  "date": "2026-07-31",
+  "highlights": [
+   {
+    "title": "Tell your coach when something went wrong",
+    "description": "When the coach notices a technical problem, it can now offer to forward a report to the developer. Nothing is sent without your permission, you can add an optional note, and the report includes the conversation context needed to investigate what happened.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Plan changes now tell you when something could not be applied",
+    "description": "Confirming a plan adjustment could quietly do less than promised: if a proposed workout used a sport you have switched off in your training profile, it was dropped without a word - in the worst case leaving days empty while everything reported success. Now nothing of yours is removed unless its replacement really lands, every change that could not be applied is named with the reason, and your coach will offer to enable the sport or suggest an alternative instead of claiming all is done.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Your goal readiness, in one honest place",
+    "description": "Triple Peaks used to show three different trend arrows that could disagree - and a week of hard intervals could read as slipping just because the sessions were shorter than planned. Readiness now lives in one place at the top of Today: where you stand against your plan, which way it is moving compared to last week, and up to two chips naming why - volume, intensity or execution. Training harder than planned is called what it is, not a decline. Tap the card for the full breakdown, and your weekly review now carries the same signal with your projected finish.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.238.0",
+  "date": "2026-07-28",
+  "highlights": [
+   {
+    "title": "A race that did not go to plan can finally be recorded",
+    "description": "Until now a race could only end one way: finished. If you abandoned one partway or never made the start line, there was no way to say so, and the goal stayed open indefinitely and held up your next training block. Triple Peaks now asks how a race went when its day has passed, you can answer in one tap or simply tell your coach in a message, and your training picks up from there. A race you did not finish still counts as the effort it was and still gets a debrief; a race you never started plants no recovery week.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "A mid-week plan no longer erases the training you already did",
+    "description": "When a new weekly plan was generated partway through the week, days you had already trained could get overwritten with a blank rest day, and an activity you recorded just before the plan was created could end up unmatched. Both are fixed: already-elapsed days now show the workout you actually completed, and same-day activities are matched once the new plan is saved.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.229.2",
+  "date": "2026-07-24",
+  "highlights": [
+   {
+    "title": "Long races now synchronize completely",
+    "description": "Ultra-distance activities with more than 10,000 metres of climbing now import reliably instead of disappearing during synchronization.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.226.0",
+  "date": "2026-07-22",
+  "highlights": [
+   {
+    "title": "A race forecast you can trust — and readiness you can understand",
+    "description": "Your finish-time forecast now measures what you can actually race: it reads the pace of your quality intervals instead of whole-run averages diluted by warm-ups, updates mid-week as soon as new activities land, and your weekly summary quotes the same numbers as the forecast — no more contradicting estimates. Tap the readiness banner on Today to see exactly what's behind your status: this week's volume against your plan, adjustments you accepted, your recent weeks, and why the forecast moved — with a direct path to your coach or your plan.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.225.0",
+  "date": "2026-07-20",
+  "highlights": [
+   {
+    "title": "Race briefings that know your course",
+    "description": "Attach a GPX file to your race goal and your coach can now read the course itself: real climbs, descents, elevation gain and the kilometer markers that matter. You can see the elevation profile on web, iOS and Android, while your race-day briefing turns the actual terrain into specific pacing and fueling tactics instead of relying on a generic hilly or flat label. Missing details are filled automatically, and you choose which detected values should replace manually entered distance, elevation, terrain, or location data.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.222.0",
+  "date": "2026-07-18",
+  "highlights": [
+   {
+    "title": "Your plan learns your real weekly hours",
+    "description": "When your training has run consistently above or below your set weekly hours for several genuine weeks in a row, your coach now proposes a recalibrated weekly baseline that matches what you actually train. Accept it and your plan re-anchors around the new number and re-derives your phase targets; keep your current plan and nothing changes. Deload, taper and holiday weeks are excluded, so a single light week never triggers it — only a real, sustained shift.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.219.0",
+  "date": "2026-07-17",
+  "highlights": [
+   {
+    "title": "See where your race time is heading",
+    "description": "Your goal now shows a weekly finish-time forecast: a realistic time range built from your recent training, refreshed every week and charted against your target so you can watch the trend as race day approaches. Your coach factors in what the numbers alone can't see — injuries, course elevation, a hot start time — and tells you in one sentence why the forecast moved. The Today screen shows your current range at a glance, with how much it changed since last week.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.214.0",
+  "date": "2026-07-13",
+  "highlights": [
+   {
+    "title": "Smarter plans for trail and mountain running",
+    "description": "If you're a trail or mountain runner — or training for a hilly or mountainous race — your coach now prescribes the climbing you need: elevation targets on key runs and hikes, uphill intervals, and progressive downhill work, with each week built from your training phase's key sessions. Tell your coach you're a trail runner and it tailors your plan to the terrain. Peak weeks keep their race-specific intensity, and plan adjustments to fatigue stay proportionate instead of wiping out your hard sessions.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.212.0",
+  "date": "2026-07-12",
+  "highlights": [
+   {
+    "title": "Your weekly commitments, guaranteed",
+    "description": "Tell your coach about your Tuesday club run or that you swim twice a week, and it becomes a real commitment — not just a note. Every weekly plan is now checked against your commitments before it reaches you, so your fixed sessions actually appear where they belong. Manage them any time in the new My Commitments screen, and review what your coach knows about your health — injuries, illness, severity and status — in the new My Health screen.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.207.0",
+  "date": "2026-07-10",
+  "highlights": [
+   {
+    "title": "Add a second workout without losing the first",
+    "description": "Your coach can now add one extra planned session to today or a future day while keeping everything already scheduled there. Ask for a second workout, an evening mobility session, or another easy ride, and the new session is added beside the existing one instead of replacing it. The change appears as a clear receipt in coach chat.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Race Debrief arrives on Android",
+    "description": "Everything your race deserves is now on Android too: the Race Debrief walks you through your training block after a completed race — what worked, what cost you, and the learnings your coach should remember — followed by a quick housekeeping step for your memories, goals, and next block. Triathletes get the whole-race view with official and GPS totals, transitions, and every leg one tap away. Your goals page got the matching redesign, with your season goal front and center.",
+    "category": "new",
+    "platform": "Android"
+   }
+  ]
+ },
+ {
+  "version": "0.205.0",
+  "date": "2026-07-09",
+  "highlights": [
+   {
+    "title": "Your morning check-in, now in color",
+    "description": "Your HRV, resting heart rate, and sleep tiles on Today are now color-coded so you can read your morning at a glance: green when a number is moving the healthy way — HRV up, sleep up, resting heart rate down — and red when it's drifting the tiring way. Small overnight wobbles stay neutral, so only the changes that matter catch your eye.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "A smarter nudge after your race",
+    "description": "The \"What's next?\" card after you finish a race now follows your flow: it points you to your Race Debrief first, then to the follow-up step if you haven't promoted your next goal yet — and it steps aside as soon as your next A-goal is set, instead of lingering.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.204.0",
+  "date": "2026-07-08",
+  "highlights": [
+   {
+    "title": "Race Debrief now tidies up after your race",
+    "description": "Once you've reviewed your Race Debrief, your coach walks you through a quick Housekeeping step: it proposes clearing out memories that are now out of date, promoting your next goal to your main focus, updating your training profile where the block moved you on, and replanning your next block with what you just learned. Every suggestion is yours to confirm one by one — nothing changes until you say so. The debrief also opens full-screen now, so saving your learnings has room to breathe.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.197.0",
+  "date": "2026-07-06",
+  "highlights": [
+   {
+    "title": "Your goal readiness now carries across weeks",
+    "description": "Your readiness standing no longer resets every Monday — it now carries the momentum of your recent weeks into the new one and settles in as the week fills up. It also weighs the sports that matter for your goal: training in your goal sports counts fully, while sessions off to the side count less, so a cross-training ride no longer masks a light run week before a marathon. And when there's no plan for the current week, your standing still shows, now based on your recent weeks.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Your triathlon as one race",
+    "description": "Finished a triathlon? The new whole-race view brings swim, bike, and run together: official and GPS totals, transition times, and every leg's analysis one tap away. Enter your official finish time and rate the race once — right where the whole day comes together — while each leg keeps its own split entry, now pre-filled from GPS.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.192.0",
+  "date": "2026-07-03",
+  "highlights": [
+   {
+    "title": "Smarter matching on multi-workout days",
+    "description": "Recorded two rides but only one was the planned session? Your coach now looks at the whole day before deciding which activity completed which planned workout — and corrects itself when a better-fitting session syncs in later. Extra sessions no longer hide your plan: if you've completed part of the day, the day card keeps showing your remaining planned workouts, with the extra activity as a bonus. Race days are safer too — a warmup recorded before the race can never take the race's place.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Always know where you stand on your goal",
+    "description": "Your goal readiness is now front and center for everyone. The Today view carries a standing card that tells you at a glance whether you're building, on track, or off rhythm this week — based on how your actual training compares to your weekly target, with your goal and how many weeks remain right next to it. The same signal appears as a small readiness pill on your weekly review, and your coach quotes the exact same numbers in chat, so what you see and what you hear never disagree.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Goal readiness and your morning check-in, on one card",
+    "description": "The top of your Today view is now a single card. Your goal readiness sits on a colored status strip — green when you're on track, amber when you've slipped off rhythm — and your overnight signals (HRV, resting heart rate, sleep) plus the morning check-in live right below it. Once you've checked in, the mood buttons step aside and your metrics stay. And when things slip, asking your coach what's driving it is one tap away.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Race Debrief: what your whole training block taught you",
+    "description": "After you finish a big race, your coach can now look back over the entire training block that led to it — every phase, week, and workout, planned versus actually done. The Race Debrief shows where you executed strongest, where time was lost, and how it all showed up on race day. You choose which learnings ring true, and your coach remembers them: they flow straight into planning for your next goal. Find it on your completed race goal, or follow the card the morning after.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.186.0",
+  "date": "2026-07-02",
+  "highlights": [
+   {
+    "title": "Your morning readiness, from your watch to your coach",
+    "description": "Triple Peaks now reads your overnight recovery signals from Apple Health — HRV, resting heart rate, and sleep — and shows them each morning in a new Morning Readiness card right below your goal standing, compared against your own 7-day baseline. Your check-in lives there too, and your coach weighs the objective signals alongside how you say you feel: a rough HRV morning and \"feeling good\" is a signal worth talking about. Overnight metrics currently require the Apple Health integration; more sources are planned — Android via Health Connect, and Garmin as soon as Garmin reopens its developer program. On Android the redesigned check-in card ships now.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Your coach can change settings, zones, and race goals from chat",
+    "description": "Just tell your coach. Say \"I only have 5 hours a week now\", \"my FTP is 240\", \"my threshold is 155\", \"show distances in miles\", or \"move my October marathon to November\" — and it actually makes the change, right there in the conversation, instead of only talking about it. Training profile, training zones, app preferences, and race goals are all editable by chat now, and the coach confirms exactly what it set. When something genuinely can't be changed yet, it tells you honestly instead of pretending.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.180.0",
+  "date": "2026-06-30",
+  "highlights": [
+   {
+    "title": "See the impact before you change your plan",
+    "description": "When you ask your coach to ease, cut, or add a session, it now shows exactly how that change moves your goal readiness — a simple before→after read right on the plan-update card. Easing a key session shows the honest cost; adding load back shows you heading toward plan. No charts, no jargon, no pushback — just a clear picture so the call stays yours.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.179.0",
+  "date": "2026-06-28",
+  "highlights": [
+   {
+    "title": "Make the coach your own",
+    "description": "Give your AI coach a name in Settings — it shows up in the chat header, and the coach answers to it. The coach is more useful in chat, too: open any workout and tap “Chat about this workout” to talk through that exact session, ask how a finished activity went and the coach pulls up its analysis instantly, and when it moves, swaps, or reshapes your week you’ll see each change as a clear day-by-day card instead of buried in text.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Set a goal at any race distance",
+    "description": "Racing something that isn’t a standard 5K, 10K, half, or marathon? Pick “Custom” when you add a race goal and enter the exact distance — ultras and unusual events are now first-class, and your plan sizes the race around the distance you give it.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.175.0",
+  "date": "2026-06-22",
+  "highlights": [
+   {
+    "title": "Push notifications come to Android",
+    "description": "Android can now receive push notifications — get nudged when your plan is ready, your morning and race-day briefings land, an activity is analyzed, or your coach has something for you. Turn them on in Settings; tapping a notification takes you straight to the right screen.",
+    "category": "new",
+    "platform": "Android"
+   }
+  ]
+ },
+ {
+  "version": "0.174.0",
+  "date": "2026-06-21",
+  "highlights": [
+   {
+    "title": "See the weather right on your plan",
+    "description": "Your weekly plan cards now show the forecast at a glance — a condition icon and the day's high/low temperature, right in the card header. Open a workout to see more: precipitation chance and wind, too. It uses your training location (or your camp, when you're away), so you can tell whether tomorrow's session calls for a jacket or sunscreen. Days too far out for a forecast simply don't show one yet.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.173.0",
+  "date": "2026-06-19",
+  "highlights": [
+   {
+    "title": "Miles, Fahrenheit, and more — pick your units",
+    "description": "Prefer imperial units? In Settings you can now switch the whole app to miles, feet, miles per hour, Fahrenheit and 12-hour clock times — pace shows in minutes per mile and swims per 100 yards. Metric stays the default, and your coach automatically talks in your units too. Connect Strava and we'll start from your Strava unit preference.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.172.0",
+  "date": "2026-06-18",
+  "highlights": [
+   {
+    "title": "Welcome back — let's pick up where you left off",
+    "description": "Been away for a bit? When you open the app after a break, Triple Peaks now greets you with a quick way to get back on track. A short gap mid-plan? One tap catches your plan up around today. Been away longer? A 30-second check confirms your goal, weekly hours and zones still fit before rebuilding your plan. Just finished your goal race? We'll help you pick your next focus. You can always tell your coach what happened — injury, life, or just a break — so your plan eases you back in.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Sharper race-day briefings for away races",
+    "description": "Add your race's start location and start time to a race goal, and your race-day briefing now uses the weather at the actual venue — timed to the gun — instead of guessing from where you usually train. Pick the location and time when you create or edit a race goal.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.170.3",
+  "date": "2026-06-17",
+  "highlights": [
+   {
+    "title": "Edit your race feedback anytime",
+    "description": "Submitted your race notes, rating, conditions or official finish time and want to change something? You can now re-open and update your race feedback at any time — no more being stuck with your first entry. Updating your official time still refines the race analysis, but only when the time actually changes.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.170.1",
+  "date": "2026-06-16",
+  "highlights": [
+   {
+    "title": "A redesigned workout screen",
+    "description": "Tapping a workout in your plan now opens a full-screen view that matches the rest of the app: a bold sport-coloured header, your session laid out as a clear timeline, the coach's reasoning and notes in one place, and a single primary action that adapts to the day — Adapt with Coach for upcoming sessions, View Analysis once you've completed one, or Reschedule with Coach if you missed it. Days where you trained something other than the plan now lead with what you actually did.",
+    "category": "improved",
+    "platform": "iOS"
+   },
+   {
+    "title": "No more duplicate activities from Apple Health",
+    "description": "If more than one app on your phone writes the same workout into Apple Health, your run no longer shows up twice. Triple Peaks now recognises two recordings of the same effort — even when they start a couple of minutes apart and report slightly different distances — and keeps a single activity, so your plan and your training totals stay accurate.",
+    "category": "fixed",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.168.0",
+  "date": "2026-06-15",
+  "highlights": [
+   {
+    "title": "Apple Health, done right for Apple Watch",
+    "description": "If you train with just an Apple Watch, Triple Peaks now gives you the same insights as a Strava user. Connecting imports your recent workout history right away, new workouts sync reliably in the background, and your runs and rides get the same heart-rate zones and interval detection. Disconnecting no longer deletes anything — your imported activities stay put — and the screen is now honest about what it can and can't see.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.161.0",
+  "date": "2026-06-12",
+  "highlights": [
+   {
+    "title": "Smoother workout feedback",
+    "description": "Sharing how a workout felt is no longer a wrestling match. The feedback field now opens in its own panel right above the keyboard — no more tab bar covering what you type. After you submit, the screen shows the re-analysis progress and refreshes itself the moment your updated analysis is ready, and your feedback stays visible on the activity so you always know it was taken into account.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "A refreshed home for your coach",
+    "description": "The coach now opens full screen from its new spot in the redesigned glass tab bar — swipe down to tuck it away. While it works you see a single elegant status line instead of spinning gears, and when it proposes plan changes you get a proper review screen: compare every change side by side, pick the ones you want, and watch your plan light up where it changed.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.158.0",
+  "date": "2026-06-11",
+  "highlights": [
+   {
+    "title": "Your coach keeps its notes about you fresh",
+    "description": "The coach's memories about you no longer go stale. Once a week it reviews its notes: clearly outdated ones (a race that's over, travel that's passed) are tidied up automatically — with one-tap undo — and when it's unsure, you get a quick 'is this still true?' card or a casual check-in in chat. You can now also add and edit memories yourself in Settings, and the weekly review's suggestions open a coach conversation instead of dropping you in Settings.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.157.0",
+  "date": "2026-06-10",
+  "highlights": [
+   {
+    "title": "A weekly review that celebrates your consistency",
+    "description": "Your week in review got a big upgrade. It now leads with an honest week rating instead of a red 'declining' arrow — a fully completed week counts as the success it is, even if one session felt harder than last week. New 'Wins' highlight what went well, a clear focus tells you what next week is about, and the review remembers last week's focus and what you discussed with your coach, so your training story finally connects week to week.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Sharper coach conversations",
+    "description": "Your coach now sends only what changed since your last message instead of repeating everything it knows, so long conversations stay fast and focused much longer. Plan proposals you never confirmed now expire after a day instead of resurfacing. Built together with Claude Fable 5.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.154.4",
+  "date": "2026-06-06",
+  "highlights": [
+   {
+    "title": "Interval workouts sent to Apple Watch keep the right durations",
+    "description": "Some structured interval workouts were exported to your watch with the times collapsed to seconds — a 15-minute warm-up arriving as 15 seconds. Their durations now carry over correctly, so the workout on your watch matches the plan in the app.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.154.1",
+  "date": "2026-06-03",
+  "highlights": [
+   {
+    "title": "Drag-and-drop rescheduling works again",
+    "description": "Dragging a workout onto another day in your weekly plan works again, even when that day already has a session — the workout now lands there as a second session instead of snapping back.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.153.2",
+  "date": "2026-05-31",
+  "highlights": [
+   {
+    "title": "Planning next week now shows clear progress",
+    "description": "When you plan your next week, the card now shows a clear loading state while we build it in the background — no more wondering whether your tap registered. Your new week slots in automatically the moment it's ready.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.153.0",
+  "date": "2026-05-30",
+  "highlights": [
+   {
+    "title": "Your coach remembers what you discussed",
+    "description": "Mention something to your coach — easing off with a sore knee, a recurring constraint — and it now carries across sessions. Your next workout's analysis and plan adjustments take that conversation into account, instead of starting fresh each time.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.151.0",
+  "date": "2026-05-25",
+  "highlights": [
+   {
+    "title": "Coach plan edits are more reliable",
+    "description": "When you ask your coach to adjust your week, it now changes exactly the sessions you meant — without accidentally clearing the other workout on a day that has two. And dropping a single session reliably leaves the rest of your week untouched.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Coach plan changes are smarter — and show up instantly",
+    "description": "Three improvements to plan edits in chat. Asking your coach to move a session now actually moves it — same workout, new day — instead of quietly replacing it with a different one. Your coach can also remove a single workout outright, turning that slot into a rest day without disturbing the rest of the week. And whenever your coach changes the plan, your Plan and Today views refresh on the spot, so you never have to back out and reopen to see the update.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.149.1",
+  "date": "2026-05-24",
+  "highlights": [
+   {
+    "title": "Re-plan a week inside a training camp",
+    "description": "Deleting a single week of a multi-week training camp and then re-planning it used to get stuck — the week stayed empty. Now it regenerates cleanly: your already-completed sessions are kept, the deleted week comes back as part of the camp, and the rest of the camp is left alone.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.143.0",
+  "date": "2026-05-20",
+  "highlights": [
+   {
+    "title": "Drag your plan around — review the changes when you're ready",
+    "description": "Rearranging current-week workouts on the Plan tab used to lock you into a long wait while your coach analyzed every drop, and you usually missed the result because you'd already moved on. Now you can shuffle freely — once your changes settle, a subtle 'N changes — review?' button appears. Tap it whenever you're ready; we'll send you a notification when your coach's proposal lands on Today, and you can open it, apply or keep as-is, done.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.142.0",
+  "date": "2026-05-19",
+  "highlights": [
+   {
+    "title": "Strava activity deletions and re-syncs now work end-to-end",
+    "description": "Two fixes and a behaviour change for activity sync. Activities you delete in Strava are now actually removed from Triple Peaks (a Hibernate bug had been silently swallowing every delete). And when you tap Sync, we now reconcile the last 30 days against Strava — so an activity you accidentally removed inside Triple Peaks comes back on the next sync, instead of staying lost because Triple Peaks only looked for activities newer than the most recent one.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "See exactly what's changing in a plan adjustment",
+    "description": "When your coach proposes a plan adjustment, you now see a clear before-and-after for every workout — Duration 70 min → 40 min, Intensity Threshold → Easy, Pace 4:45 → 5:40. Switched sports get a stand-out callout (Run → Bike), new workouts get a 'New' badge, and a workout being swapped for rest shows what's being replaced. No more guessing what's changing — it's right there.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.132.0",
+  "date": "2026-05-10",
+  "highlights": [
+   {
+    "title": "Race day briefing now lands at 6 PM — and a celebration after the finish",
+    "description": "Your race-day briefing now arrives at 6 PM the evening before, while you're actually prepping for tomorrow. On race day morning, the regular morning briefing steps aside so the race brief owns the screen. And the moment your race activity syncs and gets analyzed, the briefing card pivots to a celebration: finish time, performance rating, and the strengths your coach saw — all in a hero card that stays through the rest of race day.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.131.0",
+  "date": "2026-05-09",
+  "highlights": [
+   {
+    "title": "Race-day briefing the night before",
+    "description": "The evening before each race goal, your coach now sends a dedicated race-day briefing. It pressure-tests your stated goal against your actual recent long runs, proposes a realistic finish window, and lays out pacing, course tactics, and fueling. Tap to open the coach chat with the race already in context — ask about pacing, the climb, the descent, fueling, anything.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.128.0",
+  "date": "2026-05-07",
+  "highlights": [
+   {
+    "title": "Tell your coach which days you can't train",
+    "description": "Plan generation has a new full-screen sheet with a 7-day chip picker. Tap the days you're out — meetings, travel, recovery — and the coach plans rest on those days instead of guessing. Free-text and the hours slider are still there for everything else.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.127.0",
+  "date": "2026-05-05",
+  "highlights": [
+   {
+    "title": "Generate weekly plans in the background",
+    "description": "Plan generation no longer blocks the app for three minutes. Tap Generate, keep using Triple Peaks, and we'll send a push notification when your week is ready. Older app builds keep working — but a retry no longer creates a duplicate plan.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.124.1",
+  "date": "2026-05-03",
+  "highlights": [
+   {
+    "title": "Swipe to dismiss is back on Today",
+    "description": "The activity insight, weekly progress, and weather cards on Today are all dismissible again — swipe left on the first two, tap the new \"Dismiss\" pill on the weather expansion. The morning narrative hero stays put: it auto-dismisses as soon as you reply to the coach.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Android catches up: tap to see why, expand the weather",
+    "description": "The cinematic hero on Android now mirrors iOS — tap \"Why?\" for a deeper rationale tying today's session to your goal, phase, and recent quality work, and tap the chevron on the weather row for temp / rain% / wind plus a \"Discuss alternatives\" pill that opens the coach with the right question pre-loaded.",
+    "category": "new",
+    "platform": "Android"
+   }
+  ]
+ },
+ {
+  "version": "0.124.0",
+  "date": "2026-05-02",
+  "highlights": [
+   {
+    "title": "Today gets smarter — tap to see the why, the weather, and what to do about it",
+    "description": "Today's hero now hides the full coach reasoning behind a tap. Open it for a 3–4 sentence narrative that ties today's session to your goal, your current phase, and a recent quality workout — plus a permission-to-back-off line if your legs feel cooked. The weather alert merged into the hero footer is now also tappable: pull up temp, rain%, wind, and suitability for the day's sport, then tap \"Discuss alternatives\" and the coach opens with the right question pre-loaded (\"Should I move, swap, or skip?\") instead of a blank chat. Cycling weather alerts also stop over-firing in tolerable conditions and now key on real rain probability, not just an aggregate score.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Today tab — a fresh look that reads with your day",
+    "description": "Today now reads differently in the morning, post-workout, and on rest days. Pro athletes open to a new Morning Narrative card — a 2-sentence coach voice tying yesterday's session to today's workout. After you sync, the just-completed activity jumps to a hero score ring; rest days get their own sage-green treatment; and weekly progress now breaks out by sport.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.115.0",
+  "date": "2026-04-30",
+  "highlights": [
+   {
+    "title": "Swipe Today cards away",
+    "description": "Done with a card on Today? Swipe it left and it's gone. Keeps your morning view focused on what's actually next.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "1.40.0",
+  "date": "2026-04-26",
+  "highlights": [
+   {
+    "title": "Plan tab redesign — cards become destinations",
+    "description": "The Plan tab now opens on a quieter, focused layout: a minimal header with the week and phase, an expandable calendar drawer (tap the handle to switch between the day ribbon and the full two-week grid), and bigger, sport-themed day cards. Multi-workout days show a multi-sport gradient header (Bike + Run, Run + Strength) so the day's sports read at a glance. Each card now also explains the coach's actual reasoning for scheduling that workout — \"stacking threshold today to lock in Tuesday's VO2 adaptation\" rather than a recap of what the workout is — and the Why block updates whenever the plan adapts. Past days show a green completion banner with compliance and average HR, and the workout detail sheet for completed sessions has a six-tile Results grid (duration, distance, Avg HR, Avg Power, Effort, compliance %). Missed-day cards have a Reschedule button that opens the coach with the workout context pre-loaded, so it can move the session directly. Drag-and-drop in the calendar drawer keeps an Undo affordance for 4.5 seconds so accidental moves are easy to take back.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.113.0",
+  "date": "2026-04-25",
+  "highlights": [
+   {
+    "title": "New onboarding flow",
+    "description": "We rebuilt onboarding around the parts that actually matter — pick your sport, set a goal, tell us your weekly hours, and you're at your first plan. Everything richer (zones, PRs, camps, memories) lives behind an optional Tune step you can do at your own pace.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.110.1",
+  "date": "2026-04-23",
+  "highlights": [
+   {
+    "title": "HR zone setup accepts both threshold HR and Max HR",
+    "description": "In the manual HR zone setup you can now enter your threshold HR and your actual Max HR together — so your Z5 ceiling reflects your real maximum instead of a formula estimate that can be several bpm off. Threshold HR alone and Max HR alone still work as before.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.109.1",
+  "date": "2026-04-20",
+  "highlights": [
+   {
+    "title": "Applying coach-proposed plan changes is clearer and more reliable",
+    "description": "When the coach proposes changes to your plan, it now always asks \"Want me to apply these changes?\" before touching anything — and if you come back later, the coach remembers the pending proposal instead of starting over. Applying now consistently goes through.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Coach Insights on Today clear themselves after you've discussed them",
+    "description": "Tap a coach insight card and send your first message to the coach about it — the card now moves out of the active Today slot instead of lingering there indefinitely.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "New privacy controls for your AI Coach",
+    "description": "A one-time overview explains what your AI Coach sees. In Settings, you can now reset your coach history or delete everything the coach has remembered about you.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Completed workouts show the distance you actually ran",
+    "description": "Day cards for completed workouts now display the distance from the matched activity instead of the planned distance — so a 10 km target logged at 9.4 km reads 9.4 km on the card. Duration already worked this way; distance now matches.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.108.2",
+  "date": "2026-04-19",
+  "highlights": [
+   {
+    "title": "Coach Insights open the coach with full context",
+    "description": "Tapping a coach insight card on Today now opens the coach chat with the insight's title and body shown up front, so you can see exactly what the coach wants to discuss. Tap \"Tell me more\" or type a follow-up — the coach already knows which insight you're asking about.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.108.1",
+  "date": "2026-04-18",
+  "highlights": [
+   {
+    "title": "What's New popup fits the screen again",
+    "description": "When two releases shared a date, the popup's four highlights grew too tall for the screen, hiding the Close button behind long German descriptions. Highlights now scroll inside the popup and the header and buttons stay visible.",
+    "category": "fixed",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.108.0",
+  "date": "2026-04-17",
+  "highlights": [
+   {
+    "title": "Today view shows the most urgent card",
+    "description": "When your coach suggests a plan change, it's now the top card on Today — with a clear count of what's being changed. Tap to review and approve or reject. Cards update automatically when you edit your plan, complete a workout, or act on a suggestion.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Plan Adjustment review right from Today",
+    "description": "Tapping the Plan Adjustment card on Today now opens a focused review sheet with the exact changes your coach is suggesting. No more hunting through activity details to approve or reject.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Multi-race weekends now plan properly",
+    "description": "If you have two races in the same week (e.g. Saturday and Sunday), your weekly plan now includes a real race workout on each race day — not just an activation or rest day for the second race.",
+    "category": "fixed",
+    "platform": null
+   },
+   {
+    "title": "Race goals auto-complete reliably",
+    "description": "After you race and submit your official finish time, the goal is now marked complete right away. A nightly safety net also closes out any past races that slipped through.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.107.0",
+  "date": "2026-04-15",
+  "highlights": [
+   {
+    "title": "Today Briefing on Web",
+    "description": "Your daily briefing now lives on the web dashboard — see today's workout, weather, coach insights, and your mood check-in right alongside your weekly plan.",
+    "category": "new",
+    "platform": "Web"
+   }
+  ]
+ },
+ {
+  "version": "0.106.0",
+  "date": "2026-04-14",
+  "highlights": [
+   {
+    "title": "Smarter Morning Check-In",
+    "description": "The daily mood check-in now has 3 clear options — Good, Tired, or Unwell. Feeling off? Add sleep quality and notes. Your coach uses this to adjust today's advice.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Automatic Workout Adjustments",
+    "description": "Report feeling tired or unwell and your coach will suggest a modified workout — like swapping a tempo run for an easy recovery jog. You decide whether to accept.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.105.0",
+  "date": "2026-04-12",
+  "highlights": [
+   {
+    "title": "Your Daily Briefing",
+    "description": "The new Today tab is your personal command center. Every morning you get a curated briefing with your workout preview, weather alerts, and AI-powered coaching insights — all in one place.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Morning Check-In",
+    "description": "Tell your coach how you're feeling each morning. Your feedback helps adjust training intensity for the day ahead.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Proactive Coach Insights",
+    "description": "Your AI coach now analyzes your training patterns and surfaces insights you might miss — like skipped strength sessions or improving pace trends. Available for Pro subscribers.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.104.0",
+  "date": "2026-04-11",
+  "highlights": [
+   {
+    "title": "Settings Work Offline",
+    "description": "All your settings screens now work without an internet connection. Your cached profile, FTP, HR zones, notifications, and preferences stay viewable — and a clear banner lets you know when you're seeing cached data.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "No More Crashes When Offline",
+    "description": "Fixed a crash on iOS that occurred when opening Location or What's New settings without an internet connection.",
+    "category": "fixed",
+    "platform": "iOS"
+   },
+   {
+    "title": "Clearer Feedback When You're Offline",
+    "description": "When you're offline and try to save a change, buttons are disabled with a clear hint instead of failing silently. Location search and promo code redemption also show a helpful message.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.103.0",
+  "date": "2026-04-03",
+  "highlights": [
+   {
+    "title": "Apple Health Integration",
+    "description": "Sync workouts, heart rate, power, and route data from Apple Health. Connect both Strava and Apple Health for the most complete training picture.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Smart Duplicate Detection",
+    "description": "When using both Strava and Apple Health, identical workouts are automatically detected and your preferred data source takes priority.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Choose Your Primary Data Source",
+    "description": "Set which provider's data takes priority in Settings. Strava is the default for Strava sign-ups.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.102.1",
+  "date": "2026-04-02",
+  "highlights": [
+   {
+    "title": "Slow Down Camp Type",
+    "description": "New 'Slow Down' option when creating a camp — mark recovery weeks, travel, or busy periods. Your weekly plans will automatically reduce volume.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Delete Camp Plan",
+    "description": "Remove a generated camp plan without deleting the camp itself. You can regenerate it anytime.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Improved Camp Date Selection",
+    "description": "Picking start and end dates for a camp now uses a visual calendar grid instead of separate date picker dialogs.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.101.1",
+  "date": "2026-04-01",
+  "highlights": [
+   {
+    "title": "Improved Calendar View",
+    "description": "The calendar now opens as a full-screen overlay with more space for both weeks. Workout chips are larger and show more detail.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.101.0",
+  "date": "2026-03-31",
+  "highlights": [
+   {
+    "title": "Weather Location Settings",
+    "description": "Set your preferred training location for more accurate weather-aware planning. Search for any city and select it as your default weather location.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Camp Location & Weather",
+    "description": "Training camps now support an optional location. When set, camp plan generation uses local weather forecasts for that destination.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.99.0",
+  "date": "2026-03-30",
+  "highlights": [
+   {
+    "title": "Weather-Aware Training Plans",
+    "description": "Your training plan now considers the weather forecast based on your latest activity location or Strava profile city. Key outdoor workouts are scheduled on the best-weather days. More location settings coming soon.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.97.0",
+  "date": "2026-03-29",
+  "highlights": [
+   {
+    "title": "Camp Plan Instructions",
+    "description": "Tell the AI what to focus on when generating or regenerating your training camp plan.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Smarter Camp Planning",
+    "description": "Camp plan generation now considers your weekly review and suggests generating insights first for better results.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.96.0",
+  "date": "2026-03-28",
+  "highlights": [
+   {
+    "title": "Smarter Coach Conversations",
+    "description": "Your coach now keeps the full conversation history, even when opened from activity insights or workout details. No more lost chats.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Direct Plan Modifications",
+    "description": "Ask your coach to adjust your plan from any screen. No more switching between Chat and Plan modes.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Open Links in App",
+    "description": "Email links (weekly review, activity analysis) now open directly in the app when installed.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.95.2",
+  "date": "2026-03-25",
+  "highlights": [
+   {
+    "title": "What's New Popup",
+    "description": "After updating the app, you'll now see a popup highlighting the latest features and improvements. Tap 'See All Updates' to view the full changelog.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Improved Training Profile",
+    "description": "Sport levels now use clear numbered levels (1-5) with descriptions. Fixed a bug where your onboarding selections weren't showing in settings.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.95.0",
+  "date": "2026-03-23",
+  "highlights": [
+   {
+    "title": "Activity Management",
+    "description": "Delete activities or refresh their analysis directly from the insights view via the new menu button.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Coach Activity Tools",
+    "description": "Your coach can now refresh analysis, sync activities from Strava, or delete activities for you. Just ask or use the quick actions when viewing an activity.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.94.0",
+  "date": "2026-03-22",
+  "highlights": [
+   {
+    "title": "Redesigned Weekly Review",
+    "description": "Your weekly review is now a clean, focused experience with a unified Coach's Review narrative, Training Outlook combining recovery and progress, and actionable suggestions.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Weekend Early Review",
+    "description": "Start your weekly review on Saturday or Sunday, even with workouts remaining. The card shows how many workouts are still planned.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Review Phase Changes Before Applying",
+    "description": "Adapt Phases now shows a detailed review of proposed changes before applying them. See what will change, why, and accept or reject with confidence.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Accurate Interval Workout Durations",
+    "description": "Structured interval workouts now always show the correct total duration matching the sum of all intervals.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.92.0",
+  "date": "2026-03-20",
+  "highlights": [
+   {
+    "title": "Coach Memories",
+    "description": "Your coach now remembers injuries, preferences, equipment, and lifestyle details. Mention something once, and it's remembered for all future plans and conversations.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Training Progress by Sport",
+    "description": "Track your weekly training volume broken down by sport with 12-week trend analysis.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Smarter Weekly Reviews",
+    "description": "Weekly summaries now include progress assessments, profile freshness checks, and suggestions to keep your coaching context up to date.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.90.0",
+  "date": "2026-03-17",
+  "highlights": [
+   {
+    "title": "Smart Plan Mode Suggestion",
+    "description": "When you ask the coach to change your training plan in chat mode, it now suggests switching to Plan Mode with a one-tap button.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Get the App Banner",
+    "description": "When visiting Triple Peaks on your iPhone, you'll now see a suggestion to download the native app for a better experience.",
+    "category": "new",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.89.0",
+  "date": "2026-03-16",
+  "highlights": [
+   {
+    "title": "Smarter Plans for Fitness Goals",
+    "description": "Fitness improvement goals now get simpler training phases (no unnecessary peaking or tapering) and prefer single workouts per day. Strength sessions are no longer limited to once per week.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Activity Insights & Plan Fixes",
+    "description": "Activity insights now show the matched workout directly in the header. Plan generation on mobile now correctly uses your phase week volume target instead of a default value.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Timezone Settings",
+    "description": "You can now view and manually set your timezone in Settings. Your training plans, workout statuses, and coach responses will use your selected timezone.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.87.0",
+  "date": "2026-03-15",
+  "highlights": [
+   {
+    "title": "Timezone-Aware Training",
+    "description": "Your training plans, workout statuses, and weekly progress now use your local timezone instead of the server's. No more wrong day boundaries if you're outside Central Europe.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.85.3",
+  "date": "2026-03-14",
+  "highlights": [
+   {
+    "title": "Adapt Phases on Android",
+    "description": "You can now adapt your training phases on Android, just like on iOS. The AI adjusts your current and future phases based on your recent training.",
+    "category": "new",
+    "platform": "Android"
+   },
+   {
+    "title": "Better B/C Goal Navigation",
+    "description": "B and C priority goal pages now link directly to your A goal for managing training phases, making it easier to find your way.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.85.1",
+  "date": "2026-03-13",
+  "highlights": [
+   {
+    "title": "Clearer Training Phase Guidance",
+    "description": "The goals and phase generation screens now clearly explain that training phases cover from today to your A goal, and how B/C goals relate to phase planning.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Android Dashboard Improvements",
+    "description": "Redesigned Android dashboard cards for a cleaner, more compact look matching the iOS experience. Includes training progress bar chart, sport distance chips, and deep linking to your plan.",
+    "category": "improved",
+    "platform": "Android"
+   },
+   {
+    "title": "Smarter Coach Mode Selector",
+    "description": "The coach chat and plan mode picker now shows descriptions to help you choose the right mode.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
+  "version": "0.82.0",
+  "date": "2026-03-12",
+  "highlights": [
+   {
+    "title": "Coach Chat & Plan Modes",
+    "description": "Choose between chatting with your coach for advice or switching to plan mode to modify workouts. The coach automatically picks the right mode when you open it from your plan.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.79.0",
+  "date": "2026-03-10",
+  "highlights": [
+   {
+    "title": "Training Camp Planning",
+    "description": "Plan training camps with integrated coach awareness and phase planning.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Smarter Interval Detection",
+    "description": "Improved workout interval detection that filters out false positives like warmup strides and cooldown pickups.",
+    "category": "improved",
+    "platform": null
+   },
+   {
+    "title": "Pace Zone Accuracy",
+    "description": "Fixed pace zones showing incorrect or inverted data.",
+    "category": "fixed",
+    "platform": null
+   }
+  ]
+ },
+ {
+  "version": "0.74.0",
+  "date": "2026-03-08",
+  "highlights": [
+   {
+    "title": "Streaming Coach Responses",
+    "description": "Coach messages now stream in real-time instead of waiting for the full response.",
+    "category": "new",
+    "platform": null
+   },
+   {
+    "title": "Past Goals Section",
+    "description": "Past goals are now shown in a separate collapsible section with status badges.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Per-Sport Heart Rate Zones",
+    "description": "Running and cycling now have independent heart rate zone preferences.",
+    "category": "new",
+    "platform": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+{{> head}}
+</head>
+<body>
+
+{{> nav}}
+
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">{{whatsnew.ph.eyebrow}}</span>
+      <h1>{{whatsnew.ph.h1}}</h1>
+      <p>{{whatsnew.ph.p}}</p>
+    </div>
+  </header>
+
+  <!-- Entries are rendered by build.mjs from data/release-notes.<lang>.json,
+       which the fetch-release-notes workflow refreshes nightly from the app's
+       public changelog API. Nothing here is edited by hand. -->
+  <section class="releases">
+    <div class="container">
+      <div class="release-list">
+{{whats_new_body}}
+      </div>
+    </div>
+  </section>
+
+{{> footer}}
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

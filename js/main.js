@@ -8,17 +8,19 @@
   const links = document.querySelector('.nav-links');
 
   if (toggle && links) {
+    function setOpen(open) {
+      toggle.classList.toggle('open', open);
+      links.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+    }
+
     toggle.addEventListener('click', function () {
-      toggle.classList.toggle('open');
-      links.classList.toggle('open');
+      setOpen(!links.classList.contains('open'));
     });
 
     // Close nav when a link is clicked
     links.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        toggle.classList.remove('open');
-        links.classList.remove('open');
-      });
+      link.addEventListener('click', function () { setOpen(false); });
     });
   }
 

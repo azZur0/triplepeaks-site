@@ -2,17 +2,18 @@
   <nav class="nav">
     <div class="container">
       <a href="{{url_home}}" class="nav-logo">
-        <img src="img/logo-icon.png" alt="Triple Peaks" onerror="this.style.display='none'">
+        <img src="/img/logo-icon.png" alt="Triple Peaks" onerror="this.style.display='none'">
         Triple<span>Peaks</span>
       </a>
       <a href="https://app.triplepeaks.coach" class="nav-cta">{{nav.open_app}}</a>
-      <div class="nav-links">
+      <div class="nav-links" id="primary-nav">
         <a href="{{url_home}}"{{nav_active_home}}>{{nav.home}}</a>
         <a href="{{url_features}}"{{nav_active_features}}>{{nav.features}}</a>
+        <a href="{{url_whats_new}}"{{nav_active_whats_new}}>{{nav.whats_new}}</a>
         <a href="{{url_support}}"{{nav_active_support}}>{{nav.support}}</a>
         <a href="https://app.triplepeaks.coach" class="nav-links-cta">{{nav.open_app}}</a>
       </div>
-      <button class="nav-toggle" aria-label="Toggle navigation">
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-controls="primary-nav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>

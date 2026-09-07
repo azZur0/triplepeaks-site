@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.269.0",
+  "date": "2026-09-07",
+  "highlights": [
+   {
+    "title": "Camp plans stop filling every day to the limit",
+    "description": "The daily hours on a camp were taken as a quota, so a two-week camp at 4 hours a day turned into 56 hours of mountain hikes and runs. They now mean the most a single day can hold. The camp's total volume is sized from your normal training week, scaled up for a training camp and down for a holiday, with longer camps kept sustainable. Key days approach your daily maximum, most days sit well below it.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.263.2",
   "date": "2026-09-03",
   "highlights": [

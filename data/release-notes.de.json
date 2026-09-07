@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.269.0",
+  "date": "2026-09-07",
+  "highlights": [
+   {
+    "title": "Camp-Pläne füllen nicht mehr jeden Tag bis zum Limit",
+    "description": "Die täglichen Stunden eines Camps galten als Soll, sodass aus einem zweiwöchigen Camp mit 4 Stunden pro Tag 56 Stunden Bergwanderungen und Läufe wurden. Sie bedeuten jetzt, was ein einzelner Tag höchstens tragen kann. Das Gesamtvolumen des Camps richtet sich nach deiner normalen Trainingswoche, für ein Trainingslager nach oben und für einen Urlaub nach unten skaliert, und längere Camps bleiben tragbar. Schlüsseltage nähern sich deinem Tagesmaximum, die meisten Tage liegen deutlich darunter.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.263.2",
   "date": "2026-09-03",
   "highlights": [

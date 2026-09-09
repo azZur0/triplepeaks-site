@@ -1,5 +1,23 @@
 [
  {
+  "version": "0.270.0",
+  "date": "2026-09-08",
+  "highlights": [
+   {
+    "title": "Camps know what a hike is",
+    "description": "Hiking is now a camp sport, next to running, cycling and swimming. Mountain days are planned as real hikes of two to five hours that carry the camp's volume, and a hiking holiday no longer gets a track session or a marathon-pace long run squeezed in between. When your training phases were planned with the camp in mind, the camp lands on those hours instead of scaling them down for a holiday.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Multi-day race finishes are recorded and entered correctly",
+    "description": "Your race finish time is now the full elapsed time from gun to tape, including aid-station and sleep stops, instead of the moving time from your watch. Past races have been corrected. The official-time picker also accepts finishes beyond 24 hours now, so a 130-hour ultra can be entered.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.269.0",
   "date": "2026-09-07",
   "highlights": [

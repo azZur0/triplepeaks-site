@@ -1,5 +1,23 @@
 [
  {
+  "version": "0.270.0",
+  "date": "2026-09-08",
+  "highlights": [
+   {
+    "title": "Camps wissen, was eine Wanderung ist",
+    "description": "Wandern ist jetzt eine Camp-Sportart, neben Laufen, Radfahren und Schwimmen. Bergtage werden als echte Wanderungen von zwei bis fünf Stunden geplant, die das Volumen des Camps tragen, und in einen Wanderurlaub wird keine Bahneinheit und kein langer Lauf im Marathontempo mehr gequetscht. Wenn deine Trainingsphasen mit dem Camp im Blick geplant wurden, landet das Camp auf diesen Stunden, statt sie für einen Urlaub herunterzuskalieren.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Mehrtägige Rennen werden richtig erfasst und eingetragen",
+    "description": "Deine Zielzeit ist jetzt die volle Zeit vom Start bis ins Ziel, inklusive Pausen an Verpflegungsstellen und Schlaf, statt der Bewegungszeit deiner Uhr. Vergangene Rennen wurden korrigiert. Die offizielle Zielzeit lässt sich jetzt auch über 24 Stunden eintragen, ein 130-Stunden-Ultra also genauso.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.269.0",
   "date": "2026-09-07",
   "highlights": [

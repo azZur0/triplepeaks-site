@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.271.0",
+  "date": "2026-09-09",
+  "highlights": [
+   {
+    "title": "Deine Einheit, neben der geplanten Einheit",
+    "description": "Die Einblicke zu einer Aktivität beginnen jetzt beim Tag selbst: die drei Zahlen, die für diese Sportart zählen, und darunter die geplante Einheit mit Zeit, Distanz und dem Ziel des Plans direkt neben dem, was du tatsächlich gemacht hast. Grün heißt im Zielbereich, Orange heißt daneben. Die Umsetzung steht als Bewertung in Worten da, mit einem Balken, der zeigt, wo du gelandet bist, und ein Tippen führt von den Einblicken in die geplante Einheit und zurück.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.270.0",
   "date": "2026-09-08",
   "highlights": [

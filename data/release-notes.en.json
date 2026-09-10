@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.271.0",
+  "date": "2026-09-09",
+  "highlights": [
+   {
+    "title": "Your session, next to the session that was planned",
+    "description": "An activity's insights now open on the day itself: the three numbers that matter for that sport, and underneath them the planned session with time, distance and the plan's own target side by side with what you actually did. Green means you were inside the target, amber means you were not. The execution score is a rating in words with a band showing where you landed, and one tap takes you from the insights into the planned workout or back.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.270.0",
   "date": "2026-09-08",
   "highlights": [

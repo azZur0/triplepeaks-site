@@ -215,25 +215,23 @@ ${older.join('\n')}
   </details>`;
 }
 
-// Home page strip: total shipped since the first entry, plus the three latest titles.
+// Home page: the dark "built in the open" card next to the founder quote —
+// how many improvements have shipped in total, since when, and how recently.
 function whatsNewTeaser(lang, strings) {
   const releases = loadReleaseNotes(lang);
   if (!releases.length) return '';
-  const all = releases.flatMap((r) => r.highlights.map((h) => ({ date: r.date, title: h.title })));
-  const since = fmtMonth(releases[releases.length - 1].date, lang);
-  const heading = strings['whatsnew.teaser.h3'].replace('{count}', String(all.length)).replace('{since}', since);
-  const latest = all.slice(0, 3).map((h) =>
-    `          <li><time datetime="${esc(h.date)}">${fmtDate(h.date, lang)}</time><span>${esc(h.title)}</span></li>`).join('\n');
-  return `      <aside class="shipping">
-        <div class="shipping-head">
-          <span class="eyebrow">${esc(strings['whatsnew.teaser.eyebrow'])}</span>
-          <h3>${esc(heading)}</h3>
-          <ul class="shipping-list">
-${latest}
-          </ul>
-        </div>
-        <a href="${urlFor('whats-new', lang)}" class="btn btn-secondary shipping-link">${esc(strings['whatsnew.teaser.link'])}</a>
-      </aside>`;
+  const count = releases.reduce((n, r) => n + r.highlights.length, 0);
+  const since = fmtMonth(releases[releases.length - 1].date, lang); // oldest release
+  const latest = fmtDate(releases[0].date, lang); // newest release
+  const line = strings['whatsnew.teaser.p'].replace('{since}', () => since).replace('{latest}', () => latest);
+  return `        <aside class="open-card">
+          <span class="eyebrow eyebrow--mono open-eyebrow">${esc(strings['whatsnew.teaser.eyebrow'])}</span>
+          <div class="open-body">
+            <div class="open-count">${count}</div>
+            <p class="open-line">${esc(line)}</p>
+          </div>
+          <a href="${urlFor('whats-new', lang)}" class="open-link">${esc(strings['whatsnew.teaser.link'])}</a>
+        </aside>`;
 }
 
 // Inline partial includes (one level, no recursion) before token substitution:

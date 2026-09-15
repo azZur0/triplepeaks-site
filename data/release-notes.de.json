@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.272.0",
+  "date": "2026-09-14",
+  "highlights": [
+   {
+    "title": "Dein erster Plan beginnt bei dem, was du wirklich trainierst",
+    "description": "Wenn du Strava verbindest, importieren wir jetzt deine letzten 8 Wochen, bevor wir etwas planen. Die Einrichtung schlägt dir Sportart, Wochenstunden und übliche Trainingstage aus dieser Historie vor, und dein erster Plan beginnt bei deinem echten Umfang statt bei einer Schätzung. Wenn du die App mitten in der Einrichtung schließt, macht sie genau dort weiter.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.271.0",
   "date": "2026-09-09",
   "highlights": [

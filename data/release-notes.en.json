@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.272.0",
+  "date": "2026-09-14",
+  "highlights": [
+   {
+    "title": "Your first plan starts from what you actually train",
+    "description": "When you connect Strava, we now import your last 8 weeks before building anything. The setup suggests your sport, weekly hours and usual training days from that history, and your first plan starts from your real volume instead of a guess. If you close the app halfway through setup, it picks up where you left off.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.271.0",
   "date": "2026-09-09",
   "highlights": [

@@ -1,5 +1,29 @@
 [
  {
+  "version": "0.278.4",
+  "date": "2026-09-18",
+  "highlights": [
+   {
+    "title": "A clearer start to your training",
+    "description": "Setup now shows your saved choices, explains optional details, and makes every session in your first week easier to find. Larger text gets more room. Your preview stays available while we refine the plan, with clear recovery options if something goes wrong.",
+    "category": "improved",
+    "platform": "iOS"
+   },
+   {
+    "title": "A calmer coach chat, and plan changes approved in one tap",
+    "description": "The coach chat has a new look: your coach answers on the same cards as the rest of the app, and your own messages sit in a quiet grey bubble. While the coach works, one line shows what it is checking instead of a stack of cards, and afterwards you can tap it to see everything it read and changed. When your coach suggests plan changes, you choose which ones to keep and apply them right in the chat, without opening a separate screen. Text in the chat now follows your phone's text size.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Interval sessions are read against the workout you were given",
+    "description": "When a session was planned as intervals, we now look for that structure in your recording instead of guessing where the hard parts were. Your 3 x 8 minutes comes back as three repetitions with their own paces, and a long tempo block is found as one block rather than disappearing into the average. On hilly routes your pace is judged grade-adjusted, so a climb no longer reads as a session you ran badly.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
   "version": "0.272.0",
   "date": "2026-09-14",
   "highlights": [

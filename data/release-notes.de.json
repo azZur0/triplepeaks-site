@@ -1,5 +1,29 @@
 [
  {
+  "version": "0.278.4",
+  "date": "2026-09-18",
+  "highlights": [
+   {
+    "title": "Ein klarerer Einstieg in dein Training",
+    "description": "Die Einrichtung zeigt jetzt deine gespeicherten Angaben, erklärt optionale Details und macht jede Einheit der ersten Woche leichter auffindbar. Größere Schrift bekommt mehr Platz. Deine Vorschau bleibt während der Verfeinerung verfügbar, mit klaren Möglichkeiten zum erneuten Versuch, falls etwas schiefgeht.",
+    "category": "improved",
+    "platform": "iOS"
+   },
+   {
+    "title": "Ein ruhigerer Coach-Chat, und Planänderungen mit einem Tippen übernehmen",
+    "description": "Der Coach-Chat hat ein neues Aussehen: Dein Coach antwortet auf denselben Karten wie der Rest der App, und deine eigenen Nachrichten stehen in einer ruhigen grauen Blase. Während der Coach arbeitet, zeigt eine Zeile, was er gerade prüft, statt eines Stapels von Karten, und danach kannst du sie antippen, um alles zu sehen, was er gelesen und geändert hat. Wenn dein Coach Änderungen am Plan vorschlägt, wählst du aus, welche du willst, und übernimmst sie direkt im Chat, ohne einen eigenen Bildschirm zu öffnen. Der Text im Chat folgt jetzt der Schriftgröße deines Telefons.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Intervalleinheiten werden an der geplanten Einheit gemessen",
+    "description": "Wenn eine Einheit als Intervalle geplant war, suchen wir diese Struktur jetzt in deiner Aufzeichnung, statt zu raten, wo die harten Teile lagen. Deine 3 x 8 Minuten kommen als drei Wiederholungen mit eigenen Tempi zurück, und ein langer Tempoblock wird als ein Block erkannt, statt im Durchschnitt zu verschwinden. Auf hügeligen Strecken wird dein Tempo steigungsadjustiert bewertet, damit ein Anstieg nicht mehr wie eine schlecht gelaufene Einheit aussieht.",
+    "category": "improved",
+    "platform": null
+   }
+  ]
+ },
+ {
   "version": "0.272.0",
   "date": "2026-09-14",
   "highlights": [

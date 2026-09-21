@@ -1,5 +1,23 @@
 [
  {
+  "version": "0.279.1",
+  "date": "2026-09-20",
+  "highlights": [
+   {
+    "title": "Wähle dein App-Symbol",
+    "description": "Lust auf einen anderen Look auf deinem Homescreen? Wähle unter Profil, App-Symbol zwischen dem klassischen und einem neuen glänzenden Triple-Peaks-Symbol.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Sag der App, welche Einheit du gemacht hast",
+    "description": "Wenn eine Aktivität als zusätzliche Einheit oder bei der falschen geplanten Einheit landet, öffne sie und wähle im Menü die Einheit, zu der sie gehört. Du kannst sie auch als ungeplant markieren oder der App sagen, dass es dein Wettkampf war, damit die Wettkampfanalyse läuft. Deine Wahl bleibt bestehen.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.278.4",
   "date": "2026-09-18",
   "highlights": [

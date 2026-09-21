@@ -1,5 +1,23 @@
 [
  {
+  "version": "0.279.1",
+  "date": "2026-09-20",
+  "highlights": [
+   {
+    "title": "Choose your app icon",
+    "description": "Prefer a different look on your home screen? Pick between the classic and a new glossy Triple Peaks icon under Profile, App Icon.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Tell the app which session you did",
+    "description": "When an activity lands as an extra session or on the wrong planned workout, open it and choose the session it belongs to from the activity's menu. You can also mark it as not planned, or tell the app it was your race so the race analysis runs. Your choice stays put.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.278.4",
   "date": "2026-09-18",
   "highlights": [

@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.281.0",
+  "date": "2026-09-21",
+  "highlights": [
+   {
+    "title": "Update notes you can actually read",
+    "description": "The update announcement now shows each change in full instead of cutting it off after two lines, and it lists everything that changed since you last looked rather than only the newest entry. The full list under Profile, What's New does the same and marks what is new to you. Both follow your phone's text size.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.279.1",
   "date": "2026-09-20",
   "highlights": [

@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.281.0",
+  "date": "2026-09-21",
+  "highlights": [
+   {
+    "title": "Update-Hinweise, die du wirklich lesen kannst",
+    "description": "Die Update-Ankündigung zeigt jede Änderung jetzt vollständig, statt sie nach zwei Zeilen abzuschneiden, und listet alles auf, was sich seit deinem letzten Besuch geändert hat, nicht nur den neuesten Eintrag. Die vollständige Liste unter Profil, Neuigkeiten macht es genauso und markiert, was für dich neu ist. Beide folgen der Schriftgröße deines Telefons.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.279.1",
   "date": "2026-09-20",
   "highlights": [

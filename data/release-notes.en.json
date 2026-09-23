@@ -1,5 +1,29 @@
 [
  {
+  "version": "0.284.0",
+  "date": "2026-09-23",
+  "highlights": [
+   {
+    "title": "Today starts with your day",
+    "description": "Today now opens with one card that answers what to do: your session, why your coach chose it, what changed since the morning and why, and the one thing your coach needs from you, whether that is a quick check-in or a plan change to review. Short on time? One tap asks the coach for a shorter version. Your goal readiness sits in a compact row just below.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.282.0",
+  "date": "2026-09-22",
+  "highlights": [
+   {
+    "title": "The coach asks before reopening a day you blocked",
+    "description": "Ask for a session on a day you marked unavailable and the coach now asks one question instead of apologising or quietly reopening the day: reopen it for this week, or keep it free? Two chips under the reply answer it with a tap. A recurring commitment that falls on a blocked day is skipped for that week and comes back when you reopen the day.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.281.0",
   "date": "2026-09-21",
   "highlights": [

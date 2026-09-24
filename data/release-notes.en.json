@@ -1,8 +1,26 @@
 [
  {
-  "version": "0.284.0",
+  "version": "0.287.0",
   "date": "2026-09-23",
   "highlights": [
+   {
+    "title": "Check your goal before building a plan",
+    "description": "When you set up a race goal, see whether the target fits your available training time. Review the reasons and any suggested change, then choose how to continue. Your check and setup progress stay available if you leave the app.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Your day card keeps up with your changes",
+    "description": "Changed today's session? Your coach now rewrites its note for the session you actually have, and explains the change. Can't fit it in? One tap tells your coach, who suggests a better day, a shorter version or letting it go; tap the one you want and your coach makes the change. Don't need the coach's note today? Dismiss it.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Set your own heart-rate zones",
+    "description": "Got zones from a lab test or your watch? Under HR zones, choose Custom limits and enter where each zone ends; zone 5 runs up to your max heart rate. Your coach can also save them when you type them in chat, and it now always tells you the zones that were actually saved.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
    {
     "title": "Today starts with your day",
     "description": "Today now opens with one card that answers what to do: your session, why your coach chose it, what changed since the morning and why, and the one thing your coach needs from you, whether that is a quick check-in or a plan change to review. Short on time? One tap asks the coach for a shorter version. Your goal readiness sits in a compact row just below.",

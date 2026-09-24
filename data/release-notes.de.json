@@ -1,8 +1,26 @@
 [
  {
-  "version": "0.284.0",
+  "version": "0.287.0",
   "date": "2026-09-23",
   "highlights": [
+   {
+    "title": "Prüfe dein Ziel vor der Trainingsplanung",
+    "description": "Wenn du ein Wettkampfziel festlegst, siehst du, ob es zu deiner verfügbaren Trainingszeit passt. Prüfe die Gründe und einen möglichen Änderungsvorschlag und entscheide dann, wie es weitergeht. Die Prüfung und dein Fortschritt bleiben erhalten, wenn du die App verlässt.",
+    "category": "new",
+    "platform": "iOS"
+   },
+   {
+    "title": "Deine Tageskarte zieht bei Änderungen mit",
+    "description": "Du hast die heutige Einheit geändert? Dein Coach schreibt seine Notiz jetzt für die Einheit neu, die wirklich ansteht, und erklärt die Änderung. Passt's heute nicht? Ein Tipp sagt es deinem Coach. Er schlägt einen besseren Tag, eine kürzere Version oder das Weglassen vor; tipp auf deine Wahl, und dein Coach setzt sie um. Brauchst du die Notiz heute nicht? Blende sie aus.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Eigene Herzfrequenzzonen festlegen",
+    "description": "Du hast Zonen aus einem Labortest oder von deiner Uhr? Wähle unter HF-Zonen „Eigene Grenzen“ und trag ein, wo jede Zone endet; Zone 5 reicht bis zu deiner maximalen Herzfrequenz. Dein Coach kann sie auch speichern, wenn du sie im Chat nennst, und nennt dir jetzt immer die Zonen, die tatsächlich gespeichert wurden.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
    {
     "title": "Heute beginnt mit deinem Tag",
     "description": "Heute öffnet jetzt mit einer Karte, die sagt, was ansteht: deine Einheit, warum dein Coach sie gewählt hat, was sich seit dem Morgen geändert hat und warum, und das eine, was dein Coach von dir braucht, ob ein kurzer Check-in oder eine Planänderung zum Ansehen. Wenig Zeit? Ein Tipp fragt den Coach nach einer kürzeren Version. Deine Zielbereitschaft steht kompakt direkt darunter.",

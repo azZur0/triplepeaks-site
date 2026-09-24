@@ -4,7 +4,8 @@
 // language (English → <name>.html, German → <name>-de.html) plus sitemap.xml.
 // No dependencies: pure Node stdlib, run with `node build.mjs`.
 
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -22,6 +23,19 @@ const SITE_NAME = 'Triple Peaks';
 const OG_IMAGE = `${ORIGIN}/img/og-image-v2.png`;
 const OG_IMAGE_ALT = 'Triple Peaks Coach: your adaptive coach for endurance sports.';
 
+// Cache-busted URLs for the shared stylesheet and script. GitHub Pages serves
+// every file with max-age=600, so right after a deploy a visitor can get new
+// HTML with the previous style.css/main.js from cache. A content hash in the
+// query string makes each HTML file ask for exactly the assets it was built with.
+function assetUrl(path) {
+  const hash = createHash('sha256').update(readFileSync(join(ROOT, path))).digest('hex').slice(0, 10);
+  return `/${path}?v=${hash}`;
+}
+const ASSETS = {
+  asset_css: assetUrl('css/style.css'),
+  asset_js: assetUrl('js/main.js'),
+};
+
 // Which pages exist in which languages. `de: false` means only the English file
 // is written and the German build links to it, so there are no dead links.
 // `sitemap: false` keeps a page out of sitemap.xml; `noindex: true` adds a
@@ -36,10 +50,13 @@ const PAGES = {
   terms: { de: true },
   privacy: { de: true },
   '404': { de: false, sitemap: false, noindex: true },
+  // Old /dashboard/ URL: redirect stub to the app, kept at its original path.
+  dashboard: { de: false, sitemap: false, out: 'dashboard/index.html' },
 };
 
 // Output file name for a page in a language.
 function fileFor(name, lang) {
+  if (PAGES[name]?.out) return PAGES[name].out;
   const suffix = lang === 'de' && PAGES[name]?.de ? '-de' : '';
   return `${name}${suffix}.html`;
 }
@@ -86,6 +103,7 @@ function pageCopy(name, strings) {
 function buildTokens(name, lang, strings) {
   return {
     lang,
+    ...ASSETS,
     canonical: publicUrl(name, lang),
     hreflang: hreflangBlock(name),
     head_extra: PAGES[name]?.noindex ? '<meta name="robots" content="noindex">' : '',
@@ -329,6 +347,7 @@ function main() {
       const tokens = { ...strings[lang], ...buildTokens(name, lang, strings[lang]) };
       const html = render(template, tokens);
       const outFile = join(ROOT, fileFor(name, lang));
+      mkdirSync(dirname(outFile), { recursive: true });
       writeFileSync(outFile, html);
       console.log(`  ${lang}  →  ${fileFor(name, lang)}`);
       written++;

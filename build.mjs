@@ -4,7 +4,7 @@
 // language (English → <name>.html, German → <name>-de.html) plus sitemap.xml.
 // No dependencies: pure Node stdlib, run with `node build.mjs`.
 
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
@@ -50,10 +50,13 @@ const PAGES = {
   terms: { de: true },
   privacy: { de: true },
   '404': { de: false, sitemap: false, noindex: true },
+  // Old /dashboard/ URL: redirect stub to the app, kept at its original path.
+  dashboard: { de: false, sitemap: false, out: 'dashboard/index.html' },
 };
 
 // Output file name for a page in a language.
 function fileFor(name, lang) {
+  if (PAGES[name]?.out) return PAGES[name].out;
   const suffix = lang === 'de' && PAGES[name]?.de ? '-de' : '';
   return `${name}${suffix}.html`;
 }
@@ -344,6 +347,7 @@ function main() {
       const tokens = { ...strings[lang], ...buildTokens(name, lang, strings[lang]) };
       const html = render(template, tokens);
       const outFile = join(ROOT, fileFor(name, lang));
+      mkdirSync(dirname(outFile), { recursive: true });
       writeFileSync(outFile, html);
       console.log(`  ${lang}  →  ${fileFor(name, lang)}`);
       written++;

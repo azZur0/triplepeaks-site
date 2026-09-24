@@ -11,7 +11,7 @@
   <section class="hero">
     <div class="container">
       <svg class="hero-path" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-        <path class="hero-path-line" d="M-20 640 C 250 600, 380 420, 560 380 S 900 330, 1240 40"/>
+        <path class="hero-path-line" pathLength="1" d="M-20 640 C 250 600, 380 420, 560 380 S 900 330, 1240 40"/>
       </svg>
       <div class="hero-grid">
         <div class="hero-content">
@@ -60,30 +60,39 @@
           <span class="strip-small">{{strip.4.small}}</span>
         </div>
       </div>
+      <div class="works">
+        <span class="works-label">{{works.label}}</span>
+        <ul class="works-list">
+          <li>Strava</li>
+          <li>Apple Health</li>
+          <li>Apple Watch</li>
+          <li>{{works.garmin}}</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- Three moments -->
   <section class="moments">
     <div class="container">
-      <div class="moments-head">
+      <div class="moments-head reveal">
         <span class="eyebrow eyebrow--mono">{{moments.eyebrow}}</span>
         <h2>{{moments.h2}}</h2>
       </div>
-      <div class="moments-grid">
-        <article class="moment">
+      <div class="moments-grid swipe">
+        <article class="moment reveal">
           <img class="moment-phone" src="/img/app/framed/phone-12.webp" alt="{{moments.m1.alt}}" width="680" height="1442" loading="lazy">
           <span class="moment-tag">{{moments.m1.tag}}</span>
           <h3>{{moments.m1.h3}}</h3>
           <p>{{moments.m1.p}}</p>
         </article>
-        <article class="moment">
+        <article class="moment reveal">
           <img class="moment-phone" src="/img/app/framed/phone-08.webp" alt="{{moments.m2.alt}}" width="680" height="1442" loading="lazy">
           <span class="moment-tag">{{moments.m2.tag}}</span>
           <h3>{{moments.m2.h3}}</h3>
           <p>{{moments.m2.p}}</p>
         </article>
-        <article class="moment">
+        <article class="moment reveal">
           <img class="moment-phone" src="/img/app/framed/phone-13.webp" alt="{{moments.m3.alt}}" width="680" height="1442" loading="lazy">
           <span class="moment-tag">{{moments.m3.tag}}</span>
           <h3>{{moments.m3.h3}}</h3>
@@ -93,28 +102,116 @@
     </div>
   </section>
 
+  <!-- Interactive: break the week, watch the plan adapt (scenarios live in js/main.js) -->
+  <section class="adapt" id="adapt">
+    <div class="container">
+      <div class="adapt-grid reveal">
+        <div class="adapt-intro">
+          <span class="eyebrow eyebrow--mono">{{adapt.eyebrow}}</span>
+          <h2>{{adapt.h2}}</h2>
+          <p>{{adapt.lede}}</p>
+          <div class="adapt-controls" role="group" aria-label="{{adapt.controls_label}}" hidden>
+            <button type="button" class="adapt-btn" data-scenario="plan" aria-pressed="true">{{adapt.s.plan}}</button>
+            <button type="button" class="adapt-btn" data-scenario="sleep" aria-pressed="false">{{adapt.s.sleep}}</button>
+            <button type="button" class="adapt-btn" data-scenario="travel" aria-pressed="false">{{adapt.s.travel}}</button>
+            <button type="button" class="adapt-btn" data-scenario="short" aria-pressed="false">{{adapt.s.short}}</button>
+          </div>
+        </div>
+
+        <div class="adapt-card">
+          <div class="adapt-head">
+            <span class="adapt-title">{{adapt.week}}</span>
+            <span class="adapt-total"><span class="adapt-total-num">4 h 50</span> {{adapt.planned}}</span>
+          </div>
+          <ol class="adapt-week">
+          <li class="adapt-day" data-day="mon" data-type="rest" style="--m:0">
+            <span class="adapt-bar" aria-hidden="true"></span>
+            <span class="adapt-dow">{{adapt.day.mon}}</span>
+            <span class="adapt-what">{{adapt.type.rest}}</span>
+            <span class="adapt-dur"></span>
+          </li>
+          <li class="adapt-day adapt-day--today" data-day="tue" data-type="tempo" style="--m:50">
+            <span class="adapt-today">{{adapt.today}}</span>
+            <span class="adapt-bar" aria-hidden="true"></span>
+            <span class="adapt-dow">{{adapt.day.tue}}</span>
+            <span class="adapt-what">{{adapt.type.tempo}}</span>
+            <span class="adapt-dur">50 min</span>
+          </li>
+          <li class="adapt-day" data-day="wed" data-type="rest" style="--m:0">
+            <span class="adapt-bar" aria-hidden="true"></span>
+            <span class="adapt-dow">{{adapt.day.wed}}</span>
+            <span class="adapt-what">{{adapt.type.rest}}</span>
+            <span class="adapt-dur"></span>
+          </li>
+          <li class="adapt-day" data-day="thu" data-type="easy" style="--m:45">
+            <span class="adapt-bar" aria-hidden="true"></span>
+            <span class="adapt-dow">{{adapt.day.thu}}</span>
+            <span class="adapt-what">{{adapt.type.easy}}</span>
+            <span class="adapt-dur">45 min</span>
+          </li>
+          <li class="adapt-day" data-day="fri" data-type="rest" style="--m:0">
+            <span class="adapt-bar" aria-hidden="true"></span>
+            <span class="adapt-dow">{{adapt.day.fri}}</span>
+            <span class="adapt-what">{{adapt.type.rest}}</span>
+            <span class="adapt-dur"></span>
+          </li>
+          <li class="adapt-day" data-day="sat" data-type="long" style="--m:105">
+            <span class="adapt-bar" aria-hidden="true"></span>
+            <span class="adapt-dow">{{adapt.day.sat}}</span>
+            <span class="adapt-what">{{adapt.type.long}}</span>
+            <span class="adapt-dur">1 h 45</span>
+          </li>
+          <li class="adapt-day" data-day="sun" data-type="ride" style="--m:90">
+            <span class="adapt-bar" aria-hidden="true"></span>
+            <span class="adapt-dow">{{adapt.day.sun}}</span>
+            <span class="adapt-what">{{adapt.type.ride}}</span>
+            <span class="adapt-dur">1 h 30</span>
+          </li>
+          </ol>
+          <div class="adapt-coach">
+            <span class="adapt-coach-name">{{adapt.coach}}</span>
+            <p class="adapt-note" aria-live="polite">{{adapt.note.plan}}</p>
+          </div>
+          <p class="adapt-foot">{{adapt.foot}}</p>
+        </div>
+      </div>
+      <div class="adapt-strings" hidden>
+        <span data-label="rest">{{adapt.type.rest}}</span>
+        <span data-label="tempo">{{adapt.type.tempo}}</span>
+        <span data-label="easy">{{adapt.type.easy}}</span>
+        <span data-label="long">{{adapt.type.long}}</span>
+        <span data-label="ride">{{adapt.type.ride}}</span>
+        <span data-label="travel">{{adapt.type.travel}}</span>
+        <span data-note="plan">{{adapt.note.plan}}</span>
+        <span data-note="sleep">{{adapt.note.sleep}}</span>
+        <span data-note="travel">{{adapt.note.travel}}</span>
+        <span data-note="short">{{adapt.note.short}}</span>
+      </div>
+    </div>
+  </section>
+
   <!-- How it works: three coach conversations -->
   <section class="how">
     <div class="container">
-      <div class="how-head">
+      <div class="how-head reveal">
         <span class="eyebrow">{{how.eyebrow}}</span>
         <h2>{{how.h2}}</h2>
         <p>{{how.lede}}</p>
       </div>
-      <div class="how-grid">
-        <article class="how-card">
+      <div class="how-grid swipe">
+        <article class="how-card reveal">
           <span class="how-step">{{how.s1.eyebrow}}</span>
           <p class="chat chat--you">{{how.s1.you}}</p>
           <p class="chat chat--coach">{{how.s1.coach}}</p>
           <h3>{{how.s1.h3}}</h3>
         </article>
-        <article class="how-card">
+        <article class="how-card reveal">
           <span class="how-step">{{how.s2.eyebrow}}</span>
           <p class="chat chat--you">{{how.s2.you}}</p>
           <p class="chat chat--coach">{{how.s2.coach}}</p>
           <h3>{{how.s2.h3}}</h3>
         </article>
-        <article class="how-card">
+        <article class="how-card reveal">
           <span class="how-step">{{how.s3.eyebrow}}</span>
           <p class="chat chat--you">{{how.s3.you}}</p>
           <p class="chat chat--coach">{{how.s3.coach}}</p>
@@ -130,7 +227,7 @@
   <!-- What a coach costs -->
   <section class="costs">
     <div class="container">
-      <div class="costs-grid">
+      <div class="costs-grid reveal">
         <div class="costs-intro">
           <span class="eyebrow">{{costs.eyebrow}}</span>
           <h2>{{costs.h2}}</h2>
@@ -165,7 +262,7 @@
   <!-- Founder quote + built in the open -->
   <section class="proof">
     <div class="container">
-      <div class="proof-grid">
+      <div class="proof-grid reveal">
         <figure class="quote">
           <blockquote>{{founder.quote}}</blockquote>
           <figcaption class="quote-by">
@@ -183,16 +280,27 @@
 
   <!-- Closing CTA -->
   <section class="closing">
+    <!-- Three peaks: the base–build–peak climb of a season, ending at race day -->
+    <svg class="closing-peaks" viewBox="0 0 1200 240" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path d="M0 240 L180 150 L260 185 L470 90 L560 140 L820 20 L900 70 L1000 55 L1200 240"/>
+    </svg>
     <div class="container">
       <div class="closing-inner">
         <h2>{{cta.h2}}</h2>
         <div class="closing-actions">
           <a href="https://apps.apple.com/app/triple-peaks-coach/id6758676538" class="btn btn-primary btn-lg btn-noarrow">{{cta.btn}}</a>
-          <span class="closing-note">{{cta.note}} <a href="https://app.triplepeaks.coach" class="hero-alt-link">{{cta.web}}</a></span>
+          <span class="closing-note">{{cta.note}} <a href="https://app.triplepeaks.coach" class="hero-alt-link hero-alt-link--light">{{cta.web}}</a></span>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Phones only: follows the visitor once the hero button is off screen (js/main.js) -->
+  <div class="sticky-cta" hidden>
+    <a href="https://apps.apple.com/app/triple-peaks-coach/id6758676538" class="btn btn-primary btn-noarrow" data-android-href="https://app.triplepeaks.coach" data-android-label="{{common.web_link}}">
+      <svg class="btn-apple-logo" viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.7-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      <span class="sticky-cta-label">{{common.get_app}}</span></a>
+  </div>
 
 {{> footer}}
 

@@ -5,6 +5,7 @@
 // No dependencies: pure Node stdlib, run with `node build.mjs`.
 
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -21,6 +22,19 @@ const SITE_NAME = 'Triple Peaks';
 // random on-page image (e.g. an app screenshot). 1200×630 is the standard card.
 const OG_IMAGE = `${ORIGIN}/img/og-image-v2.png`;
 const OG_IMAGE_ALT = 'Triple Peaks Coach: your adaptive coach for endurance sports.';
+
+// Cache-busted URLs for the shared stylesheet and script. GitHub Pages serves
+// every file with max-age=600, so right after a deploy a visitor can get new
+// HTML with the previous style.css/main.js from cache. A content hash in the
+// query string makes each HTML file ask for exactly the assets it was built with.
+function assetUrl(path) {
+  const hash = createHash('sha256').update(readFileSync(join(ROOT, path))).digest('hex').slice(0, 10);
+  return `/${path}?v=${hash}`;
+}
+const ASSETS = {
+  asset_css: assetUrl('css/style.css'),
+  asset_js: assetUrl('js/main.js'),
+};
 
 // Which pages exist in which languages. `de: false` means only the English file
 // is written and the German build links to it, so there are no dead links.
@@ -86,6 +100,7 @@ function pageCopy(name, strings) {
 function buildTokens(name, lang, strings) {
   return {
     lang,
+    ...ASSETS,
     canonical: publicUrl(name, lang),
     hreflang: hreflangBlock(name),
     head_extra: PAGES[name]?.noindex ? '<meta name="robots" content="noindex">' : '',

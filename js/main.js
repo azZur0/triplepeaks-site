@@ -142,16 +142,17 @@
       days.forEach(function (day, i) {
         const type = week[i][0];
         const mins = week[i][1];
-        const changed = day.dataset.type !== type || day.style.getPropertyValue('--m') !== String(mins);
+        // The marker shows what the coach changed versus the original plan; the
+        // flash only replays on days that differ from what was on screen.
+        const adjusted = type !== WEEKS.plan[i][0] || mins !== WEEKS.plan[i][1];
+        const moved = day.dataset.type !== type || day.style.getPropertyValue('--m') !== String(mins);
         day.dataset.type = type;
         day.style.setProperty('--m', mins);
         day.querySelector('.adapt-what').textContent = label(type);
         day.querySelector('.adapt-dur').textContent = fmtMinutes(mins);
-        day.classList.remove('is-changed');
-        if (changed && key !== 'plan') {
-          void day.offsetWidth; // restart the highlight animation
-          day.classList.add('is-changed');
-        }
+        if (moved) day.classList.remove('is-changed');
+        if (adjusted && moved) void day.offsetWidth; // restart the flash
+        day.classList.toggle('is-changed', adjusted);
       });
       total.textContent = fmtMinutes(week.reduce(function (n, d) { return n + d[1]; }, 0));
 

@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.290.0",
+  "date": "2026-09-28",
+  "highlights": [
+   {
+    "title": "Follow your race goal review from anywhere",
+    "description": "Your race goal review keeps running when you leave it. A card on Today and a banner on your goal show its progress, and a notification brings you back when it needs you. Edits to your target now stick, and a suggested time is filled in for you to confirm.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
   "version": "0.287.0",
   "date": "2026-09-23",
   "highlights": [

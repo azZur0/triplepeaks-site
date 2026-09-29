@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.290.0",
+  "date": "2026-09-28",
+  "highlights": [
+   {
+    "title": "Dein Wettkampfziel-Check, wo immer du bist",
+    "description": "Dein Wettkampfziel-Check läuft weiter, wenn du ihn verlässt. Eine Karte auf Heute und ein Hinweis bei deinem Ziel zeigen den Fortschritt, und eine Mitteilung holt dich zurück, wenn er dich braucht. Änderungen an deiner Zielzeit bleiben jetzt gespeichert, und eine vorgeschlagene Zeit ist schon eingetragen, du musst sie nur bestätigen.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
   "version": "0.287.0",
   "date": "2026-09-23",
   "highlights": [

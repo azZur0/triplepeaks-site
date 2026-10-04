@@ -22,6 +22,9 @@ const SITE_NAME = 'Triple Peaks';
 // random on-page image (e.g. an app screenshot). 1200×630 is the standard card.
 const OG_IMAGE = `${ORIGIN}/img/og-image-v2.png`;
 const OG_IMAGE_ALT = 'Triple Peaks Coach: your adaptive coach for endurance sports.';
+// App Store listing name; the alternate brand name Google should tie to this site.
+const APP_NAME = 'Triple Peaks Coach';
+const APP_STORE_URL = 'https://apps.apple.com/app/triple-peaks-coach/id6758676538';
 
 // Cache-busted URLs for the shared stylesheet and script. GitHub Pages serves
 // every file with max-age=600, so right after a deploy a visitor can get new
@@ -87,9 +90,45 @@ function hreflangBlock(name) {
   ].join('\n  ');
 }
 
+// JSON-LD for the home pages: Organization (name, logo, App Store profile) and
+// WebSite (the site name Google shows above results; alternateName covers the
+// App Store name). Kept off other pages, as Google reads both from the home page.
+function structuredData(name, lang, strings) {
+  if (name !== 'index') return '';
+  const org = `${ORIGIN}/#organization`;
+  const graph = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': org,
+        name: SITE_NAME,
+        alternateName: APP_NAME,
+        url: `${ORIGIN}/`,
+        logo: `${ORIGIN}/img/logo-icon.png`,
+        email: 'triplepeaks@online.de',
+        sameAs: [APP_STORE_URL],
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${ORIGIN}/#website`,
+        name: SITE_NAME,
+        alternateName: APP_NAME,
+        url: `${ORIGIN}/`,
+        description: strings['meta.description'],
+        inLanguage: lang,
+        publisher: { '@id': org },
+      },
+    ],
+  };
+  // `<` escaped so no string value can close the script element.
+  const json = JSON.stringify(graph, null, 2).replace(/</g, '\\u003c');
+  return `<script type="application/ld+json">\n${json}\n  </script>`;
+}
+
 // Resolve a page's <title> / description from its own meta strings, falling
 // back to the site-wide description for pages that only define a title (the
-// legal pages). The same pair feeds og:*/twitter:*, so they never drift.
+// 404 page). The same pair feeds og:*/twitter:*, so they never drift.
 function pageCopy(name, strings) {
   const titleKey = name === 'index' ? 'meta.title' : `${name}.meta.title`;
   const descKey = name === 'index' ? 'meta.description' : `${name}.meta.description`;
@@ -107,6 +146,7 @@ function buildTokens(name, lang, strings) {
     canonical: publicUrl(name, lang),
     hreflang: hreflangBlock(name),
     head_extra: PAGES[name]?.noindex ? '<meta name="robots" content="noindex">' : '',
+    structured_data: structuredData(name, lang, strings),
     site_name: SITE_NAME,
     og_image: OG_IMAGE,
     og_image_alt: OG_IMAGE_ALT,

@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.293.0",
+  "date": "2026-10-03",
+  "highlights": [
+   {
+    "title": "Your plan grows at a pace you choose",
+    "description": "Your plan now builds from what you actually trained in recent weeks and adds at most 10 % per week, the classic rule for staying injury-free. Prefer a different pace? Pick 5, 10, 15 or 20 % in your training profile and recalculate your phases to match. If you set a week above that pace yourself, you see a short heads-up, and the choice stays yours.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.290.0",
   "date": "2026-09-28",
   "highlights": [

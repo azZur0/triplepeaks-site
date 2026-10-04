@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.293.0",
+  "date": "2026-10-03",
+  "highlights": [
+   {
+    "title": "Dein Plan wächst in deinem Tempo",
+    "description": "Dein Plan baut jetzt auf dem auf, was du in den letzten Wochen tatsächlich trainiert hast, und legt pro Woche höchstens 10 % zu, die klassische Regel, um verletzungsfrei zu bleiben. Lieber ein anderes Tempo? Wähle 5, 10, 15 oder 20 % in deinem Trainingsprofil und lass deine Phasen passend neu berechnen. Setzt du eine Woche selbst darüber, bekommst du einen kurzen Hinweis, die Entscheidung bleibt bei dir.",
+    "category": "new",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.290.0",
   "date": "2026-09-28",
   "highlights": [

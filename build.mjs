@@ -22,6 +22,9 @@ const SITE_NAME = 'Triple Peaks';
 // random on-page image (e.g. an app screenshot). 1200×630 is the standard card.
 const OG_IMAGE = `${ORIGIN}/img/og-image-v2.png`;
 const OG_IMAGE_ALT = 'Triple Peaks Coach: your adaptive coach for endurance sports.';
+// App Store listing name; the alternate brand name Google should tie to this site.
+const APP_NAME = 'Triple Peaks Coach';
+const APP_STORE_URL = 'https://apps.apple.com/app/triple-peaks-coach/id6758676538';
 
 // Cache-busted URLs for the shared stylesheet and script. GitHub Pages serves
 // every file with max-age=600, so right after a deploy a visitor can get new
@@ -40,12 +43,13 @@ const ASSETS = {
 // is written and the German build links to it, so there are no dead links.
 // `sitemap: false` keeps a page out of sitemap.xml; `noindex: true` adds a
 // robots meta tag (the 404 page: GitHub Pages serves 404.html for any unknown
-// path, so it must not be indexed or translated).
+// path, so it must not be indexed or translated). `releases: true` marks pages
+// that render the release notes: their sitemap <lastmod> is the newest release.
 const PAGES = {
-  index: { de: true },
+  index: { de: true, releases: true },
   features: { de: true },
   support: { de: true },
-  'whats-new': { de: true },
+  'whats-new': { de: true, releases: true },
   imprint: { de: true },
   terms: { de: true },
   privacy: { de: true },
@@ -87,9 +91,45 @@ function hreflangBlock(name) {
   ].join('\n  ');
 }
 
+// JSON-LD for the home pages: Organization (name, logo, App Store profile) and
+// WebSite (the site name Google shows above results; alternateName covers the
+// App Store name). Kept off other pages, as Google reads both from the home page.
+function structuredData(name, lang, strings) {
+  if (name !== 'index') return '';
+  const org = `${ORIGIN}/#organization`;
+  const graph = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': org,
+        name: SITE_NAME,
+        alternateName: APP_NAME,
+        url: `${ORIGIN}/`,
+        logo: `${ORIGIN}/img/logo-icon.png`,
+        email: 'triplepeaks@online.de',
+        sameAs: [APP_STORE_URL],
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${ORIGIN}/#website`,
+        name: SITE_NAME,
+        alternateName: APP_NAME,
+        url: `${ORIGIN}/`,
+        description: strings['meta.description'],
+        inLanguage: lang,
+        publisher: { '@id': org },
+      },
+    ],
+  };
+  // `<` escaped so no string value can close the script element.
+  const json = JSON.stringify(graph, null, 2).replace(/</g, '\\u003c');
+  return `<script type="application/ld+json">\n${json}\n  </script>`;
+}
+
 // Resolve a page's <title> / description from its own meta strings, falling
 // back to the site-wide description for pages that only define a title (the
-// legal pages). The same pair feeds og:*/twitter:*, so they never drift.
+// 404 page). The same pair feeds og:*/twitter:*, so they never drift.
 function pageCopy(name, strings) {
   const titleKey = name === 'index' ? 'meta.title' : `${name}.meta.title`;
   const descKey = name === 'index' ? 'meta.description' : `${name}.meta.description`;
@@ -107,6 +147,7 @@ function buildTokens(name, lang, strings) {
     canonical: publicUrl(name, lang),
     hreflang: hreflangBlock(name),
     head_extra: PAGES[name]?.noindex ? '<meta name="robots" content="noindex">' : '',
+    structured_data: structuredData(name, lang, strings),
     site_name: SITE_NAME,
     og_image: OG_IMAGE,
     og_image_alt: OG_IMAGE_ALT,
@@ -315,13 +356,15 @@ function writeSitemap(names) {
     if (PAGES[name]?.sitemap === false) continue;
     for (const lang of LANGS) {
       if (lang !== 'en' && !PAGES[name]?.de) continue;
-      urls.push(publicUrl(name, lang));
+      const lastmod = PAGES[name]?.releases ? loadReleaseNotes(lang)[0]?.date : undefined;
+      urls.push({ loc: publicUrl(name, lang), lastmod });
     }
   }
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    ...urls.map((u) => `  <url><loc>${u}</loc></url>`),
+    ...urls.map(({ loc, lastmod }) =>
+      `  <url><loc>${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}</url>`),
     '</urlset>',
     '',
   ].join('\n');

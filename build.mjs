@@ -43,13 +43,12 @@ const ASSETS = {
 // is written and the German build links to it, so there are no dead links.
 // `sitemap: false` keeps a page out of sitemap.xml; `noindex: true` adds a
 // robots meta tag (the 404 page: GitHub Pages serves 404.html for any unknown
-// path, so it must not be indexed or translated). `releases: true` marks pages
-// that render the release notes: their sitemap <lastmod> is the newest release.
+// path, so it must not be indexed or translated).
 const PAGES = {
-  index: { de: true, releases: true },
+  index: { de: true },
   features: { de: true },
   support: { de: true },
-  'whats-new': { de: true, releases: true },
+  'whats-new': { de: true },
   imprint: { de: true },
   terms: { de: true },
   privacy: { de: true },
@@ -356,15 +355,13 @@ function writeSitemap(names) {
     if (PAGES[name]?.sitemap === false) continue;
     for (const lang of LANGS) {
       if (lang !== 'en' && !PAGES[name]?.de) continue;
-      const lastmod = PAGES[name]?.releases ? loadReleaseNotes(lang)[0]?.date : undefined;
-      urls.push({ loc: publicUrl(name, lang), lastmod });
+      urls.push(publicUrl(name, lang));
     }
   }
   const xml = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-    ...urls.map(({ loc, lastmod }) =>
-      `  <url><loc>${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}</url>`),
+    ...urls.map((u) => `  <url><loc>${u}</loc></url>`),
     '</urlset>',
     '',
   ].join('\n');

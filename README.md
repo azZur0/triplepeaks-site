@@ -17,7 +17,7 @@ The app itself lives at [app.triplepeaks.coach](https://app.triplepeaks.coach).
 - **Privacy** (`privacy.html` / `privacy-de.html`) — from `templates/privacy.html`
 - **404** (`404.html`, English only) — from `templates/404.html`; GitHub Pages serves it for any unknown path
 
-`sitemap.xml` is generated alongside the pages (with a `<lastmod>` of the newest release on the pages that show release notes); `robots.txt` is static. The home pages also carry Organization + WebSite JSON-LD (`structuredData()` in `build.mjs`), which is where Google takes the site name and logo shown in search results.
+`sitemap.xml` is generated alongside the pages (no `<lastmod>`: the shallow CI checkout and the shared i18n files leave no accurate per-page date, and Google distrusts inaccurate ones); `robots.txt` is static. The home pages also carry Organization + WebSite JSON-LD (`structuredData()` in `build.mjs`), which is where Google takes the site name and logo shown in search results.
 
 The app (web footer, iOS subscription screens, transactional emails) links to `/privacy`, `/terms` and `/imprint`, so those three page names must not be renamed.
 

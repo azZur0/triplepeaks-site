@@ -1,5 +1,47 @@
 [
  {
+  "version": "0.304.1",
+  "date": "2026-10-12",
+  "highlights": [
+   {
+    "title": "Deine Trainingsintensität klarer eingeordnet",
+    "description": "Die Intensität wird jetzt für jede abgeschlossene Einheit mit ihrer Vorgabe verglichen, einschließlich lockerem Einlaufen und Auslaufen. Die Details zur Trainingsbereitschaft und der Wochenrückblick zeigen, ob Einheiten wie geplant, lockerer, härter oder gemischt waren, mit der Anzahl der Einheiten statt eines missverständlichen Prozentbalkens. Einheiten ohne Analyse sind klar gekennzeichnet.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.303.0",
+  "date": "2026-10-11",
+  "highlights": [
+   {
+    "title": "Plane die nächste Woche mit ein paar kurzen Fragen",
+    "description": "Wenn deine Woche geschafft ist, fragt Triple Peaks, ob du die nächste planen möchtest. Ein kurzer Ablauf im Vollbild zeigt, wie diese Woche lief und was die nächste bringt, und fragt dann, an welchen Tagen du nicht trainieren kannst, welche du lieber leicht hältst und ob sonst noch etwas ist. Nichts zu ändern? Zwei Tipps, und die Woche ist geplant. Während der Plan entsteht, siehst du, was deine Antworten bewirken, und die fertige Woche zeigt, wie sie sie geprägt haben. Ist die nächste Woche am Sonntagabend noch offen, erinnert dich eine Mitteilung einmal daran; abschalten kannst du sie in den Einstellungen.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Dein Coach bringt dich zur Wochenplanung",
+    "description": "Bitte deinen Coach, die nächste Woche zu planen, und ein Button unter seiner Antwort öffnet die Planung für diese Woche. Dein Coach weiß jetzt auch, ob die nächste Woche schon geplant ist, und hält Tage, die du lieber leicht halten willst, frei, wenn er Einheiten verschiebt oder ergänzt. Termine, die du im Chat erwähnt hast, etwa eine Reise, tauchen bei der Planung auf und lassen sich mit einem Tipp blockieren.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Verpflichtungen: klarer und leichter zu ändern",
+    "description": "Deine festen Einheiten pro Woche, etwa ein Vereinslauf oder zweimal Schwimmen, findest du jetzt in einem neu gestalteten Bereich Verpflichtungen. Jede zeigt ihren Tag und ob sie diese Woche ausfällt oder verschoben ist. Pausiere eine für die Saisonpause und setze sie später fort, oder lösche sie endgültig, per Wischen oder Tippen. Dein Coach erledigt das auch, wenn du es im Chat sagst, und die Antwort im Chat führt direkt dorthin.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Deine eigenen Herzfrequenzzonen bleiben erhalten",
+    "description": "Zonen, die du selbst festlegst, in den Einstellungen oder im Gespräch mit deinem Coach, stellen die Sportart jetzt sofort auf Manuell. Wählst du später Automatisch, werden deine Zonen geparkt statt gelöscht, und Manuell holt sie zurück. Hattest du den Coach um eigene Zonen gebeten und sie dann in den Einstellungen verloren, lege sie einmal neu fest; diesmal bleiben sie.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.293.0",
   "date": "2026-10-03",
   "highlights": [

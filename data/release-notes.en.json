@@ -1,5 +1,47 @@
 [
  {
+  "version": "0.304.1",
+  "date": "2026-10-12",
+  "highlights": [
+   {
+    "title": "A clearer read on your training intensity",
+    "description": "Intensity now compares each completed session with what it asked for, including easy warm-up and cool-down. Your readiness detail and weekly review show whether sessions were as planned, easier, harder or a mix, with session counts instead of a misleading percentage bar. Sessions awaiting analysis stay clearly marked.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
+  "version": "0.303.0",
+  "date": "2026-10-11",
+  "highlights": [
+   {
+    "title": "Plan next week in a few quick questions",
+    "description": "When your week wraps up, Triple Peaks asks whether you want to plan the next one. A short full-screen flow shows how this week went and what next week brings, then asks which days you can't train, which you'd rather keep light and whether there is anything else. Nothing to change? Two taps and it's planned. While the plan is built you see what your answers do, and the finished week shows how they shaped it. If next week is still open on Sunday evening, a reminder asks once; turn it off in Settings.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Your coach hands you over to planning",
+    "description": "Ask your coach to plan next week and a button under the reply opens the planning flow for that week. Your coach now also knows whether next week is planned, and keeps the days you'd rather keep light free when it moves or adds sessions. Dates you mentioned in chat, like a trip, show up while you plan, ready to block in one tap.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Commitments, clearer and easier to change",
+    "description": "Your fixed weekly sessions, like a club run or two swims a week, now sit in a redesigned Commitments screen. Each shows its day and whether it is skipped or moved this week. Pause one for an off-season and resume it later, or delete it for good, with a swipe or a tap. Your coach can do the same when you tell it in chat, and its replies link straight to the screen.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Your own heart-rate zones stay yours",
+    "description": "Zones you set yourself, in Settings or by telling your coach, now switch that sport to Manual right away. Choosing Automatic later parks your zones instead of deleting them, and Manual brings them back. If you asked the coach for your own zones and then lost them in Settings, set them once more; they stay this time.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.293.0",
   "date": "2026-10-03",
   "highlights": [

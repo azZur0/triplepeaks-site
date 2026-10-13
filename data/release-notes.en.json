@@ -1,8 +1,14 @@
 [
  {
-  "version": "0.304.1",
+  "version": "0.305.0",
   "date": "2026-10-12",
   "highlights": [
+   {
+    "title": "Your week keeps its plan, and every change shows why",
+    "description": "Shorten or drop a session and your weekly target stays where your coach planned it. Today asks once whether to make the minutes up, naming the days (\"Yes: Thu +20, Sat +10\"), or whether it's a lighter week or your knee. A health reason lowers the target and says so, and nothing is ever added without your yes. Today now lists every change this week, coloured by who made it, and your Week in Review scores a health-adjusted week as met. Your coach suggests what to ask based on your week.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
    {
     "title": "A clearer read on your training intensity",
     "description": "Intensity now compares each completed session with what it asked for, including easy warm-up and cool-down. Your readiness detail and weekly review show whether sessions were as planned, easier, harder or a mix, with session counts instead of a misleading percentage bar. Sessions awaiting analysis stay clearly marked.",

@@ -1,8 +1,14 @@
 [
  {
-  "version": "0.304.1",
+  "version": "0.305.0",
   "date": "2026-10-12",
   "highlights": [
+   {
+    "title": "Deine Woche behält ihren Plan, und jede Änderung zeigt warum",
+    "description": "Kürzt oder streichst du eine Einheit, bleibt dein Wochenziel dort, wo dein Coach es geplant hat. Heute fragt einmal, ob du die Minuten nachholen willst, mit konkreten Tagen (\"Ja: Do +20, Sa +10\"), oder ob es eine leichtere Woche ist oder dein Knie. Ein gesundheitlicher Grund senkt das Ziel und sagt es auch, und ohne dein Ja wird nie etwas ergänzt. Heute zeigt jetzt jede Änderung dieser Woche, farbig nach dem, der sie gemacht hat, und dein Wochenrückblick wertet eine wegen Gesundheit angepasste Woche als geschafft. Dein Coach schlägt passende Fragen zu deiner Woche vor.",
+    "category": "new",
+    "platform": "iOS & Android"
+   },
    {
     "title": "Deine Trainingsintensität klarer eingeordnet",
     "description": "Die Intensität wird jetzt für jede abgeschlossene Einheit mit ihrer Vorgabe verglichen, einschließlich lockerem Einlaufen und Auslaufen. Die Details zur Trainingsbereitschaft und der Wochenrückblick zeigen, ob Einheiten wie geplant, lockerer, härter oder gemischt waren, mit der Anzahl der Einheiten statt eines missverständlichen Prozentbalkens. Einheiten ohne Analyse sind klar gekennzeichnet.",

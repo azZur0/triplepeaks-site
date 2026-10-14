@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.311.0",
+  "date": "2026-10-13",
+  "highlights": [
+   {
+    "title": "Wettkampfphasen Schritt für Schritt",
+    "description": "Ein Wettkampfziel einzurichten funktioniert jetzt wie der Wochenplaner: Ziel prüfen, dann deine Trainingsphasen sehen, mit einer Schrittleiste, durch die du zurückblättern kannst. Prüfung und Phasen entstehen direkt auf dem Bildschirm, und eine vorgeschlagene Änderung bestehender Phasen zeigt die neuen Phasen mit Übernehmen oder Aktuelle Phasen behalten. Triathlon-Ziele verlangen nach einem App-Update keine erneute Prüfung mehr.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
   "version": "0.305.0",
   "date": "2026-10-12",
   "highlights": [

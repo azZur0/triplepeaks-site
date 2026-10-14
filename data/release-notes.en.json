@@ -1,5 +1,17 @@
 [
  {
+  "version": "0.311.0",
+  "date": "2026-10-13",
+  "highlights": [
+   {
+    "title": "Race phases, step by step",
+    "description": "Setting up a race goal now reads like the week planner: check your goal, then see your training phases, with a step bar you can step back through. The check and the phase build finish right on screen, and a proposed change to existing phases shows the new phases with Apply or Keep current phases. Triathlon goals no longer ask for a recheck after an app update.",
+    "category": "improved",
+    "platform": "iOS"
+   }
+  ]
+ },
+ {
   "version": "0.305.0",
   "date": "2026-10-12",
   "highlights": [

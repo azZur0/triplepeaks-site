@@ -1,5 +1,23 @@
 [
  {
+  "version": "0.311.5",
+  "date": "2026-10-14",
+  "highlights": [
+   {
+    "title": "Zuverlässigere Änderungen",
+    "description": "Entferne eine alte Zielvorgabe oder eine Camp-Notiz und erkenne, wenn das Speichern einen weiteren Versuch braucht. Sprach- und Einheitenänderungen werden nach dem Speichern übernommen, damit deine Einstellungen und Pläne übereinstimmen.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Wochenplanung, einfacher",
+    "description": "Der Wochenplaner stellt jetzt drei kurze Fragen. Nächste Woche zeigt den Schwerpunkt deiner Phase und ändert nur diese Woche: Trainingszeit und welche festen Einheiten ausfallen. Deine Tage zeigt alle Tage in einer Liste als Training, Leicht oder Frei. Jeder Bildschirm hat nur einen Knopf zum Weitergehen.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.311.0",
   "date": "2026-10-13",
   "highlights": [

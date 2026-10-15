@@ -1,5 +1,23 @@
 [
  {
+  "version": "0.311.5",
+  "date": "2026-10-14",
+  "highlights": [
+   {
+    "title": "More reliable edits",
+    "description": "Remove an old goal target or camp note, and see when a save needs another try. Language and unit changes apply after saving, keeping your preferences and plans consistent.",
+    "category": "fixed",
+    "platform": "iOS & Android"
+   },
+   {
+    "title": "Planning your week, simpler",
+    "description": "The week planner now asks three quick questions. Next week shows your phase's focus and lets you change only that week: training time and which regular sessions to skip. Your days puts every day on one list as Train, Light or Off. Each screen has a single button to move on.",
+    "category": "improved",
+    "platform": "iOS & Android"
+   }
+  ]
+ },
+ {
   "version": "0.311.0",
   "date": "2026-10-13",
   "highlights": [

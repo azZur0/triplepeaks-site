@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.10.16",
+  "date": "2026-10-16",
+  "highlights": [
+   {
+    "title": "Alle Mitteilungen an einem Ort",
+    "description": "Tippe auf die Glocke unter Heute, um Coaching-Mitteilungen zu sehen, auch ohne Push.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   },
+   {
+    "title": "Ein ruhigerer Plan-Kopf",
+    "description": "Sieh Phase und Wochenstunden auf einen Blick, und tippe auf das i für Plan und Gründe deines Coaches.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   }
+  ]
+ },
+ {
   "version": "2026.10.15",
   "date": "2026-10-15",
   "highlights": [

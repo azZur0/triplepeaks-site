@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.10.16",
+  "date": "2026-10-16",
+  "highlights": [
+   {
+    "title": "All your updates in one place",
+    "description": "Tap the bell on Today to see coaching updates, even with push turned off.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   },
+   {
+    "title": "A calmer Plan header",
+    "description": "See your phase and this week's hours at a glance, and tap the i for your coach's plan and reasons.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   }
+  ]
+ },
+ {
   "version": "2026.10.15",
   "date": "2026-10-15",
   "highlights": [

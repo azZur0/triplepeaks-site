@@ -1,5 +1,45 @@
 [
  {
+  "version": "2026.10.18",
+  "date": "2026-10-18",
+  "highlights": [
+   {
+    "title": "Vier Wochen auf einen Blick",
+    "description": "Zieh den Plan-Kalender auf für vier Wochen, halte eine Einheit gedrückt und zieh sie auf einen anderen Tag.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Exakte Wattziele auf deiner Uhr",
+    "description": "Deine Uhr verwendet jetzt den Wattbereich aus deinem Trainingsplan.",
+    "category": "fixed",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   }
+  ]
+ },
+ {
+  "version": "2026.10.17",
+  "date": "2026-10-17",
+  "highlights": [
+   {
+    "title": "Das Coach-Urteil steht jetzt oben",
+    "description": "Öffne eine Aktivität und sieh ihre Bewertung, das Fazit deines Coaches und den Tipp fürs nächste Mal.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
+    "title": "Aktivitäten nach Wochen gruppiert",
+    "description": "Sieh pro Woche Einheiten und Stunden im Vergleich zum Plan, jede Bewertung in ihrer Farbe.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.10.16",
   "date": "2026-10-16",
   "highlights": [

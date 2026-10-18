@@ -1,5 +1,45 @@
 [
  {
+  "version": "2026.10.18",
+  "date": "2026-10-18",
+  "highlights": [
+   {
+    "title": "Four weeks at a glance",
+    "description": "Pull down the Plan calendar to see four weeks, then hold a session and drop it on another day.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Exact power targets on your watch",
+    "description": "Your watch now uses the watt range written in your workout.",
+    "category": "fixed",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   }
+  ]
+ },
+ {
+  "version": "2026.10.17",
+  "date": "2026-10-17",
+  "highlights": [
+   {
+    "title": "Your coach's verdict comes first",
+    "description": "Open an activity to see its score, your coach's summary and what to do next time.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
+    "title": "Activities grouped by week",
+    "description": "See each week's sessions and hours against your plan, with every score in its colour.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.10.16",
   "date": "2026-10-16",
   "highlights": [

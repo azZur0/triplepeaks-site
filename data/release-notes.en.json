@@ -4,6 +4,20 @@
   "date": "2026-10-18",
   "highlights": [
    {
+    "title": "Strength no longer cuts your runs",
+    "description": "Your week plans the full endurance dose, with strength and mobility on top within your time.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan/week"
+   },
+   {
+    "title": "Your week in review comes to you",
+    "description": "Shortly after your week's last session, the review is written, pushed and leads on Today.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   },
+   {
     "title": "Four weeks at a glance",
     "description": "Pull down the Plan calendar to see four weeks, then hold a session and drop it on another day.",
     "category": "improved",

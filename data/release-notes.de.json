@@ -4,6 +4,20 @@
   "date": "2026-10-18",
   "highlights": [
    {
+    "title": "Kraft kürzt dein Ausdauertraining nicht",
+    "description": "Deine Woche plant das volle Ausdauerpensum, Kraft und Mobility kommen innerhalb deiner Zeit dazu.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan/week"
+   },
+   {
+    "title": "Dein Wochenrückblick kommt von selbst",
+    "description": "Kurz nach der letzten Einheit der Woche ist dein Rückblick fertig, kommt per Push und steht oben auf Heute.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   },
+   {
     "title": "Vier Wochen auf einen Blick",
     "description": "Zieh den Plan-Kalender auf für vier Wochen, halte eine Einheit gedrückt und zieh sie auf einen anderen Tag.",
     "category": "improved",

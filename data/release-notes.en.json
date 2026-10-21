@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.10.20",
+  "date": "2026-10-20",
+  "highlights": [
+   {
+    "title": "Keep e-bike rides out of training",
+    "description": "One switch in Activity handling makes every Strava e-bike ride count as everyday.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
+   },
+   {
+    "title": "Ask your coach more",
+    "description": "Your coach is more reliable and can do more, so ask about your training or have it adapt your plan.",
+    "category": "improved",
+    "platform": null,
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.10.18",
   "date": "2026-10-18",
   "highlights": [

@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.10.20",
+  "date": "2026-10-20",
+  "highlights": [
+   {
+    "title": "E-Bike-Fahrten zählen nicht als Training",
+    "description": "Mit einem Schalter unter Aktivitäten einordnen zählt jede E-Bike-Fahrt aus Strava als Alltag.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
+   },
+   {
+    "title": "Frag deinen Coach mehr",
+    "description": "Dein Coach ist zuverlässiger und kann mehr, frag ihn zum Training oder lass ihn deinen Plan anpassen.",
+    "category": "improved",
+    "platform": null,
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.10.18",
   "date": "2026-10-18",
   "highlights": [

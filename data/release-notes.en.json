@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.10.22",
+  "date": "2026-10-22",
+  "highlights": [
+   {
+    "title": "Let your club coach run a session",
+    "description": "Mark a recurring session as coach-led in Settings and your plan keeps that slot free.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
+   }
+  ]
+ },
+ {
   "version": "2026.10.20",
   "date": "2026-10-20",
   "highlights": [

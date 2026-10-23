@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.10.22",
+  "date": "2026-10-22",
+  "highlights": [
+   {
+    "title": "Lass deinen Trainer eine Einheit leiten",
+    "description": "Markiere einen festen Termin in den Einstellungen als vom Trainer geleitet, und dein Plan hält ihn frei.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
+   }
+  ]
+ },
+ {
   "version": "2026.10.20",
   "date": "2026-10-20",
   "highlights": [

@@ -1,5 +1,59 @@
 [
  {
+  "version": "2026.10.24",
+  "date": "2026-10-24",
+  "highlights": [
+   {
+    "title": "Your race goal shows the next step",
+    "description": "Open a race goal in Settings to see one next step, such as adding a finish time or updating phases.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://settings"
+   },
+   {
+    "title": "Race phases with example workouts",
+    "description": "See every phase, its weekly hours and example workouts on one screen, opened from Plan.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://plan"
+   }
+  ]
+ },
+ {
+  "version": "2026.10.23",
+  "date": "2026-10-23",
+  "highlights": [
+   {
+    "title": "A tab bar that makes room",
+    "description": "The tab bar shrinks while you scroll and stays compact on Plan, giving your week more room.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": null
+   },
+   {
+    "title": "Clearer workouts in your plan",
+    "description": "Open any workout to see readable targets, coaching instructions and completed activity insights.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Easy rides get a watt target",
+    "description": "If you train on power, easy rides in your plan show their power zone in watts and are scored on it.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Today keeps your day after a workout",
+    "description": "The day card marks your session done with its score and shows week changes and tomorrow on Today.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   }
+  ]
+ },
+ {
   "version": "2026.10.22",
   "date": "2026-10-22",
   "highlights": [

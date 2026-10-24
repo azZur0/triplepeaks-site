@@ -1,5 +1,59 @@
 [
  {
+  "version": "2026.10.24",
+  "date": "2026-10-24",
+  "highlights": [
+   {
+    "title": "Dein Rennziel zeigt den nächsten Schritt",
+    "description": "Öffne ein Rennziel in den Einstellungen und sieh den nächsten Schritt, etwa Zielzeit eintragen oder Phasen anpassen.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://settings"
+   },
+   {
+    "title": "Rennphasen mit Beispieleinheiten",
+    "description": "Sieh alle Phasen, ihre Wochenstunden und Beispieleinheiten auf einem Bildschirm, erreichbar über den Plan.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://plan"
+   }
+  ]
+ },
+ {
+  "version": "2026.10.23",
+  "date": "2026-10-23",
+  "highlights": [
+   {
+    "title": "Eine Tab-Leiste, die Platz macht",
+    "description": "Die Tab-Leiste wird beim Scrollen kleiner und bleibt im Plan kompakt, damit deine Woche mehr Platz hat.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": null
+   },
+   {
+    "title": "Dein Training im Plan klarer sehen",
+    "description": "Öffne eine Einheit für gut lesbare Ziele, Trainingshinweise und die Analyse abgeschlossener Aktivitäten.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Lockere Ausfahrten mit Wattvorgabe",
+    "description": "Trainierst du nach Leistung, zeigen lockere Ausfahrten im Plan ihre Leistungszone in Watt und werden danach bewertet.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Heute bleibt dein Tag nach dem Training",
+    "description": "Die Tageskarte zeigt deine Einheit als erledigt mit Bewertung, dazu Wochenänderungen und morgen auf Heute.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   }
+  ]
+ },
+ {
   "version": "2026.10.22",
   "date": "2026-10-22",
   "highlights": [

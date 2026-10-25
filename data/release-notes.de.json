@@ -11,11 +11,25 @@
     "actionUrl": "triplepeaks://settings"
    },
    {
+    "title": "Die Belastung deiner Woche auf einen Blick",
+    "description": "Die Ziel-Bereitschaft zeigt jetzt, wie hart deine ganze Woche im Vergleich zum Plan war, in neuem Design.",
+    "category": "improved",
+    "platform": null,
+    "actionUrl": null
+   },
+   {
     "title": "Rennphasen mit Beispieleinheiten",
     "description": "Sieh alle Phasen, ihre Wochenstunden und Beispieleinheiten auf einem Bildschirm, erreichbar über den Plan.",
     "category": "improved",
     "platform": "iOS",
     "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Der Coach versteht ein einfaches Ja",
+    "description": "Im Coach-Chat reichen deine eigenen Worte, um eine Krankheit oder Verletzung abzuschließen oder einen Plan zu löschen.",
+    "category": "fixed",
+    "platform": null,
+    "actionUrl": null
    }
   ]
  },

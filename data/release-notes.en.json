@@ -11,11 +11,25 @@
     "actionUrl": "triplepeaks://settings"
    },
    {
+    "title": "One clear read on your week's effort",
+    "description": "Goal readiness now sums up how hard your whole week was against the plan, in a redesigned view.",
+    "category": "improved",
+    "platform": null,
+    "actionUrl": null
+   },
+   {
     "title": "Race phases with example workouts",
     "description": "See every phase, its weekly hours and example workouts on one screen, opened from Plan.",
     "category": "improved",
     "platform": "iOS",
     "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "The coach accepts a plain yes",
+    "description": "In coach chat, your own words now clear a healed illness or injury and confirm deleting a plan.",
+    "category": "fixed",
+    "platform": null,
+    "actionUrl": null
    }
   ]
  },

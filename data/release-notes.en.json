@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.10.25",
+  "date": "2026-10-25",
+  "highlights": [
+   {
+    "title": "Tell your coach how every race went",
+    "description": "Rate any race and describe it in your own words, and your race debrief uses it.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
+    "title": "Zones from your best efforts",
+    "description": "Estimated heart rate zones now follow the hour you held or your hardest 20 minutes, see Settings.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
+   }
+  ]
+ },
+ {
   "version": "2026.10.24",
   "date": "2026-10-24",
   "highlights": [
@@ -7,7 +27,7 @@
     "title": "Your race goal shows the next step",
     "description": "Open a race goal in Settings to see one next step, such as adding a finish time or updating phases.",
     "category": "improved",
-    "platform": "iOS",
+    "platform": "iOS & Android",
     "actionUrl": "triplepeaks://settings"
    },
    {
@@ -21,7 +41,7 @@
     "title": "Race phases with example workouts",
     "description": "See every phase, its weekly hours and example workouts on one screen, opened from Plan.",
     "category": "improved",
-    "platform": "iOS",
+    "platform": "iOS & Android",
     "actionUrl": "triplepeaks://plan"
    },
    {

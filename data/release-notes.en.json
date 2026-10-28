@@ -1,5 +1,31 @@
 [
  {
+  "version": "2026.10.27",
+  "date": "2026-10-27",
+  "highlights": [
+   {
+    "title": "See what shaped your plan",
+    "description": "Your race phases name what limited them, with one-tap changes like more time in peak weeks.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
+  "version": "2026.10.26",
+  "date": "2026-10-26",
+  "highlights": [
+   {
+    "title": "Room for bigger peak weeks",
+    "description": "Set your most hours for a few pre-race weeks, and build and peak weeks can use them.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
+   }
+  ]
+ },
+ {
   "version": "2026.10.25",
   "date": "2026-10-25",
   "highlights": [

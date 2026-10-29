@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.10.29",
+  "date": "2026-10-29",
+  "highlights": [
+   {
+    "title": "Rep-by-rep grades for intervals",
+    "description": "Confirm your reps after an interval run, and see each rep against the plan in All data.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.10.27",
   "date": "2026-10-27",
   "highlights": [

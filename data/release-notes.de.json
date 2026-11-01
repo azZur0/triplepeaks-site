@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.10.31",
+  "date": "2026-10-31",
+  "highlights": [
+   {
+    "title": "Deine Woche Tag für Tag planen",
+    "description": "Verschiebe oder lass eine feste Einheit direkt an ihrem Tag aus, und markiere kurze Tage mit einer Stunde.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan/week"
+   },
+   {
+    "title": "Die ganze Coach-Analyse, wieder offen",
+    "description": "Jedes Training zeigt die ausführliche Analyse des Coachs sofort, und mehr davon passt auf einen Bildschirm.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.10.29",
   "date": "2026-10-29",
   "highlights": [

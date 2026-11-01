@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.10.31",
+  "date": "2026-10-31",
+  "highlights": [
+   {
+    "title": "Plan your week day by day",
+    "description": "Move or skip a regular session right on its day, and mark Short days when you have an hour.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan/week"
+   },
+   {
+    "title": "Full coach analysis, open again",
+    "description": "Each workout shows the coach's detailed analysis right away, with more of it on one screen.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.10.29",
   "date": "2026-10-29",
   "highlights": [

@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.11.01",
+  "date": "2026-11-01",
+  "highlights": [
+   {
+    "title": "Drag sessions across two weeks",
+    "description": "Pull down the week in Plan to see two weeks and drag sessions between days, or four weeks below.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Your week at a glance",
+    "description": "The week planner shows the week clearly, and lets you undo a skipped or moved session.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan/week"
+   }
+  ]
+ },
+ {
   "version": "2026.10.31",
   "date": "2026-10-31",
   "highlights": [
@@ -102,6 +122,13 @@
     "category": "improved",
     "platform": "iOS & Android",
     "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Check your goal finish time",
+    "description": "Your race goal shows the finish range your training supports and what would close the gap.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
    },
    {
     "title": "The coach accepts a plain yes",
@@ -270,6 +297,13 @@
     "category": "improved",
     "platform": "iOS & Android",
     "actionUrl": "triplepeaks://settings"
+   },
+   {
+    "title": "Choose what counts as training",
+    "description": "Mark everyday activities in Insights and remember recurring rides in Settings.",
+    "category": "new",
+    "platform": null,
+    "actionUrl": null
    }
   ]
  },

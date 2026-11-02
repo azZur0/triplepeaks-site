@@ -1,5 +1,25 @@
 [
  {
+  "version": "2026.11.01",
+  "date": "2026-11-01",
+  "highlights": [
+   {
+    "title": "Einheiten über zwei Wochen verschieben",
+    "description": "Zieh die Woche im Plan nach unten, um zwei Wochen zu sehen und Einheiten zu verschieben, weiter für vier Wochen.",
+    "category": "improved",
+    "platform": "iOS",
+    "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Deine Woche auf einen Blick",
+    "description": "Der Wochenplaner zeigt deine Woche übersichtlich, und Auslassen oder Verschieben lässt sich rückgängig machen.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://plan/week"
+   }
+  ]
+ },
+ {
   "version": "2026.10.31",
   "date": "2026-10-31",
   "highlights": [
@@ -102,6 +122,13 @@
     "category": "improved",
     "platform": "iOS & Android",
     "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Prüfe deine Zielzeit",
+    "description": "Dein Rennziel zeigt, welche Zielzeit dein Training trägt und was die Lücke schließen würde.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://settings"
    },
    {
     "title": "Der Coach versteht ein einfaches Ja",
@@ -270,6 +297,13 @@
     "category": "improved",
     "platform": "iOS & Android",
     "actionUrl": "triplepeaks://settings"
+   },
+   {
+    "title": "Training und Alltag unterscheiden",
+    "description": "Ordne Alltagsaktivitäten in den Einblicken ein und merke dir wiederkehrende Fahrten in Einstellungen.",
+    "category": "new",
+    "platform": null,
+    "actionUrl": null
    }
   ]
  },

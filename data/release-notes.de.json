@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.11.05",
+  "date": "2026-11-05",
+  "highlights": [
+   {
+    "title": "Heute, in der richtigen Reihenfolge",
+    "description": "Auf Heute steht dein Training zuerst, dann was eine Antwort braucht, dann der Rest, in neuem Look.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   }
+  ]
+ },
+ {
   "version": "2026.11.01",
   "date": "2026-11-01",
   "highlights": [

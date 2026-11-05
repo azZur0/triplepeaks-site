@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.11.05",
+  "date": "2026-11-05",
+  "highlights": [
+   {
+    "title": "Today, in the order you need it",
+    "description": "Your session comes first on Today, then what needs an answer, then the rest, in a cleaner look.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   }
+  ]
+ },
+ {
   "version": "2026.11.01",
   "date": "2026-11-01",
   "highlights": [

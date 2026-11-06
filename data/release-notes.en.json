@@ -4,6 +4,13 @@
   "date": "2026-11-05",
   "highlights": [
    {
+    "title": "One push per workout analysis",
+    "description": "Updated analyses no longer push again, and what you have read leaves your lock screen.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
     "title": "Today, in the order you need it",
     "description": "Your session comes first on Today, then what needs an answer, then the rest, in a cleaner look.",
     "category": "improved",

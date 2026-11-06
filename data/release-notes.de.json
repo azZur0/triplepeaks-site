@@ -4,6 +4,13 @@
   "date": "2026-11-05",
   "highlights": [
    {
+    "title": "Eine Push-Nachricht pro Trainingsanalyse",
+    "description": "Aktualisierte Analysen melden sich nicht erneut, und Gelesenes verschwindet vom Sperrbildschirm.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
     "title": "Heute, in der richtigen Reihenfolge",
     "description": "Auf Heute steht dein Training zuerst, dann was eine Antwort braucht, dann der Rest, in neuem Look.",
     "category": "improved",

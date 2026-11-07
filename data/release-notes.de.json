@@ -1,5 +1,31 @@
 [
  {
+  "version": "2026.11.07",
+  "date": "2026-11-07",
+  "highlights": [
+   {
+    "title": "Heute öffnet dein Training",
+    "description": "Tippe auf Heute auf dein Training: Du siehst die Schritte, die wichtigste Aktion steht unten.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   }
+  ]
+ },
+ {
+  "version": "2026.11.06",
+  "date": "2026-11-06",
+  "highlights": [
+   {
+    "title": "Heute und Plan öffnen sofort",
+    "description": "Dein Tag steht sofort da und aktualisiert sich dahinter, und jeder Tab merkt sich deine Stelle.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.05",
   "date": "2026-11-05",
   "highlights": [

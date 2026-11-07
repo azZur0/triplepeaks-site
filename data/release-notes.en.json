@@ -1,5 +1,31 @@
 [
  {
+  "version": "2026.11.07",
+  "date": "2026-11-07",
+  "highlights": [
+   {
+    "title": "Today opens your workout",
+    "description": "Tap your session on Today to see its steps, with the main action at the bottom.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": "triplepeaks://dashboard"
+   }
+  ]
+ },
+ {
+  "version": "2026.11.06",
+  "date": "2026-11-06",
+  "highlights": [
+   {
+    "title": "Today and Plan open right away",
+    "description": "Your day shows at once and updates behind it, and every tab keeps your place when you return.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.05",
   "date": "2026-11-05",
   "highlights": [

@@ -142,6 +142,7 @@ function pageCopy(name, strings) {
 function buildTokens(name, lang, strings) {
   return {
     lang,
+    phones: lang === 'de' ? '/img/app/framed/de' : '/img/app/framed',
     ...ASSETS,
     canonical: publicUrl(name, lang),
     hreflang: hreflangBlock(name),

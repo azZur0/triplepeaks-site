@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.11.09",
+  "date": "2026-11-09",
+  "highlights": [
+   {
+    "title": "A new coach",
+    "description": "Your week on top, one chat across days, and every change your coach made stays in view.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.08",
   "date": "2026-11-08",
   "highlights": [
@@ -75,6 +88,13 @@
     "category": "improved",
     "platform": "iOS",
     "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Heart-rate reps, found on hills too",
+    "description": "Reps run to a heart-rate zone are found on heart rate and graded by time in the zone.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
    },
    {
     "title": "Your week at a glance",

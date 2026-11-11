@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.11.09",
+  "date": "2026-11-09",
+  "highlights": [
+   {
+    "title": "Dein Coach, neu gestaltet",
+    "description": "Deine Woche oben, ein Chat über alle Tage, und jede Änderung deines Coaches bleibt sichtbar.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.08",
   "date": "2026-11-08",
   "highlights": [
@@ -75,6 +88,13 @@
     "category": "improved",
     "platform": "iOS",
     "actionUrl": "triplepeaks://plan"
+   },
+   {
+    "title": "Puls-Intervalle auch im Gelände erkannt",
+    "description": "Wiederholungen nach Herzfrequenz-Zone werden über die Herzfrequenz erkannt und nach Zeit in der Zone bewertet.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
    },
    {
     "title": "Deine Woche auf einen Blick",

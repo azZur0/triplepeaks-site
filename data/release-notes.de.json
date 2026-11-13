@@ -1,5 +1,31 @@
 [
  {
+  "version": "2026.11.13",
+  "date": "2026-11-13",
+  "highlights": [
+   {
+    "title": "Schwimmpausen zählen zur Trainingswoche",
+    "description": "Die Pausen zwischen deinen Schwimmserien zählen jetzt in den Aktivitätsdetails und zur Trainingszeit der Woche.",
+    "category": "fixed",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
+  "version": "2026.11.12",
+  "date": "2026-11-12",
+  "highlights": [
+   {
+    "title": "Dein Coach ändert deinen Plan",
+    "description": "Auf deine Bitte ändert dein Coach den Plan sofort, zeigt jeden Schritt, und jede Änderung lässt sich rückgängig machen.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.09",
   "date": "2026-11-09",
   "highlights": [

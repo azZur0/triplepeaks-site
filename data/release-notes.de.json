@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.11.14",
+  "date": "2026-11-14",
+  "highlights": [
+   {
+    "title": "Zwei Aufzeichnungen, ein Training",
+    "description": "Nimmst du mit Uhr und Studiorad auf, zeigt „Alle Daten“ Herzfrequenz und Leistung in einem Training.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.13",
   "date": "2026-11-13",
   "highlights": [

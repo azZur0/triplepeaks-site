@@ -1,5 +1,32 @@
 [
  {
+  "version": "2026.11.16",
+  "date": "2026-11-16",
+  "highlights": [
+   {
+    "title": "Plans that follow the weather",
+    "description": "Your coach moves key sessions to better days or indoors, based on the weather at your training time.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
+    "title": "Hourly weather and warnings",
+    "description": "Apple Weather forecasts show hourly on Today, your plan and each workout, with official warnings.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
+    "title": "Weather settings",
+    "description": "Tell your coach about your indoor equipment or pause weather suggestions in Settings, under Weather.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.14",
   "date": "2026-11-14",
   "highlights": [

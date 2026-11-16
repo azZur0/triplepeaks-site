@@ -1,5 +1,32 @@
 [
  {
+  "version": "2026.11.16",
+  "date": "2026-11-16",
+  "highlights": [
+   {
+    "title": "Pläne, die das Wetter beachten",
+    "description": "Dein Coach legt wichtige Einheiten mit der Vorhersage zu deiner Trainingszeit auf bessere Tage oder nach drinnen.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
+    "title": "Wetter pro Stunde und Warnungen",
+    "description": "Die Vorhersage von Apple Weather zeigt Heute, Plan und jedes Training stundenweise, samt offiziellen Warnungen.",
+    "category": "improved",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   },
+   {
+    "title": "Wetter-Einstellungen",
+    "description": "Sag deinem Coach, welche Indoor-Ausrüstung du hast, oder pausiere Wettervorschläge unter Einstellungen, Wetter.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.14",
   "date": "2026-11-14",
   "highlights": [

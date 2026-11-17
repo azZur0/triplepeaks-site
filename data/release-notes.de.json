@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.11.17",
+  "date": "2026-11-17",
+  "highlights": [
+   {
+    "title": "Woche passt nicht? Wünsch dir Änderungen",
+    "description": "Tippe nach der Wochenplanung auf Etwas ändern, sag, was anders sein soll, und deine Woche wird neu geplant.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.16",
   "date": "2026-11-16",
   "highlights": [

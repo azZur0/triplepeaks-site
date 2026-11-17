@@ -1,5 +1,18 @@
 [
  {
+  "version": "2026.11.17",
+  "date": "2026-11-17",
+  "highlights": [
+   {
+    "title": "Not your week? Say what to change",
+    "description": "After planning your week, tap Change something, say what should differ, and it is planned again.",
+    "category": "new",
+    "platform": "iOS & Android",
+    "actionUrl": null
+   }
+  ]
+ },
+ {
   "version": "2026.11.16",
   "date": "2026-11-16",
   "highlights": [
